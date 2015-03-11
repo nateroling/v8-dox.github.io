@@ -1,0 +1,429 @@
+\hypertarget{classv8_1_1internal_1_1_scope}{}\section{v8\+:\+:internal\+:\+:Scope Class Reference}
+\label{classv8_1_1internal_1_1_scope}\index{v8\+::internal\+::\+Scope@{v8\+::internal\+::\+Scope}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Scope\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classv8_1_1internal_1_1_scope}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_abf01adc6b364df212a81910b6e85f83e}{}{\bfseries Scope} (\hyperlink{classv8_1_1internal_1_1_scope}{Scope} $\ast$outer\+\_\+scope, Scope\+Type scope\+\_\+type, \hyperlink{classv8_1_1internal_1_1_ast_value_factory}{Ast\+Value\+Factory} $\ast$value\+\_\+factory, \hyperlink{classv8_1_1internal_1_1_zone}{Zone} $\ast$zone)\label{classv8_1_1internal_1_1_scope_abf01adc6b364df212a81910b6e85f83e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ae9877078e245aeddae0da2bad198c7db}{}void {\bfseries Set\+Scope\+Name} (const \hyperlink{classv8_1_1internal_1_1_ast_raw_string}{Ast\+Raw\+String} $\ast$scope\+\_\+name)\label{classv8_1_1internal_1_1_scope_ae9877078e245aeddae0da2bad198c7db}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a7ff6df027b40c8976b5097c513415ebb}{}void {\bfseries Initialize} ()\label{classv8_1_1internal_1_1_scope_a7ff6df027b40c8976b5097c513415ebb}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ac1de3630860a2fb185db850dae9f152c}{}\hyperlink{classv8_1_1internal_1_1_scope}{Scope} $\ast$ {\bfseries Finalize\+Block\+Scope} ()\label{classv8_1_1internal_1_1_scope_ac1de3630860a2fb185db850dae9f152c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ab5d14906e87e8abcce9837bbeb0ed416}{}\hyperlink{classv8_1_1internal_1_1_zone}{Zone} $\ast$ {\bfseries zone} () const \label{classv8_1_1internal_1_1_scope_ab5d14906e87e8abcce9837bbeb0ed416}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_afcca436cb4b3d078968aebd66f5c8f4b}{}\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ {\bfseries Lookup\+Local} (const \hyperlink{classv8_1_1internal_1_1_ast_raw_string}{Ast\+Raw\+String} $\ast$name)\label{classv8_1_1internal_1_1_scope_afcca436cb4b3d078968aebd66f5c8f4b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a1b139eaa250db3092bc054a3c0a65c76}{}\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ {\bfseries Lookup\+Function\+Var} (const \hyperlink{classv8_1_1internal_1_1_ast_raw_string}{Ast\+Raw\+String} $\ast$name, \hyperlink{classv8_1_1internal_1_1_ast_node_factory}{Ast\+Node\+Factory}$<$ Ast\+Null\+Visitor $>$ $\ast$factory)\label{classv8_1_1internal_1_1_scope_a1b139eaa250db3092bc054a3c0a65c76}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a29d38e98f2e9fae2b6b42908d125cc6e}{}\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ {\bfseries Lookup} (const \hyperlink{classv8_1_1internal_1_1_ast_raw_string}{Ast\+Raw\+String} $\ast$name)\label{classv8_1_1internal_1_1_scope_a29d38e98f2e9fae2b6b42908d125cc6e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a2af668e427258bf92475073646356aa8}{}void {\bfseries Declare\+Function\+Var} (Variable\+Declaration $\ast$declaration)\label{classv8_1_1internal_1_1_scope_a2af668e427258bf92475073646356aa8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ad0aeaab4f1d777a2997d636cddf2992c}{}\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ {\bfseries Declare\+Parameter} (const \hyperlink{classv8_1_1internal_1_1_ast_raw_string}{Ast\+Raw\+String} $\ast$name, Variable\+Mode mode)\label{classv8_1_1internal_1_1_scope_ad0aeaab4f1d777a2997d636cddf2992c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a4c3976b1d047b0de566e10a231de6c64}{}\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ {\bfseries Declare\+Local} (const \hyperlink{classv8_1_1internal_1_1_ast_raw_string}{Ast\+Raw\+String} $\ast$name, Variable\+Mode mode, Initialization\+Flag init\+\_\+flag, Maybe\+Assigned\+Flag maybe\+\_\+assigned\+\_\+flag=k\+Not\+Assigned, \hyperlink{classv8_1_1internal_1_1_interface}{Interface} $\ast$interface=Interface\+::\+New\+Value())\label{classv8_1_1internal_1_1_scope_a4c3976b1d047b0de566e10a231de6c64}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a4aee616d790a86a88ca1c2c9a350e71f}{}\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ {\bfseries Declare\+Dynamic\+Global} (const \hyperlink{classv8_1_1internal_1_1_ast_raw_string}{Ast\+Raw\+String} $\ast$name)\label{classv8_1_1internal_1_1_scope_a4aee616d790a86a88ca1c2c9a350e71f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a6aebd62394d4589ac0cf0c43dbaae29c}{}{\footnotesize template$<$class Visitor $>$ }\\Variable\+Proxy $\ast$ {\bfseries New\+Unresolved} (\hyperlink{classv8_1_1internal_1_1_ast_node_factory}{Ast\+Node\+Factory}$<$ Visitor $>$ $\ast$factory, const \hyperlink{classv8_1_1internal_1_1_ast_raw_string}{Ast\+Raw\+String} $\ast$name, \hyperlink{classv8_1_1internal_1_1_interface}{Interface} $\ast$interface=Interface\+::\+New\+Value(), int position=Reloc\+Info\+::k\+No\+Position)\label{classv8_1_1internal_1_1_scope_a6aebd62394d4589ac0cf0c43dbaae29c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a98eb6641a660b9df358f00cf085dbef1}{}void {\bfseries Remove\+Unresolved} (Variable\+Proxy $\ast$var)\label{classv8_1_1internal_1_1_scope_a98eb6641a660b9df358f00cf085dbef1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a5bbb0bba5afc4967030054222a42e698}{}\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ {\bfseries New\+Internal} (const \hyperlink{classv8_1_1internal_1_1_ast_raw_string}{Ast\+Raw\+String} $\ast$name)\label{classv8_1_1internal_1_1_scope_a5bbb0bba5afc4967030054222a42e698}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_aac81b30a6d8592a48c2d05626bbab1ba}{}\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ {\bfseries New\+Temporary} (const \hyperlink{classv8_1_1internal_1_1_ast_raw_string}{Ast\+Raw\+String} $\ast$name)\label{classv8_1_1internal_1_1_scope_aac81b30a6d8592a48c2d05626bbab1ba}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ae8c84baddb09eb2f7947182489cabd45}{}void {\bfseries Add\+Declaration} (\hyperlink{classv8_1_1internal_1_1_declaration}{Declaration} $\ast$declaration)\label{classv8_1_1internal_1_1_scope_ae8c84baddb09eb2f7947182489cabd45}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a6f42effaecb7928c9e1ab2a08ae5d870}{}void {\bfseries Set\+Illegal\+Redeclaration} (\hyperlink{classv8_1_1internal_1_1_expression}{Expression} $\ast$expression)\label{classv8_1_1internal_1_1_scope_a6f42effaecb7928c9e1ab2a08ae5d870}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a82051f3f1b87476303e261003d1d0514}{}void {\bfseries Visit\+Illegal\+Redeclaration} (Ast\+Visitor $\ast$visitor)\label{classv8_1_1internal_1_1_scope_a82051f3f1b87476303e261003d1d0514}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a9e3beeb76d403dc4d7c78edf98f345b9}{}bool {\bfseries Has\+Illegal\+Redeclaration} () const \label{classv8_1_1internal_1_1_scope_a9e3beeb76d403dc4d7c78edf98f345b9}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_aca4da0b20082a008449bde02757d6358}{}\hyperlink{classv8_1_1internal_1_1_declaration}{Declaration} $\ast$ {\bfseries Check\+Conflicting\+Var\+Declarations} ()\label{classv8_1_1internal_1_1_scope_aca4da0b20082a008449bde02757d6358}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ad4f0987d18c1f95e0a3cfc886a99203b}{}void {\bfseries Record\+With\+Statement} ()\label{classv8_1_1internal_1_1_scope_ad4f0987d18c1f95e0a3cfc886a99203b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_abb725bce049d5b79020961a7d01154d7}{}void {\bfseries Record\+Eval\+Call} ()\label{classv8_1_1internal_1_1_scope_abb725bce049d5b79020961a7d01154d7}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a01fa7748c39902cb397be07e1c568445}{}void {\bfseries Set\+Strict\+Mode} (Strict\+Mode strict\+\_\+mode)\label{classv8_1_1internal_1_1_scope_a01fa7748c39902cb397be07e1c568445}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_af78d3db495c9278ab8539571eefc7a96}{}int {\bfseries start\+\_\+position} () const \label{classv8_1_1internal_1_1_scope_af78d3db495c9278ab8539571eefc7a96}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ab8b18eaeaf400ee1798af3a45fb4cd50}{}void {\bfseries set\+\_\+start\+\_\+position} (int statement\+\_\+pos)\label{classv8_1_1internal_1_1_scope_ab8b18eaeaf400ee1798af3a45fb4cd50}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_aad5f40c0ebef98d84cd51cb31cf6eb53}{}int {\bfseries end\+\_\+position} () const \label{classv8_1_1internal_1_1_scope_aad5f40c0ebef98d84cd51cb31cf6eb53}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a11abdf08eaa1d0a868efa18e28468820}{}void {\bfseries set\+\_\+end\+\_\+position} (int statement\+\_\+pos)\label{classv8_1_1internal_1_1_scope_a11abdf08eaa1d0a868efa18e28468820}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a08eab8b737d072b027ea0edb3f5e5134}{}void {\bfseries Force\+Context\+Allocation} ()\label{classv8_1_1internal_1_1_scope_a08eab8b737d072b027ea0edb3f5e5134}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a8379e548a3dcc952762822ba740c2be5}{}bool {\bfseries has\+\_\+forced\+\_\+context\+\_\+allocation} () const \label{classv8_1_1internal_1_1_scope_a8379e548a3dcc952762822ba740c2be5}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ab1a48d82c89c499b7a55fd6ea27a7962}{}bool {\bfseries is\+\_\+eval\+\_\+scope} () const \label{classv8_1_1internal_1_1_scope_ab1a48d82c89c499b7a55fd6ea27a7962}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a57d46167bd0008a565f55d2affcc468c}{}bool {\bfseries is\+\_\+function\+\_\+scope} () const \label{classv8_1_1internal_1_1_scope_a57d46167bd0008a565f55d2affcc468c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a89bb3ab01e4b47dc22a87a031e443ffa}{}bool {\bfseries is\+\_\+module\+\_\+scope} () const \label{classv8_1_1internal_1_1_scope_a89bb3ab01e4b47dc22a87a031e443ffa}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_adcc7c6b7b9023f874ad5cce4c4fc3f9e}{}bool {\bfseries is\+\_\+global\+\_\+scope} () const \label{classv8_1_1internal_1_1_scope_adcc7c6b7b9023f874ad5cce4c4fc3f9e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a6d2d4fcaacd0cf17701344352433492c}{}bool {\bfseries is\+\_\+catch\+\_\+scope} () const \label{classv8_1_1internal_1_1_scope_a6d2d4fcaacd0cf17701344352433492c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a7729b352d0ff683e82be0a9a30ae71fb}{}bool {\bfseries is\+\_\+block\+\_\+scope} () const \label{classv8_1_1internal_1_1_scope_a7729b352d0ff683e82be0a9a30ae71fb}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a240c2ab59b4da740d24a3798ea5950fa}{}bool {\bfseries is\+\_\+with\+\_\+scope} () const \label{classv8_1_1internal_1_1_scope_a240c2ab59b4da740d24a3798ea5950fa}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ab184f54ad2e9ecc34dc3464b6a540501}{}bool {\bfseries is\+\_\+declaration\+\_\+scope} () const \label{classv8_1_1internal_1_1_scope_ab184f54ad2e9ecc34dc3464b6a540501}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_aae0b019d623a5c8018a622f75a272e5b}{}bool {\bfseries is\+\_\+strict\+\_\+eval\+\_\+scope} () const \label{classv8_1_1internal_1_1_scope_aae0b019d623a5c8018a622f75a272e5b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a9c1e2e9ba6c6690f2330ab8807e444e7}{}bool {\bfseries calls\+\_\+eval} () const \label{classv8_1_1internal_1_1_scope_a9c1e2e9ba6c6690f2330ab8807e444e7}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a5618788fed324025ce66cf2dfca8d575}{}bool {\bfseries calls\+\_\+sloppy\+\_\+eval} ()\label{classv8_1_1internal_1_1_scope_a5618788fed324025ce66cf2dfca8d575}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ae475acb57007720d933eda11c8a14f5a}{}bool {\bfseries outer\+\_\+scope\+\_\+calls\+\_\+sloppy\+\_\+eval} () const \label{classv8_1_1internal_1_1_scope_ae475acb57007720d933eda11c8a14f5a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a876d4310ccde172a49d6f7fc872e5f80}{}bool {\bfseries inside\+\_\+with} () const \label{classv8_1_1internal_1_1_scope_a876d4310ccde172a49d6f7fc872e5f80}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ae2ff8bd87995159f2d3a82afe15f318a}{}bool {\bfseries contains\+\_\+with} () const \label{classv8_1_1internal_1_1_scope_ae2ff8bd87995159f2d3a82afe15f318a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ab63316382706e657dd1df9a8e1215cea}{}Scope\+Type {\bfseries scope\+\_\+type} () const \label{classv8_1_1internal_1_1_scope_ab63316382706e657dd1df9a8e1215cea}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a26193d3629a44c763bd44e175bc2c02e}{}Strict\+Mode {\bfseries strict\+\_\+mode} () const \label{classv8_1_1internal_1_1_scope_a26193d3629a44c763bd44e175bc2c02e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a68df9b2021d65dd954c1535dec4280c6}{}\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ {\bfseries receiver} ()\label{classv8_1_1internal_1_1_scope_a68df9b2021d65dd954c1535dec4280c6}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a085bb7f233b867975bc29ec565697b0e}{}Variable\+Declaration $\ast$ {\bfseries function} () const \label{classv8_1_1internal_1_1_scope_a085bb7f233b867975bc29ec565697b0e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a2bc11ea84ff36e325adca9a6b524226d}{}\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ {\bfseries parameter} (int index) const \label{classv8_1_1internal_1_1_scope_a2bc11ea84ff36e325adca9a6b524226d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_abf2dc87c78971a13940c62801760e98a}{}int {\bfseries num\+\_\+parameters} () const \label{classv8_1_1internal_1_1_scope_abf2dc87c78971a13940c62801760e98a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_aca31ee71179c70dffd2b7722fa940f4a}{}\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ {\bfseries arguments} () const \label{classv8_1_1internal_1_1_scope_aca31ee71179c70dffd2b7722fa940f4a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a7ddec523f1cd9d59aa9f72a9c0308cdc}{}\hyperlink{classv8_1_1internal_1_1_zone_list}{Zone\+List}$<$ \hyperlink{classv8_1_1internal_1_1_declaration}{Declaration} $\ast$ $>$ $\ast$ {\bfseries declarations} ()\label{classv8_1_1internal_1_1_scope_a7ddec523f1cd9d59aa9f72a9c0308cdc}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a0e4d097ff1d3d529fecd08644a1131ba}{}\hyperlink{classv8_1_1internal_1_1_zone_list}{Zone\+List}$<$ \hyperlink{classv8_1_1internal_1_1_scope}{Scope} $\ast$ $>$ $\ast$ {\bfseries inner\+\_\+scopes} ()\label{classv8_1_1internal_1_1_scope_a0e4d097ff1d3d529fecd08644a1131ba}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a103ace9a050c875d3df6e9f1152765f8}{}\hyperlink{classv8_1_1internal_1_1_scope}{Scope} $\ast$ {\bfseries outer\+\_\+scope} () const \label{classv8_1_1internal_1_1_scope_a103ace9a050c875d3df6e9f1152765f8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_adef2e4ac765cbeba75f9e8de7e39cabd}{}\hyperlink{classv8_1_1internal_1_1_interface}{Interface} $\ast$ {\bfseries interface} () const \label{classv8_1_1internal_1_1_scope_adef2e4ac765cbeba75f9e8de7e39cabd}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a6ffd0dbee0a6e5b59ac6d69b7500bdfc}{}void {\bfseries Collect\+Stack\+And\+Context\+Locals} (\hyperlink{classv8_1_1internal_1_1_zone_list}{Zone\+List}$<$ \hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ $>$ $\ast$stack\+\_\+locals, \hyperlink{classv8_1_1internal_1_1_zone_list}{Zone\+List}$<$ \hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ $>$ $\ast$context\+\_\+locals)\label{classv8_1_1internal_1_1_scope_a6ffd0dbee0a6e5b59ac6d69b7500bdfc}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ae644a88477f9835859d5958a21393167}{}int {\bfseries num\+\_\+var\+\_\+or\+\_\+const} ()\label{classv8_1_1internal_1_1_scope_ae644a88477f9835859d5958a21393167}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ac39784ef532a81635569d1c0bac14a54}{}int {\bfseries num\+\_\+stack\+\_\+slots} () const \label{classv8_1_1internal_1_1_scope_ac39784ef532a81635569d1c0bac14a54}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a0fb01c6c7008dab7ee6420011381bb7a}{}int {\bfseries num\+\_\+heap\+\_\+slots} () const \label{classv8_1_1internal_1_1_scope_a0fb01c6c7008dab7ee6420011381bb7a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a87178b7d3605282589cf613a417ebebf}{}int {\bfseries Stack\+Local\+Count} () const \label{classv8_1_1internal_1_1_scope_a87178b7d3605282589cf613a417ebebf}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a035a505d7381a7973a1fa58e6e615eb1}{}int {\bfseries Context\+Local\+Count} () const \label{classv8_1_1internal_1_1_scope_a035a505d7381a7973a1fa58e6e615eb1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a1a47ebd6f00b4ec4382703ab5f10783d}{}int {\bfseries num\+\_\+modules} () const \label{classv8_1_1internal_1_1_scope_a1a47ebd6f00b4ec4382703ab5f10783d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a756eaef12adc8a9a1aa8c928c8e4731b}{}\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ {\bfseries module\+\_\+var} () const \label{classv8_1_1internal_1_1_scope_a756eaef12adc8a9a1aa8c928c8e4731b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a609251b5a5e8fd6762298a9c282c9c77}{}void {\bfseries Force\+Eager\+Compilation} ()\label{classv8_1_1internal_1_1_scope_a609251b5a5e8fd6762298a9c282c9c77}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a4d0aa05a7281a6445cf5b3f6685222ce}{}bool {\bfseries Allows\+Lazy\+Compilation} () const \label{classv8_1_1internal_1_1_scope_a4d0aa05a7281a6445cf5b3f6685222ce}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a26b0d5a2fa5d22c3822aaee0b6eacf16}{}bool {\bfseries Allows\+Lazy\+Compilation\+Without\+Context} () const \label{classv8_1_1internal_1_1_scope_a26b0d5a2fa5d22c3822aaee0b6eacf16}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a013580c95b228155f384966c8efe32db}{}bool {\bfseries Has\+Trivial\+Outer\+Context} () const \label{classv8_1_1internal_1_1_scope_a013580c95b228155f384966c8efe32db}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a85707e9dc46da954d8e27e62e3c081e2}{}bool {\bfseries Has\+Lazy\+Compilable\+Outer\+Context} () const \label{classv8_1_1internal_1_1_scope_a85707e9dc46da954d8e27e62e3c081e2}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a529511c688fa9164e09a39ef9dc65e67}{}int {\bfseries Context\+Chain\+Length} (\hyperlink{classv8_1_1internal_1_1_scope}{Scope} $\ast$scope)\label{classv8_1_1internal_1_1_scope_a529511c688fa9164e09a39ef9dc65e67}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_abed0afee87ba555c0194c5d5c4540a4b}{}\hyperlink{classv8_1_1internal_1_1_scope}{Scope} $\ast$ {\bfseries Global\+Scope} ()\label{classv8_1_1internal_1_1_scope_abed0afee87ba555c0194c5d5c4540a4b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_aa39f7b4d3208196486b1e535228ab2a2}{}\hyperlink{classv8_1_1internal_1_1_scope}{Scope} $\ast$ {\bfseries Declaration\+Scope} ()\label{classv8_1_1internal_1_1_scope_aa39f7b4d3208196486b1e535228ab2a2}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ae179acd04199865c85c9a0c3ca6d0790}{}\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_scope_info}{Scope\+Info} $>$ {\bfseries Get\+Scope\+Info} ()\label{classv8_1_1internal_1_1_scope_ae179acd04199865c85c9a0c3ca6d0790}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_af5718c80c576d2d9de1eae1d676d409a}{}void {\bfseries Get\+Nested\+Scope\+Chain} (\hyperlink{classv8_1_1internal_1_1_list}{List}$<$ \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_scope_info}{Scope\+Info} $>$ $>$ $\ast$chain, int statement\+\_\+position)\label{classv8_1_1internal_1_1_scope_af5718c80c576d2d9de1eae1d676d409a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a99973033fe4c8e41f85b7ffbccf00aef}{}bool {\bfseries Is\+Declared} (const \hyperlink{classv8_1_1internal_1_1_ast_raw_string}{Ast\+Raw\+String} $\ast$name)\label{classv8_1_1internal_1_1_scope_a99973033fe4c8e41f85b7ffbccf00aef}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a293698598869f07a08c7177440dcb73a}{}static bool {\bfseries Analyze} (\hyperlink{classv8_1_1internal_1_1_compilation_info}{Compilation\+Info} $\ast$info)\label{classv8_1_1internal_1_1_scope_a293698598869f07a08c7177440dcb73a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ae9c5567da0e3af55a9ee24cce893cf85}{}static \hyperlink{classv8_1_1internal_1_1_scope}{Scope} $\ast$ {\bfseries Deserialize\+Scope\+Chain} (\hyperlink{classv8_1_1internal_1_1_context}{Context} $\ast$context, \hyperlink{classv8_1_1internal_1_1_scope}{Scope} $\ast$global\+\_\+scope, \hyperlink{classv8_1_1internal_1_1_zone}{Zone} $\ast$zone)\label{classv8_1_1internal_1_1_scope_ae9c5567da0e3af55a9ee24cce893cf85}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ac0377699b350082cce5e931f1dbfa145}{}enum {\bfseries Binding\+Kind} \{ \\*
+{\bfseries B\+O\+U\+N\+D}, 
+{\bfseries B\+O\+U\+N\+D\+\_\+\+E\+V\+A\+L\+\_\+\+S\+H\+A\+D\+O\+W\+E\+D}, 
+{\bfseries U\+N\+B\+O\+U\+N\+D}, 
+{\bfseries U\+N\+B\+O\+U\+N\+D\+\_\+\+E\+V\+A\+L\+\_\+\+S\+H\+A\+D\+O\+W\+E\+D}, 
+\\*
+{\bfseries D\+Y\+N\+A\+M\+I\+C\+\_\+\+L\+O\+O\+K\+U\+P}
+ \}\label{classv8_1_1internal_1_1_scope_ac0377699b350082cce5e931f1dbfa145}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ada85f14d546573a3bc19cd9e178919f3}{}bool {\bfseries already\+\_\+resolved} ()\label{classv8_1_1internal_1_1_scope_ada85f14d546573a3bc19cd9e178919f3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a9eba98dc3a09d007affff9871534ae04}{}\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ {\bfseries Non\+Local} (const \hyperlink{classv8_1_1internal_1_1_ast_raw_string}{Ast\+Raw\+String} $\ast$name, Variable\+Mode mode)\label{classv8_1_1internal_1_1_scope_a9eba98dc3a09d007affff9871534ae04}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a4f5740e6dc415f00b9fce95d259c7b39}{}\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ {\bfseries Lookup\+Recursive} (Variable\+Proxy $\ast$proxy, Binding\+Kind $\ast$binding\+\_\+kind, \hyperlink{classv8_1_1internal_1_1_ast_node_factory}{Ast\+Node\+Factory}$<$ Ast\+Null\+Visitor $>$ $\ast$factory)\label{classv8_1_1internal_1_1_scope_a4f5740e6dc415f00b9fce95d259c7b39}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a79c1137dd9cfb144f8314166db770b46}{}M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T bool {\bfseries Resolve\+Variable} (\hyperlink{classv8_1_1internal_1_1_compilation_info}{Compilation\+Info} $\ast$info, Variable\+Proxy $\ast$proxy, \hyperlink{classv8_1_1internal_1_1_ast_node_factory}{Ast\+Node\+Factory}$<$ Ast\+Null\+Visitor $>$ $\ast$factory)\label{classv8_1_1internal_1_1_scope_a79c1137dd9cfb144f8314166db770b46}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_afa5634e1f0f8fed6bd4373bbcf07327b}{}M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T bool {\bfseries Resolve\+Variables\+Recursively} (\hyperlink{classv8_1_1internal_1_1_compilation_info}{Compilation\+Info} $\ast$info, \hyperlink{classv8_1_1internal_1_1_ast_node_factory}{Ast\+Node\+Factory}$<$ Ast\+Null\+Visitor $>$ $\ast$factory)\label{classv8_1_1internal_1_1_scope_afa5634e1f0f8fed6bd4373bbcf07327b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a6390197be39cee93c4e988529a4733a0}{}void {\bfseries Propagate\+Scope\+Info} (bool outer\+\_\+scope\+\_\+calls\+\_\+sloppy\+\_\+eval)\label{classv8_1_1internal_1_1_scope_a6390197be39cee93c4e988529a4733a0}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a3b8d0a35414fea4bb389a228631a1da4}{}bool {\bfseries Has\+Trivial\+Context} () const \label{classv8_1_1internal_1_1_scope_a3b8d0a35414fea4bb389a228631a1da4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ace80ba20403956a4ac174a7e44eb47bd}{}bool {\bfseries Must\+Allocate} (\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$var)\label{classv8_1_1internal_1_1_scope_ace80ba20403956a4ac174a7e44eb47bd}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a7b2293179db997cf4398e46b77b44213}{}bool {\bfseries Must\+Allocate\+In\+Context} (\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$var)\label{classv8_1_1internal_1_1_scope_a7b2293179db997cf4398e46b77b44213}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a8a5a424b647900a34c6939b1c6f388bc}{}bool {\bfseries Has\+Arguments\+Parameter} ()\label{classv8_1_1internal_1_1_scope_a8a5a424b647900a34c6939b1c6f388bc}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a765d63a4936a0993deb5934a20dfb0c3}{}void {\bfseries Allocate\+Stack\+Slot} (\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$var)\label{classv8_1_1internal_1_1_scope_a765d63a4936a0993deb5934a20dfb0c3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a03c32bfa8205b464b1630479f9e91679}{}void {\bfseries Allocate\+Heap\+Slot} (\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$var)\label{classv8_1_1internal_1_1_scope_a03c32bfa8205b464b1630479f9e91679}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a38ce394f1b00141a4b6abc185974257a}{}void {\bfseries Allocate\+Parameter\+Locals} ()\label{classv8_1_1internal_1_1_scope_a38ce394f1b00141a4b6abc185974257a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a0280894e48a1c4cc08c12740c1297767}{}void {\bfseries Allocate\+Non\+Parameter\+Local} (\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$var)\label{classv8_1_1internal_1_1_scope_a0280894e48a1c4cc08c12740c1297767}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a4f31edf3b1181d93ab1329f90227c56e}{}void {\bfseries Allocate\+Non\+Parameter\+Locals} ()\label{classv8_1_1internal_1_1_scope_a4f31edf3b1181d93ab1329f90227c56e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a5658e6c37363a9ef878f887b134fdec5}{}void {\bfseries Allocate\+Variables\+Recursively} ()\label{classv8_1_1internal_1_1_scope_a5658e6c37363a9ef878f887b134fdec5}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a96de2eefb5713f13d806152d9f0f48ff}{}void {\bfseries Allocate\+Modules\+Recursively} (\hyperlink{classv8_1_1internal_1_1_scope}{Scope} $\ast$host\+\_\+scope)\label{classv8_1_1internal_1_1_scope_a96de2eefb5713f13d806152d9f0f48ff}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a200e0933c8ef7917ef8e2a2ba8bc1d34}{}M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T bool {\bfseries Allocate\+Variables} (\hyperlink{classv8_1_1internal_1_1_compilation_info}{Compilation\+Info} $\ast$info, \hyperlink{classv8_1_1internal_1_1_ast_node_factory}{Ast\+Node\+Factory}$<$ Ast\+Null\+Visitor $>$ $\ast$factory)\label{classv8_1_1internal_1_1_scope_a200e0933c8ef7917ef8e2a2ba8bc1d34}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a828d7069bea2f13084f04fc43291d160}{}\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$const {\bfseries isolate\+\_\+}\label{classv8_1_1internal_1_1_scope_a828d7069bea2f13084f04fc43291d160}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a5583f7ff4187f292daac9cd625918ad8}{}\hyperlink{classv8_1_1internal_1_1_scope}{Scope} $\ast$ {\bfseries outer\+\_\+scope\+\_\+}\label{classv8_1_1internal_1_1_scope_a5583f7ff4187f292daac9cd625918ad8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a55862f98a87fcf63cdbb082e86206309}{}\hyperlink{classv8_1_1internal_1_1_zone_list}{Zone\+List}$<$ \hyperlink{classv8_1_1internal_1_1_scope}{Scope} $\ast$ $>$ {\bfseries inner\+\_\+scopes\+\_\+}\label{classv8_1_1internal_1_1_scope_a55862f98a87fcf63cdbb082e86206309}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a36cbec4f8ac2dc9f14cb899efc621504}{}Scope\+Type {\bfseries scope\+\_\+type\+\_\+}\label{classv8_1_1internal_1_1_scope_a36cbec4f8ac2dc9f14cb899efc621504}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a2dd44a0d8382c3f363d83a360a65faa4}{}const \hyperlink{classv8_1_1internal_1_1_ast_raw_string}{Ast\+Raw\+String} $\ast$ {\bfseries scope\+\_\+name\+\_\+}\label{classv8_1_1internal_1_1_scope_a2dd44a0d8382c3f363d83a360a65faa4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a5e4d6891383e2107c3d9e066d13bbdd4}{}\hyperlink{classv8_1_1internal_1_1_variable_map}{Variable\+Map} {\bfseries variables\+\_\+}\label{classv8_1_1internal_1_1_scope_a5e4d6891383e2107c3d9e066d13bbdd4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a9ec9558718705ee48d22d816b0b4403c}{}\hyperlink{classv8_1_1internal_1_1_zone_list}{Zone\+List}$<$ \hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ $>$ {\bfseries internals\+\_\+}\label{classv8_1_1internal_1_1_scope_a9ec9558718705ee48d22d816b0b4403c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a1be7b435dfc60c78db11b2d74220f9ae}{}\hyperlink{classv8_1_1internal_1_1_zone_list}{Zone\+List}$<$ \hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ $>$ {\bfseries temps\+\_\+}\label{classv8_1_1internal_1_1_scope_a1be7b435dfc60c78db11b2d74220f9ae}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a670a1f3c09b6142f530942e3c6c8ba62}{}\hyperlink{classv8_1_1internal_1_1_zone_list}{Zone\+List}$<$ \hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ $>$ {\bfseries params\+\_\+}\label{classv8_1_1internal_1_1_scope_a670a1f3c09b6142f530942e3c6c8ba62}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ab198d779a60c0912234dc4c3db768d47}{}\hyperlink{classv8_1_1internal_1_1_dynamic_scope_part}{Dynamic\+Scope\+Part} $\ast$ {\bfseries dynamics\+\_\+}\label{classv8_1_1internal_1_1_scope_ab198d779a60c0912234dc4c3db768d47}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a37b9e8c30724515e9f8ca3531e41fd4c}{}\hyperlink{classv8_1_1internal_1_1_zone_list}{Zone\+List}$<$ Variable\+Proxy $\ast$ $>$ {\bfseries unresolved\+\_\+}\label{classv8_1_1internal_1_1_scope_a37b9e8c30724515e9f8ca3531e41fd4c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a717a82aa2d9f3edc973099833496062b}{}\hyperlink{classv8_1_1internal_1_1_zone_list}{Zone\+List}$<$ \hyperlink{classv8_1_1internal_1_1_declaration}{Declaration} $\ast$ $>$ {\bfseries decls\+\_\+}\label{classv8_1_1internal_1_1_scope_a717a82aa2d9f3edc973099833496062b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a93c770d146d54d5eb48668f81d260501}{}\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ {\bfseries receiver\+\_\+}\label{classv8_1_1internal_1_1_scope_a93c770d146d54d5eb48668f81d260501}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ad0c0cf049bc723932413e3355a3fce20}{}Variable\+Declaration $\ast$ {\bfseries function\+\_\+}\label{classv8_1_1internal_1_1_scope_ad0c0cf049bc723932413e3355a3fce20}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_aeaeb3e90ef3d0214b1ce8ad3a3ed18df}{}\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ {\bfseries arguments\+\_\+}\label{classv8_1_1internal_1_1_scope_aeaeb3e90ef3d0214b1ce8ad3a3ed18df}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_aeb175ac2e7610dfb5a6a8675ac5e38ce}{}\hyperlink{classv8_1_1internal_1_1_interface}{Interface} $\ast$ {\bfseries interface\+\_\+}\label{classv8_1_1internal_1_1_scope_aeb175ac2e7610dfb5a6a8675ac5e38ce}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_aac2bb70747d573b68dc5c6ff554fc827}{}\hyperlink{classv8_1_1internal_1_1_expression}{Expression} $\ast$ {\bfseries illegal\+\_\+redecl\+\_\+}\label{classv8_1_1internal_1_1_scope_aac2bb70747d573b68dc5c6ff554fc827}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a6201c5804752ef136e470df0c79b8b30}{}bool {\bfseries scope\+\_\+inside\+\_\+with\+\_\+}\label{classv8_1_1internal_1_1_scope_a6201c5804752ef136e470df0c79b8b30}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_abcc42b038d3e9377891bbb0ea1ad3804}{}bool {\bfseries scope\+\_\+contains\+\_\+with\+\_\+}\label{classv8_1_1internal_1_1_scope_abcc42b038d3e9377891bbb0ea1ad3804}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a4541ec4968037e4663d09c3d877b9f8d}{}bool {\bfseries scope\+\_\+calls\+\_\+eval\+\_\+}\label{classv8_1_1internal_1_1_scope_a4541ec4968037e4663d09c3d877b9f8d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a07e5b4ff653b6ecb2c28eff4634385a7}{}Strict\+Mode {\bfseries strict\+\_\+mode\+\_\+}\label{classv8_1_1internal_1_1_scope_a07e5b4ff653b6ecb2c28eff4634385a7}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a9ea8507e658edffc2568771ccc5393db}{}int {\bfseries start\+\_\+position\+\_\+}\label{classv8_1_1internal_1_1_scope_a9ea8507e658edffc2568771ccc5393db}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a6592aac772a057e97a3f10ac72e04062}{}int {\bfseries end\+\_\+position\+\_\+}\label{classv8_1_1internal_1_1_scope_a6592aac772a057e97a3f10ac72e04062}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a04f9e8a887182654f0c4973d8843f652}{}bool {\bfseries outer\+\_\+scope\+\_\+calls\+\_\+sloppy\+\_\+eval\+\_\+}\label{classv8_1_1internal_1_1_scope_a04f9e8a887182654f0c4973d8843f652}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ab653543f5209af44a5356c2e2e87cbae}{}bool {\bfseries inner\+\_\+scope\+\_\+calls\+\_\+eval\+\_\+}\label{classv8_1_1internal_1_1_scope_ab653543f5209af44a5356c2e2e87cbae}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a2730664fa3391665d16fc60938343574}{}bool {\bfseries force\+\_\+eager\+\_\+compilation\+\_\+}\label{classv8_1_1internal_1_1_scope_a2730664fa3391665d16fc60938343574}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_adceb8e58b7488ba0a42c6bfc8c967afe}{}bool {\bfseries force\+\_\+context\+\_\+allocation\+\_\+}\label{classv8_1_1internal_1_1_scope_adceb8e58b7488ba0a42c6bfc8c967afe}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a91489cb76b587d340324e5ff04057e45}{}bool {\bfseries already\+\_\+resolved\+\_\+}\label{classv8_1_1internal_1_1_scope_a91489cb76b587d340324e5ff04057e45}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a58789c0f81c7cf66bed710d731e99993}{}int {\bfseries num\+\_\+var\+\_\+or\+\_\+const\+\_\+}\label{classv8_1_1internal_1_1_scope_a58789c0f81c7cf66bed710d731e99993}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_acb1ad68ebcafc0823caace322bc62d8e}{}int {\bfseries num\+\_\+stack\+\_\+slots\+\_\+}\label{classv8_1_1internal_1_1_scope_acb1ad68ebcafc0823caace322bc62d8e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_aa7ff8ad11414d999f7328fedfee94c13}{}int {\bfseries num\+\_\+heap\+\_\+slots\+\_\+}\label{classv8_1_1internal_1_1_scope_aa7ff8ad11414d999f7328fedfee94c13}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_aebc009327f61b7e3da02bf78ccda7c80}{}int {\bfseries num\+\_\+modules\+\_\+}\label{classv8_1_1internal_1_1_scope_aebc009327f61b7e3da02bf78ccda7c80}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a4afa6681064bed1febecb65e2a49c2ad}{}\hyperlink{classv8_1_1internal_1_1_variable}{Variable} $\ast$ {\bfseries module\+\_\+var\+\_\+}\label{classv8_1_1internal_1_1_scope_a4afa6681064bed1febecb65e2a49c2ad}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_a3a53ff212117f98292cf31609105b4d0}{}\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_scope_info}{Scope\+Info} $>$ {\bfseries scope\+\_\+info\+\_\+}\label{classv8_1_1internal_1_1_scope_a3a53ff212117f98292cf31609105b4d0}
+
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_scope_ac43d6a50f1f6ed99577048bea49180fb}{}class {\bfseries Parser\+Factory}\label{classv8_1_1internal_1_1_scope_ac43d6a50f1f6ed99577048bea49180fb}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/scopes.\+h\item 
+src/scopes.\+cc\end{DoxyCompactItemize}

@@ -1,0 +1,167 @@
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl}{}\section{v8\+:\+:internal\+:\+:Reg\+Exp\+Impl Class Reference}
+\label{classv8_1_1internal_1_1_reg_exp_impl}\index{v8\+::internal\+::\+Reg\+Exp\+Impl@{v8\+::internal\+::\+Reg\+Exp\+Impl}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classv8_1_1internal_1_1_reg_exp_impl_1_1_global_cache}{Global\+Cache}
+\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a67a89cafc8ce13f1efbdc9147ce2542e}{}enum {\bfseries Irregexp\+Result} \{ {\bfseries R\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E} = 0, 
+{\bfseries R\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S} = 1, 
+{\bfseries R\+E\+\_\+\+E\+X\+C\+E\+P\+T\+I\+O\+N} = -\/1
+ \}\label{classv8_1_1internal_1_1_reg_exp_impl_a67a89cafc8ce13f1efbdc9147ce2542e}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a1f036a7e906cecf51692e724a54cbcec}{}static bool {\bfseries Uses\+Native\+Reg\+Exp} ()\label{classv8_1_1internal_1_1_reg_exp_impl_a1f036a7e906cecf51692e724a54cbcec}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a8f905b35843ae24771769dcddb6f3c5f}{}static M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T \hyperlink{classv8_1_1internal_1_1_maybe_handle}{Maybe\+Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ {\bfseries Create\+Reg\+Exp\+Literal} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_function}{J\+S\+Function} $>$ constructor, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ pattern, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ flags)\label{classv8_1_1internal_1_1_reg_exp_impl_a8f905b35843ae24771769dcddb6f3c5f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a86680c63f2568adcd0c136024d05ea85}{}static \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ {\bfseries To\+String} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ value)\label{classv8_1_1internal_1_1_reg_exp_impl_a86680c63f2568adcd0c136024d05ea85}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_afefb764af57c36a4f6f60a348f3ab04e}{}static M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T \hyperlink{classv8_1_1internal_1_1_maybe_handle}{Maybe\+Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ {\bfseries Compile} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_reg_exp}{J\+S\+Reg\+Exp} $>$ re, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ pattern, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ flags)\label{classv8_1_1internal_1_1_reg_exp_impl_afefb764af57c36a4f6f60a348f3ab04e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a050e6ee8df6369af962c2fcd5baa5811}{}static M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T \hyperlink{classv8_1_1internal_1_1_maybe_handle}{Maybe\+Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ {\bfseries Exec} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_reg_exp}{J\+S\+Reg\+Exp} $>$ regexp, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ subject, int index, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_array}{J\+S\+Array} $>$ last\+Match\+Info)\label{classv8_1_1internal_1_1_reg_exp_impl_a050e6ee8df6369af962c2fcd5baa5811}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a70975cc673401b46d1de18bb33c18ace}{}static void {\bfseries Irregexp\+Initialize} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_reg_exp}{J\+S\+Reg\+Exp} $>$ re, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ pattern, \hyperlink{classv8_1_1internal_1_1_j_s_reg_exp_1_1_flags}{J\+S\+Reg\+Exp\+::\+Flags} flags, int capture\+\_\+register\+\_\+count)\label{classv8_1_1internal_1_1_reg_exp_impl_a70975cc673401b46d1de18bb33c18ace}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a4ad9f1374d10f36f6cd53fae8772a0a1}{}static void {\bfseries Atom\+Compile} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_reg_exp}{J\+S\+Reg\+Exp} $>$ re, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ pattern, \hyperlink{classv8_1_1internal_1_1_j_s_reg_exp_1_1_flags}{J\+S\+Reg\+Exp\+::\+Flags} flags, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ match\+\_\+pattern)\label{classv8_1_1internal_1_1_reg_exp_impl_a4ad9f1374d10f36f6cd53fae8772a0a1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a6bdc03c4e9f19ea159dad499ae4a30b3}{}static int {\bfseries Atom\+Exec\+Raw} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_reg_exp}{J\+S\+Reg\+Exp} $>$ regexp, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ subject, int index, int32\+\_\+t $\ast$output, int output\+\_\+size)\label{classv8_1_1internal_1_1_reg_exp_impl_a6bdc03c4e9f19ea159dad499ae4a30b3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a427c7da5f3edc644caa8f1332d113b11}{}static \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ {\bfseries Atom\+Exec} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_reg_exp}{J\+S\+Reg\+Exp} $>$ regexp, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ subject, int index, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_array}{J\+S\+Array} $>$ last\+Match\+Info)\label{classv8_1_1internal_1_1_reg_exp_impl_a427c7da5f3edc644caa8f1332d113b11}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_aaae88e8097d51ac38eafb7775de3eb8b}{}static int {\bfseries Irregexp\+Prepare} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_reg_exp}{J\+S\+Reg\+Exp} $>$ regexp, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ subject)\label{classv8_1_1internal_1_1_reg_exp_impl_aaae88e8097d51ac38eafb7775de3eb8b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_ac4818db8f6c4a1dad7838d55a54784c0}{}static int {\bfseries Irregexp\+Exec\+Raw} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_reg_exp}{J\+S\+Reg\+Exp} $>$ regexp, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ subject, int index, int32\+\_\+t $\ast$output, int output\+\_\+size)\label{classv8_1_1internal_1_1_reg_exp_impl_ac4818db8f6c4a1dad7838d55a54784c0}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a064905c94750360de1eaef77f2fcd813}{}static M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T \hyperlink{classv8_1_1internal_1_1_maybe_handle}{Maybe\+Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ {\bfseries Irregexp\+Exec} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_reg_exp}{J\+S\+Reg\+Exp} $>$ regexp, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ subject, int index, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_array}{J\+S\+Array} $>$ last\+Match\+Info)\label{classv8_1_1internal_1_1_reg_exp_impl_a064905c94750360de1eaef77f2fcd813}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a67164089ba7ffc8453d6904d3f5c137b}{}static \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_array}{J\+S\+Array} $>$ {\bfseries Set\+Last\+Match\+Info} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_array}{J\+S\+Array} $>$ last\+\_\+match\+\_\+info, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ subject, int capture\+\_\+count, int32\+\_\+t $\ast$match)\label{classv8_1_1internal_1_1_reg_exp_impl_a67164089ba7ffc8453d6904d3f5c137b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a5dd44e4fc1188cac4efb085f6bcfb6fb}{}static int {\bfseries Get\+Capture} (\hyperlink{classv8_1_1internal_1_1_fixed_array}{Fixed\+Array} $\ast$array, int index)\label{classv8_1_1internal_1_1_reg_exp_impl_a5dd44e4fc1188cac4efb085f6bcfb6fb}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a1a4d42cc2678b41f065bc2b1ab2efb07}{}static void {\bfseries Set\+Last\+Capture\+Count} (\hyperlink{classv8_1_1internal_1_1_fixed_array}{Fixed\+Array} $\ast$array, int to)\label{classv8_1_1internal_1_1_reg_exp_impl_a1a4d42cc2678b41f065bc2b1ab2efb07}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a3481d9869ca0a105b4ab7cf18daa67e3}{}static void {\bfseries Set\+Last\+Subject} (\hyperlink{classv8_1_1internal_1_1_fixed_array}{Fixed\+Array} $\ast$array, \hyperlink{classv8_1_1internal_1_1_string}{String} $\ast$to)\label{classv8_1_1internal_1_1_reg_exp_impl_a3481d9869ca0a105b4ab7cf18daa67e3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a918a445230fd9f16e78f77ea833ebe97}{}static void {\bfseries Set\+Last\+Input} (\hyperlink{classv8_1_1internal_1_1_fixed_array}{Fixed\+Array} $\ast$array, \hyperlink{classv8_1_1internal_1_1_string}{String} $\ast$to)\label{classv8_1_1internal_1_1_reg_exp_impl_a918a445230fd9f16e78f77ea833ebe97}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a57f7f5fc885a711c15bd48fb871126df}{}static void {\bfseries Set\+Capture} (\hyperlink{classv8_1_1internal_1_1_fixed_array}{Fixed\+Array} $\ast$array, int index, int to)\label{classv8_1_1internal_1_1_reg_exp_impl_a57f7f5fc885a711c15bd48fb871126df}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_ac4401caf8ea6058c14d6a0471d847d0f}{}static int {\bfseries Get\+Last\+Capture\+Count} (\hyperlink{classv8_1_1internal_1_1_fixed_array}{Fixed\+Array} $\ast$array)\label{classv8_1_1internal_1_1_reg_exp_impl_ac4401caf8ea6058c14d6a0471d847d0f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a8770fa3b8b206489fa6d09c85d6d2c17}{}static int {\bfseries Irregexp\+Max\+Register\+Count} (\hyperlink{classv8_1_1internal_1_1_fixed_array}{Fixed\+Array} $\ast$re)\label{classv8_1_1internal_1_1_reg_exp_impl_a8770fa3b8b206489fa6d09c85d6d2c17}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a23c5a2daae08f05912bb8a9e5819ea4e}{}static void {\bfseries Set\+Irregexp\+Max\+Register\+Count} (\hyperlink{classv8_1_1internal_1_1_fixed_array}{Fixed\+Array} $\ast$re, int value)\label{classv8_1_1internal_1_1_reg_exp_impl_a23c5a2daae08f05912bb8a9e5819ea4e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_af7398ec4d76750af978b0c5393024dd9}{}static int {\bfseries Irregexp\+Number\+Of\+Captures} (\hyperlink{classv8_1_1internal_1_1_fixed_array}{Fixed\+Array} $\ast$re)\label{classv8_1_1internal_1_1_reg_exp_impl_af7398ec4d76750af978b0c5393024dd9}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_ae04e1a110494b8d0b74feb420202c67f}{}static int {\bfseries Irregexp\+Number\+Of\+Registers} (\hyperlink{classv8_1_1internal_1_1_fixed_array}{Fixed\+Array} $\ast$re)\label{classv8_1_1internal_1_1_reg_exp_impl_ae04e1a110494b8d0b74feb420202c67f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_ae2857dd59a92f28f065fdb085ba5f892}{}static \hyperlink{classv8_1_1internal_1_1_byte_array}{Byte\+Array} $\ast$ {\bfseries Irregexp\+Byte\+Code} (\hyperlink{classv8_1_1internal_1_1_fixed_array}{Fixed\+Array} $\ast$re, bool is\+\_\+ascii)\label{classv8_1_1internal_1_1_reg_exp_impl_ae2857dd59a92f28f065fdb085ba5f892}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a8a674ac469eb2cfc1083e4d833b13cf2}{}static \hyperlink{classv8_1_1internal_1_1_code}{Code} $\ast$ {\bfseries Irregexp\+Native\+Code} (\hyperlink{classv8_1_1internal_1_1_fixed_array}{Fixed\+Array} $\ast$re, bool is\+\_\+ascii)\label{classv8_1_1internal_1_1_reg_exp_impl_a8a674ac469eb2cfc1083e4d833b13cf2}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a0ebdcb279e7c56f30c397ba84dd25833}{}static const int {\bfseries k\+Last\+Capture\+Count} = 0\label{classv8_1_1internal_1_1_reg_exp_impl_a0ebdcb279e7c56f30c397ba84dd25833}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_af0bb70863d5995ff8b58fdae9fbcf7fe}{}static const int {\bfseries k\+Last\+Subject} = 1\label{classv8_1_1internal_1_1_reg_exp_impl_af0bb70863d5995ff8b58fdae9fbcf7fe}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a938ab5e472e920331c8be2ba9096bf0d}{}static const int {\bfseries k\+Last\+Input} = 2\label{classv8_1_1internal_1_1_reg_exp_impl_a938ab5e472e920331c8be2ba9096bf0d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_aef40942dc86416fc05927c875c5339dd}{}static const int {\bfseries k\+First\+Capture} = 3\label{classv8_1_1internal_1_1_reg_exp_impl_aef40942dc86416fc05927c875c5339dd}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a4fe094990a563f4b6cf3e54eaaa11302}{}static const int {\bfseries k\+Last\+Match\+Overhead} = 3\label{classv8_1_1internal_1_1_reg_exp_impl_a4fe094990a563f4b6cf3e54eaaa11302}
+
+\item 
+static const int {\bfseries k\+Last\+Capture\+Count\+Offset}
+\item 
+static const int {\bfseries k\+Last\+Subject\+Offset}
+\item 
+static const int {\bfseries k\+Last\+Input\+Offset}
+\item 
+static const int {\bfseries k\+First\+Capture\+Offset}
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a8a35e37765c28a6f65ad7deed00e45bf}{}static const int {\bfseries k\+Reg\+Exp\+Executable\+Memory\+Limit} = 16 $\ast$ M\+B\label{classv8_1_1internal_1_1_reg_exp_impl_a8a35e37765c28a6f65ad7deed00e45bf}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a0414d5e358971dafe7c362d70b3b8428}{}static const int {\bfseries k\+Reg\+Wxp\+Compiled\+Limit} = 1 $\ast$ M\+B\label{classv8_1_1internal_1_1_reg_exp_impl_a0414d5e358971dafe7c362d70b3b8428}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_af1659259f1274cc603b5761d15c69fdb}{}\index{v8\+::internal\+::\+Reg\+Exp\+Impl@{v8\+::internal\+::\+Reg\+Exp\+Impl}!k\+First\+Capture\+Offset@{k\+First\+Capture\+Offset}}
+\index{k\+First\+Capture\+Offset@{k\+First\+Capture\+Offset}!v8\+::internal\+::\+Reg\+Exp\+Impl@{v8\+::internal\+::\+Reg\+Exp\+Impl}}
+\subsubsection[{k\+First\+Capture\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+Reg\+Exp\+Impl\+::k\+First\+Capture\+Offset\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_reg_exp_impl_af1659259f1274cc603b5761d15c69fdb}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      FixedArray::kHeaderSize + kFirstCapture * kPointerSize
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a00a7b8279f52b16139ad7ec4434a779c}{}\index{v8\+::internal\+::\+Reg\+Exp\+Impl@{v8\+::internal\+::\+Reg\+Exp\+Impl}!k\+Last\+Capture\+Count\+Offset@{k\+Last\+Capture\+Count\+Offset}}
+\index{k\+Last\+Capture\+Count\+Offset@{k\+Last\+Capture\+Count\+Offset}!v8\+::internal\+::\+Reg\+Exp\+Impl@{v8\+::internal\+::\+Reg\+Exp\+Impl}}
+\subsubsection[{k\+Last\+Capture\+Count\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+Reg\+Exp\+Impl\+::k\+Last\+Capture\+Count\+Offset\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_reg_exp_impl_a00a7b8279f52b16139ad7ec4434a779c}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      FixedArray::kHeaderSize + kLastCaptureCount * kPointerSize
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a64f715e3ff891b06206c35ce658800e8}{}\index{v8\+::internal\+::\+Reg\+Exp\+Impl@{v8\+::internal\+::\+Reg\+Exp\+Impl}!k\+Last\+Input\+Offset@{k\+Last\+Input\+Offset}}
+\index{k\+Last\+Input\+Offset@{k\+Last\+Input\+Offset}!v8\+::internal\+::\+Reg\+Exp\+Impl@{v8\+::internal\+::\+Reg\+Exp\+Impl}}
+\subsubsection[{k\+Last\+Input\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+Reg\+Exp\+Impl\+::k\+Last\+Input\+Offset\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_reg_exp_impl_a64f715e3ff891b06206c35ce658800e8}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      FixedArray::kHeaderSize + kLastInput * kPointerSize
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_reg_exp_impl_a43777bf0219877ec08e0076083c37b08}{}\index{v8\+::internal\+::\+Reg\+Exp\+Impl@{v8\+::internal\+::\+Reg\+Exp\+Impl}!k\+Last\+Subject\+Offset@{k\+Last\+Subject\+Offset}}
+\index{k\+Last\+Subject\+Offset@{k\+Last\+Subject\+Offset}!v8\+::internal\+::\+Reg\+Exp\+Impl@{v8\+::internal\+::\+Reg\+Exp\+Impl}}
+\subsubsection[{k\+Last\+Subject\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+Reg\+Exp\+Impl\+::k\+Last\+Subject\+Offset\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_reg_exp_impl_a43777bf0219877ec08e0076083c37b08}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      FixedArray::kHeaderSize + kLastSubject * kPointerSize
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/jsregexp.\+h\item 
+src/jsregexp.\+cc\end{DoxyCompactItemize}

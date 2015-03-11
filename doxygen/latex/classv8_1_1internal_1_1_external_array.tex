@@ -1,0 +1,45 @@
+\hypertarget{classv8_1_1internal_1_1_external_array}{}\section{v8\+:\+:internal\+:\+:External\+Array Class Reference}
+\label{classv8_1_1internal_1_1_external_array}\index{v8\+::internal\+::\+External\+Array@{v8\+::internal\+::\+External\+Array}}
+Inheritance diagram for v8\+:\+:internal\+:\+:External\+Array\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=12.000000cm]{classv8_1_1internal_1_1_external_array}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_external_array_a8a60cc282409b779e747dbcfe3d23015}{}bool {\bfseries is\+\_\+the\+\_\+hole} (int index)\label{classv8_1_1internal_1_1_external_array_a8a60cc282409b779e747dbcfe3d23015}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_external_array_ae885012924ed465ccb24879998807bbe}{}{\bfseries D\+E\+C\+L\+\_\+\+A\+C\+C\+E\+S\+S\+O\+R\+S} (external\+\_\+pointer, void) static const int k\+Max\+Length=0x3fffffff\label{classv8_1_1internal_1_1_external_array_ae885012924ed465ccb24879998807bbe}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const int {\bfseries k\+External\+Pointer\+Offset}
+\item 
+\hypertarget{classv8_1_1internal_1_1_external_array_a0dd207d630899d66c462211b807fe0cd}{}static const int {\bfseries k\+Header\+Size} = k\+External\+Pointer\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_external_array_a0dd207d630899d66c462211b807fe0cd}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_external_array_ae3cba510811934c6569daf48e874dd21}{}static const int {\bfseries k\+Aligned\+Size} = O\+B\+J\+E\+C\+T\+\_\+\+P\+O\+I\+N\+T\+E\+R\+\_\+\+A\+L\+I\+G\+N(k\+Header\+Size)\label{classv8_1_1internal_1_1_external_array_ae3cba510811934c6569daf48e874dd21}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classv8_1_1internal_1_1_external_array_ac5904813cf360de5d436873c4bd9f524}{}\index{v8\+::internal\+::\+External\+Array@{v8\+::internal\+::\+External\+Array}!k\+External\+Pointer\+Offset@{k\+External\+Pointer\+Offset}}
+\index{k\+External\+Pointer\+Offset@{k\+External\+Pointer\+Offset}!v8\+::internal\+::\+External\+Array@{v8\+::internal\+::\+External\+Array}}
+\subsubsection[{k\+External\+Pointer\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+External\+Array\+::k\+External\+Pointer\+Offset\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_external_array_ac5904813cf360de5d436873c4bd9f524}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      POINTER\_SIZE\_ALIGN(FixedArrayBase::kLengthOffset + kPointerSize)
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/objects.\+h\end{DoxyCompactItemize}

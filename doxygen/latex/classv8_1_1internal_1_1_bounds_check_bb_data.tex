@@ -1,0 +1,58 @@
+\hypertarget{classv8_1_1internal_1_1_bounds_check_bb_data}{}\section{v8\+:\+:internal\+:\+:Bounds\+Check\+Bb\+Data Class Reference}
+\label{classv8_1_1internal_1_1_bounds_check_bb_data}\index{v8\+::internal\+::\+Bounds\+Check\+Bb\+Data@{v8\+::internal\+::\+Bounds\+Check\+Bb\+Data}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Bounds\+Check\+Bb\+Data\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classv8_1_1internal_1_1_bounds_check_bb_data}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_bounds_check_bb_data_a7b3d5d8de22ca1b4841933f419a23f1d}{}\hyperlink{classv8_1_1internal_1_1_bounds_check_key}{Bounds\+Check\+Key} $\ast$ {\bfseries Key} () const \label{classv8_1_1internal_1_1_bounds_check_bb_data_a7b3d5d8de22ca1b4841933f419a23f1d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_bounds_check_bb_data_a00a7a117fd9fadfad54adb61d34e2c4d}{}int32\+\_\+t {\bfseries Lower\+Offset} () const \label{classv8_1_1internal_1_1_bounds_check_bb_data_a00a7a117fd9fadfad54adb61d34e2c4d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_bounds_check_bb_data_abc2cb4b4eaa91817cd3931f8fdbc4108}{}int32\+\_\+t {\bfseries Upper\+Offset} () const \label{classv8_1_1internal_1_1_bounds_check_bb_data_abc2cb4b4eaa91817cd3931f8fdbc4108}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_bounds_check_bb_data_aa926c9b8b56376984c043887752edc6b}{}H\+Basic\+Block $\ast$ {\bfseries Basic\+Block} () const \label{classv8_1_1internal_1_1_bounds_check_bb_data_aa926c9b8b56376984c043887752edc6b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_bounds_check_bb_data_a06575926542e1ce8fddbafb986c27537}{}H\+Bounds\+Check $\ast$ {\bfseries Lower\+Check} () const \label{classv8_1_1internal_1_1_bounds_check_bb_data_a06575926542e1ce8fddbafb986c27537}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_bounds_check_bb_data_a54187bc9859ecde619cfd4f437bb92d2}{}H\+Bounds\+Check $\ast$ {\bfseries Upper\+Check} () const \label{classv8_1_1internal_1_1_bounds_check_bb_data_a54187bc9859ecde619cfd4f437bb92d2}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_bounds_check_bb_data_abddbde7da0ab8852c2a511c890fe9c0d}{}\hyperlink{classv8_1_1internal_1_1_bounds_check_bb_data}{Bounds\+Check\+Bb\+Data} $\ast$ {\bfseries Next\+In\+Basic\+Block} () const \label{classv8_1_1internal_1_1_bounds_check_bb_data_abddbde7da0ab8852c2a511c890fe9c0d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_bounds_check_bb_data_a7b30a1ec519b9c7eb193f4d62ace7134}{}\hyperlink{classv8_1_1internal_1_1_bounds_check_bb_data}{Bounds\+Check\+Bb\+Data} $\ast$ {\bfseries Father\+In\+Dominator\+Tree} () const \label{classv8_1_1internal_1_1_bounds_check_bb_data_a7b30a1ec519b9c7eb193f4d62ace7134}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_bounds_check_bb_data_a31b01a11fc7dc91f9f730cd846964f69}{}bool {\bfseries Offset\+Is\+Covered} (int32\+\_\+t offset) const \label{classv8_1_1internal_1_1_bounds_check_bb_data_a31b01a11fc7dc91f9f730cd846964f69}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_bounds_check_bb_data_a60a84a1534069c8392d4f4d2c1a10661}{}bool {\bfseries Has\+Single\+Check} ()\label{classv8_1_1internal_1_1_bounds_check_bb_data_a60a84a1534069c8392d4f4d2c1a10661}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_bounds_check_bb_data_ab8e202b743f598acfc51cedfed93f825}{}void {\bfseries Update\+Upper\+Offsets} (H\+Bounds\+Check $\ast$check, int32\+\_\+t offset)\label{classv8_1_1internal_1_1_bounds_check_bb_data_ab8e202b743f598acfc51cedfed93f825}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_bounds_check_bb_data_a1294e4625db8756b987d83191dfda9ea}{}void {\bfseries Update\+Lower\+Offsets} (H\+Bounds\+Check $\ast$check, int32\+\_\+t offset)\label{classv8_1_1internal_1_1_bounds_check_bb_data_a1294e4625db8756b987d83191dfda9ea}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_bounds_check_bb_data_a08bbd685e9d4b2268114719cdea4d6d3}{}void {\bfseries Cover\+Check} (H\+Bounds\+Check $\ast$new\+\_\+check, int32\+\_\+t new\+\_\+offset)\label{classv8_1_1internal_1_1_bounds_check_bb_data_a08bbd685e9d4b2268114719cdea4d6d3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_bounds_check_bb_data_a80784e614dd0f96c7dd278e50346c960}{}{\bfseries Bounds\+Check\+Bb\+Data} (\hyperlink{classv8_1_1internal_1_1_bounds_check_key}{Bounds\+Check\+Key} $\ast$key, int32\+\_\+t lower\+\_\+offset, int32\+\_\+t upper\+\_\+offset, H\+Basic\+Block $\ast$bb, H\+Bounds\+Check $\ast$lower\+\_\+check, H\+Bounds\+Check $\ast$upper\+\_\+check, \hyperlink{classv8_1_1internal_1_1_bounds_check_bb_data}{Bounds\+Check\+Bb\+Data} $\ast$next\+\_\+in\+\_\+bb, \hyperlink{classv8_1_1internal_1_1_bounds_check_bb_data}{Bounds\+Check\+Bb\+Data} $\ast$father\+\_\+in\+\_\+dt)\label{classv8_1_1internal_1_1_bounds_check_bb_data_a80784e614dd0f96c7dd278e50346c960}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/hydrogen-\/bce.\+cc\end{DoxyCompactItemize}

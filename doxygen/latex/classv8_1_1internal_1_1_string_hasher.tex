@@ -1,0 +1,57 @@
+\hypertarget{classv8_1_1internal_1_1_string_hasher}{}\section{v8\+:\+:internal\+:\+:String\+Hasher Class Reference}
+\label{classv8_1_1internal_1_1_string_hasher}\index{v8\+::internal\+::\+String\+Hasher@{v8\+::internal\+::\+String\+Hasher}}
+Inheritance diagram for v8\+:\+:internal\+:\+:String\+Hasher\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classv8_1_1internal_1_1_string_hasher}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_string_hasher_af4f8239d27611f3ae046e1e48053ea45}{}{\bfseries String\+Hasher} (int length, uint32\+\_\+t seed)\label{classv8_1_1internal_1_1_string_hasher_af4f8239d27611f3ae046e1e48053ea45}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_string_hasher_a23495a72164e10ee8d52fb6fa4d25a74}{}{\bfseries I\+N\+L\+I\+N\+E} (static uint32\+\_\+t Add\+Character\+Core(uint32\+\_\+t running\+\_\+hash, uint16\+\_\+t c))\label{classv8_1_1internal_1_1_string_hasher_a23495a72164e10ee8d52fb6fa4d25a74}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_string_hasher_af6fc8d62789d14fb989a180ad42783fe}{}{\bfseries I\+N\+L\+I\+N\+E} (static uint32\+\_\+t Get\+Hash\+Core(uint32\+\_\+t running\+\_\+hash))\label{classv8_1_1internal_1_1_string_hasher_af6fc8d62789d14fb989a180ad42783fe}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_string_hasher_af383d0048c55829db62e36cdcbeaaf2d}{}{\footnotesize template$<$typename schar $>$ }\\static uint32\+\_\+t {\bfseries Hash\+Sequential\+String} (const schar $\ast$chars, int length, uint32\+\_\+t seed)\label{classv8_1_1internal_1_1_string_hasher_af383d0048c55829db62e36cdcbeaaf2d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_string_hasher_a7a7b5ead06159017190235d8b18c834c}{}static uint32\+\_\+t {\bfseries Compute\+Utf8\+Hash} (\hyperlink{classv8_1_1internal_1_1_vector}{Vector}$<$ const char $>$ chars, uint32\+\_\+t seed, int $\ast$utf16\+\_\+length\+\_\+out)\label{classv8_1_1internal_1_1_string_hasher_a7a7b5ead06159017190235d8b18c834c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_string_hasher_aa478bc40298c8bd5f5478b40fa444c10}{}static uint32\+\_\+t {\bfseries Make\+Array\+Index\+Hash} (uint32\+\_\+t value, int length)\label{classv8_1_1internal_1_1_string_hasher_aa478bc40298c8bd5f5478b40fa444c10}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_string_hasher_ae0e5f2b5dc2ba3f181591f7b63f9149b}{}static const int {\bfseries k\+Zero\+Hash} = 27\label{classv8_1_1internal_1_1_string_hasher_ae0e5f2b5dc2ba3f181591f7b63f9149b}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_string_hasher_a24cb87423be59db3fe160354f68d7a96}{}uint32\+\_\+t {\bfseries Get\+Hash\+Field} ()\label{classv8_1_1internal_1_1_string_hasher_a24cb87423be59db3fe160354f68d7a96}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_string_hasher_ae1dc7e4c63246108c06add8f976a3972}{}bool {\bfseries has\+\_\+trivial\+\_\+hash} ()\label{classv8_1_1internal_1_1_string_hasher_ae1dc7e4c63246108c06add8f976a3972}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_string_hasher_a77e937ce030d8be14c67cbf03f5b6980}{}{\footnotesize template$<$typename Char $>$ }\\void {\bfseries Add\+Characters} (const Char $\ast$chars, int len)\label{classv8_1_1internal_1_1_string_hasher_a77e937ce030d8be14c67cbf03f5b6980}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/objects.\+h\item 
+src/objects-\/inl.\+h\item 
+src/objects.\+cc\end{DoxyCompactItemize}

@@ -1,0 +1,59 @@
+\hypertarget{classv8_1_1internal_1_1_optimized_compile_job}{}\section{v8\+:\+:internal\+:\+:Optimized\+Compile\+Job Class Reference}
+\label{classv8_1_1internal_1_1_optimized_compile_job}\index{v8\+::internal\+::\+Optimized\+Compile\+Job@{v8\+::internal\+::\+Optimized\+Compile\+Job}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Optimized\+Compile\+Job\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classv8_1_1internal_1_1_optimized_compile_job}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_optimized_compile_job_aaade4762d7f84ab3eb77b12d13d534e6}{}enum {\bfseries Status} \{ {\bfseries F\+A\+I\+L\+E\+D}, 
+{\bfseries B\+A\+I\+L\+E\+D\+\_\+\+O\+U\+T}, 
+{\bfseries S\+U\+C\+C\+E\+E\+D\+E\+D}
+ \}\label{classv8_1_1internal_1_1_optimized_compile_job_aaade4762d7f84ab3eb77b12d13d534e6}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_optimized_compile_job_a87b9e30747541e9af2956e071729ded1}{}{\bfseries Optimized\+Compile\+Job} (\hyperlink{classv8_1_1internal_1_1_compilation_info}{Compilation\+Info} $\ast$info)\label{classv8_1_1internal_1_1_optimized_compile_job_a87b9e30747541e9af2956e071729ded1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_optimized_compile_job_af76b475fefab74f49eec98646134a0d7}{}M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T Status {\bfseries Create\+Graph} ()\label{classv8_1_1internal_1_1_optimized_compile_job_af76b475fefab74f49eec98646134a0d7}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_optimized_compile_job_a1abf97466a4f7c0b60a5f329d754d20e}{}M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T Status {\bfseries Optimize\+Graph} ()\label{classv8_1_1internal_1_1_optimized_compile_job_a1abf97466a4f7c0b60a5f329d754d20e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_optimized_compile_job_a1fe536c984c4518237c1bec1a6303417}{}M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T Status {\bfseries Generate\+Code} ()\label{classv8_1_1internal_1_1_optimized_compile_job_a1fe536c984c4518237c1bec1a6303417}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_optimized_compile_job_afeccb772dc1c4c3424fe41841deefe8b}{}Status {\bfseries last\+\_\+status} () const \label{classv8_1_1internal_1_1_optimized_compile_job_afeccb772dc1c4c3424fe41841deefe8b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_optimized_compile_job_a369179d274e89415376691cfa74ff009}{}\hyperlink{classv8_1_1internal_1_1_compilation_info}{Compilation\+Info} $\ast$ {\bfseries info} () const \label{classv8_1_1internal_1_1_optimized_compile_job_a369179d274e89415376691cfa74ff009}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_optimized_compile_job_a236b4d4b9796f5c8a97f3496a5a672e0}{}\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$ {\bfseries isolate} () const \label{classv8_1_1internal_1_1_optimized_compile_job_a236b4d4b9796f5c8a97f3496a5a672e0}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_optimized_compile_job_a00c095176a910e42d1bca7eed6100d89}{}M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T Status {\bfseries Abort\+Optimization} (Bailout\+Reason reason=k\+No\+Reason)\label{classv8_1_1internal_1_1_optimized_compile_job_a00c095176a910e42d1bca7eed6100d89}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_optimized_compile_job_af2942f083502b3912fdb514974823cd7}{}M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T Status {\bfseries Abort\+And\+Disable\+Optimization} (Bailout\+Reason reason=k\+No\+Reason)\label{classv8_1_1internal_1_1_optimized_compile_job_af2942f083502b3912fdb514974823cd7}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_optimized_compile_job_a34d24e15802326714c75af48d28b21b9}{}void {\bfseries Wait\+For\+Install} ()\label{classv8_1_1internal_1_1_optimized_compile_job_a34d24e15802326714c75af48d28b21b9}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_optimized_compile_job_aaa879123172ee91e30ea22a160b9c0a4}{}bool {\bfseries Is\+Waiting\+For\+Install} ()\label{classv8_1_1internal_1_1_optimized_compile_job_aaa879123172ee91e30ea22a160b9c0a4}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/compiler.\+h\item 
+src/compiler.\+cc\end{DoxyCompactItemize}

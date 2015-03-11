@@ -1,0 +1,70 @@
+\hypertarget{classv8_1_1internal_1_1_prototype_iterator}{}\section{v8\+:\+:internal\+:\+:Prototype\+Iterator Class Reference}
+\label{classv8_1_1internal_1_1_prototype_iterator}\index{v8\+::internal\+::\+Prototype\+Iterator@{v8\+::internal\+::\+Prototype\+Iterator}}
+
+
+{\ttfamily \#include $<$prototype.\+h$>$}
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_prototype_iterator_ac1d06cadd4ffc11f60273f23b4b03bb0}{}enum {\bfseries Where\+To\+Start} \{ {\bfseries S\+T\+A\+R\+T\+\_\+\+A\+T\+\_\+\+R\+E\+C\+E\+I\+V\+E\+R}, 
+{\bfseries S\+T\+A\+R\+T\+\_\+\+A\+T\+\_\+\+P\+R\+O\+T\+O\+T\+Y\+P\+E}
+ \}\label{classv8_1_1internal_1_1_prototype_iterator_ac1d06cadd4ffc11f60273f23b4b03bb0}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_prototype_iterator_a56b39f100d48581d82bcbd824e9e6b34}{}enum {\bfseries Where\+To\+End} \{ {\bfseries E\+N\+D\+\_\+\+A\+T\+\_\+\+N\+U\+L\+L}, 
+{\bfseries E\+N\+D\+\_\+\+A\+T\+\_\+\+N\+O\+N\+\_\+\+H\+I\+D\+D\+E\+N}
+ \}\label{classv8_1_1internal_1_1_prototype_iterator_a56b39f100d48581d82bcbd824e9e6b34}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_prototype_iterator_aae2238fb875082cb763e3c2988105e7d}{}{\bfseries Prototype\+Iterator} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ receiver, Where\+To\+Start where\+\_\+to\+\_\+start=S\+T\+A\+R\+T\+\_\+\+A\+T\+\_\+\+P\+R\+O\+T\+O\+T\+Y\+P\+E)\label{classv8_1_1internal_1_1_prototype_iterator_aae2238fb875082cb763e3c2988105e7d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_prototype_iterator_a3636c45d041e9af16d0bd8ad87a425bc}{}{\bfseries Prototype\+Iterator} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, \hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$receiver, Where\+To\+Start where\+\_\+to\+\_\+start=S\+T\+A\+R\+T\+\_\+\+A\+T\+\_\+\+P\+R\+O\+T\+O\+T\+Y\+P\+E)\label{classv8_1_1internal_1_1_prototype_iterator_a3636c45d041e9af16d0bd8ad87a425bc}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_prototype_iterator_a65096861a41353f1f2da75d57bdd00e5}{}{\bfseries Prototype\+Iterator} (\hyperlink{classv8_1_1internal_1_1_map}{Map} $\ast$receiver\+\_\+map)\label{classv8_1_1internal_1_1_prototype_iterator_a65096861a41353f1f2da75d57bdd00e5}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_prototype_iterator_abda62e063f1b70a4d4248c579627c5ba}{}{\bfseries Prototype\+Iterator} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_map}{Map} $>$ receiver\+\_\+map)\label{classv8_1_1internal_1_1_prototype_iterator_abda62e063f1b70a4d4248c579627c5ba}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_prototype_iterator_a58a5ac7010eba53058c5204e1c5f939f}{}\hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$ {\bfseries Get\+Current} () const \label{classv8_1_1internal_1_1_prototype_iterator_a58a5ac7010eba53058c5204e1c5f939f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_prototype_iterator_aac13aff50ca8b7566887d078e4102ff8}{}void {\bfseries Advance} ()\label{classv8_1_1internal_1_1_prototype_iterator_aac13aff50ca8b7566887d078e4102ff8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_prototype_iterator_ab057cee4da776bc58be4bd5275a00e59}{}void {\bfseries Advance\+Ignoring\+Proxies} ()\label{classv8_1_1internal_1_1_prototype_iterator_ab057cee4da776bc58be4bd5275a00e59}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_prototype_iterator_a79780e045cd52b32403683cd776f5a45}{}bool {\bfseries Is\+At\+End} (Where\+To\+End where\+\_\+to\+\_\+end=E\+N\+D\+\_\+\+A\+T\+\_\+\+N\+U\+L\+L) const \label{classv8_1_1internal_1_1_prototype_iterator_a79780e045cd52b32403683cd776f5a45}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_prototype_iterator_a188dce0db6323dd27ff57d75630133c7}{}bool {\bfseries Is\+At\+End} (\hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$final\+\_\+object)\label{classv8_1_1internal_1_1_prototype_iterator_a188dce0db6323dd27ff57d75630133c7}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_prototype_iterator_ace2959191761cf8e1475bc14c6cb34ec}{}bool {\bfseries Is\+At\+End} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ final\+\_\+object)\label{classv8_1_1internal_1_1_prototype_iterator_ace2959191761cf8e1475bc14c6cb34ec}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_prototype_iterator_a5844f82e8fdb0b633bca85f557466554}{}static \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ {\bfseries Get\+Current} (const \hyperlink{classv8_1_1internal_1_1_prototype_iterator}{Prototype\+Iterator} \&iterator)\label{classv8_1_1internal_1_1_prototype_iterator_a5844f82e8fdb0b633bca85f557466554}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A class to uniformly access the prototype of any \hyperlink{classv8_1_1internal_1_1_object}{Object} and walk its prototype chain.
+
+The \hyperlink{classv8_1_1internal_1_1_prototype_iterator}{Prototype\+Iterator} can either start at the prototype (default), or include the receiver itself. If a \hyperlink{classv8_1_1internal_1_1_prototype_iterator}{Prototype\+Iterator} is constructed for a \hyperlink{classv8_1_1internal_1_1_map}{Map}, it will always start at the prototype.
+
+The \hyperlink{classv8_1_1internal_1_1_prototype_iterator}{Prototype\+Iterator} can either run to the null\+\_\+value(), the first non-\/hidden prototype, or a given object. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/prototype.\+h\end{DoxyCompactItemize}

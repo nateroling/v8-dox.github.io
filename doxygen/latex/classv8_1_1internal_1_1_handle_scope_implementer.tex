@@ -1,0 +1,89 @@
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer}{}\section{v8\+:\+:internal\+:\+:Handle\+Scope\+Implementer Class Reference}
+\label{classv8_1_1internal_1_1_handle_scope_implementer}\index{v8\+::internal\+::\+Handle\+Scope\+Implementer@{v8\+::internal\+::\+Handle\+Scope\+Implementer}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_a8a8b3601372eacaddfe9eae275e7bdc5}{}{\bfseries Handle\+Scope\+Implementer} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate)\label{classv8_1_1internal_1_1_handle_scope_implementer_a8a8b3601372eacaddfe9eae275e7bdc5}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_aba36eab4b28babfa77c6c4e033e588c7}{}char $\ast$ {\bfseries Restore\+Thread} (char $\ast$from)\label{classv8_1_1internal_1_1_handle_scope_implementer_aba36eab4b28babfa77c6c4e033e588c7}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_a62d016202e4b0555cea27a762608b275}{}char $\ast$ {\bfseries Archive\+Thread} (char $\ast$to)\label{classv8_1_1internal_1_1_handle_scope_implementer_a62d016202e4b0555cea27a762608b275}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_a3e23aca523c7e6549024c75f7985ea34}{}void {\bfseries Free\+Thread\+Resources} ()\label{classv8_1_1internal_1_1_handle_scope_implementer_a3e23aca523c7e6549024c75f7985ea34}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_a7d8cd9ab951e5aacf899920ce3511b69}{}void {\bfseries Iterate} (v8\+::internal\+::\+Object\+Visitor $\ast$v)\label{classv8_1_1internal_1_1_handle_scope_implementer_a7d8cd9ab951e5aacf899920ce3511b69}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_a550cf59642751039843ac5c054d6992f}{}\hyperlink{classv8_1_1internal_1_1_object}{internal\+::\+Object} $\ast$$\ast$ {\bfseries Get\+Spare\+Or\+New\+Block} ()\label{classv8_1_1internal_1_1_handle_scope_implementer_a550cf59642751039843ac5c054d6992f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_a6c874fc21bbccc3d17fea1d0ae76b075}{}void {\bfseries Delete\+Extensions} (\hyperlink{classv8_1_1internal_1_1_object}{internal\+::\+Object} $\ast$$\ast$prev\+\_\+limit)\label{classv8_1_1internal_1_1_handle_scope_implementer_a6c874fc21bbccc3d17fea1d0ae76b075}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_ab91ad6a14a13c7dd0ee420e455272706}{}void {\bfseries Increment\+Call\+Depth} ()\label{classv8_1_1internal_1_1_handle_scope_implementer_ab91ad6a14a13c7dd0ee420e455272706}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_aa503b0fb753df9d57f5c8de2e384b2f6}{}void {\bfseries Decrement\+Call\+Depth} ()\label{classv8_1_1internal_1_1_handle_scope_implementer_aa503b0fb753df9d57f5c8de2e384b2f6}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_a5a051f1285f10d2f313a1315994a22ed}{}bool {\bfseries Call\+Depth\+Is\+Zero} ()\label{classv8_1_1internal_1_1_handle_scope_implementer_a5a051f1285f10d2f313a1315994a22ed}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_a10aa3efa1e5376006a96560480eadac2}{}void {\bfseries Enter\+Context} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_context}{Context} $>$ context)\label{classv8_1_1internal_1_1_handle_scope_implementer_a10aa3efa1e5376006a96560480eadac2}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_a01b77adea5938074f429ce5b09a01957}{}void {\bfseries Leave\+Context} ()\label{classv8_1_1internal_1_1_handle_scope_implementer_a01b77adea5938074f429ce5b09a01957}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_a78cf5f905688f7d79127c652c7514138}{}bool {\bfseries Last\+Entered\+Context\+Was} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_context}{Context} $>$ context)\label{classv8_1_1internal_1_1_handle_scope_implementer_a78cf5f905688f7d79127c652c7514138}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_a1c62a5fe2aab4f295b3b4c4ae4b540ee}{}\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_context}{Context} $>$ {\bfseries Last\+Entered\+Context} ()\label{classv8_1_1internal_1_1_handle_scope_implementer_a1c62a5fe2aab4f295b3b4c4ae4b540ee}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_aef55d684ac1e967647e3c7c7fe88934e}{}void {\bfseries Save\+Context} (\hyperlink{classv8_1_1internal_1_1_context}{Context} $\ast$context)\label{classv8_1_1internal_1_1_handle_scope_implementer_aef55d684ac1e967647e3c7c7fe88934e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_abe96edb9ee340526135c7411675263ae}{}\hyperlink{classv8_1_1internal_1_1_context}{Context} $\ast$ {\bfseries Restore\+Context} ()\label{classv8_1_1internal_1_1_handle_scope_implementer_abe96edb9ee340526135c7411675263ae}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_a75f22aaa7cfac21893a225cf11e33a44}{}bool {\bfseries Has\+Saved\+Contexts} ()\label{classv8_1_1internal_1_1_handle_scope_implementer_a75f22aaa7cfac21893a225cf11e33a44}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_a7c913f3c0323d6328bca5bc6d91a5770}{}\hyperlink{classv8_1_1internal_1_1_list}{List}$<$ \hyperlink{classv8_1_1internal_1_1_object}{internal\+::\+Object} $\ast$$\ast$ $>$ $\ast$ {\bfseries blocks} ()\label{classv8_1_1internal_1_1_handle_scope_implementer_a7c913f3c0323d6328bca5bc6d91a5770}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_a57dc904b458b9086519bea355b812ee8}{}\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$ {\bfseries isolate} () const \label{classv8_1_1internal_1_1_handle_scope_implementer_a57dc904b458b9086519bea355b812ee8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_ae0b1e391b793af16c9738d6ff0c5973e}{}void {\bfseries Return\+Block} (\hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$$\ast$block)\label{classv8_1_1internal_1_1_handle_scope_implementer_ae0b1e391b793af16c9738d6ff0c5973e}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_ae1a88c356c5413fc94977f71ef5915e7}{}static int {\bfseries Archive\+Space\+Per\+Thread} ()\label{classv8_1_1internal_1_1_handle_scope_implementer_ae1a88c356c5413fc94977f71ef5915e7}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_a752b290babe1b9cb958f60bf84f6ad09}{}static char $\ast$ {\bfseries Iterate} (v8\+::internal\+::\+Object\+Visitor $\ast$v, char $\ast$data)\label{classv8_1_1internal_1_1_handle_scope_implementer_a752b290babe1b9cb958f60bf84f6ad09}
+
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_abf66bd266bd1fddbc859832c4838b436}{}class {\bfseries Deferred\+Handles}\label{classv8_1_1internal_1_1_handle_scope_implementer_abf66bd266bd1fddbc859832c4838b436}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_handle_scope_implementer_ab79a97e63b62ac3e95a40640e3e70f96}{}class {\bfseries Deferred\+Handle\+Scope}\label{classv8_1_1internal_1_1_handle_scope_implementer_ab79a97e63b62ac3e95a40640e3e70f96}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/api.\+h\item 
+src/api.\+cc\end{DoxyCompactItemize}

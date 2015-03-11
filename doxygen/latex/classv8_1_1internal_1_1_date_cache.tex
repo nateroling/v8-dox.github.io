@@ -1,0 +1,122 @@
+\hypertarget{classv8_1_1internal_1_1_date_cache}{}\section{v8\+:\+:internal\+:\+:Date\+Cache Class Reference}
+\label{classv8_1_1internal_1_1_date_cache}\index{v8\+::internal\+::\+Date\+Cache@{v8\+::internal\+::\+Date\+Cache}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_a234d6747df82eeccae3686cc030d6877}{}void {\bfseries Reset\+Date\+Cache} ()\label{classv8_1_1internal_1_1_date_cache_a234d6747df82eeccae3686cc030d6877}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_aa83122db4a93e0492adaad825749a689}{}int {\bfseries Weekday} (int days)\label{classv8_1_1internal_1_1_date_cache_aa83122db4a93e0492adaad825749a689}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_a215a3a32269cfc00a9f682acaf52593c}{}bool {\bfseries Is\+Leap} (int year)\label{classv8_1_1internal_1_1_date_cache_a215a3a32269cfc00a9f682acaf52593c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_a1705ad54413c08e5a8fd1e7e0588b022}{}int {\bfseries Local\+Offset\+In\+Ms} ()\label{classv8_1_1internal_1_1_date_cache_a1705ad54413c08e5a8fd1e7e0588b022}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_a72f75a025482ea24097a84680ea692e6}{}const char $\ast$ {\bfseries Local\+Timezone} (int64\+\_\+t time\+\_\+ms)\label{classv8_1_1internal_1_1_date_cache_a72f75a025482ea24097a84680ea692e6}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_acdfa35aaa92db20cffd304ffb6bf1e45}{}int {\bfseries Timezone\+Offset} (int64\+\_\+t time\+\_\+ms)\label{classv8_1_1internal_1_1_date_cache_acdfa35aaa92db20cffd304ffb6bf1e45}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_a8deadbe8d0a827ed155d396ef3c4e164}{}int64\+\_\+t {\bfseries To\+Local} (int64\+\_\+t time\+\_\+ms)\label{classv8_1_1internal_1_1_date_cache_a8deadbe8d0a827ed155d396ef3c4e164}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_aa9c27e444fd19db8bd922f49510906e4}{}int64\+\_\+t {\bfseries To\+U\+T\+C} (int64\+\_\+t time\+\_\+ms)\label{classv8_1_1internal_1_1_date_cache_aa9c27e444fd19db8bd922f49510906e4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_af3dd4e80a7ac5044eeb20817d6134bd1}{}int64\+\_\+t {\bfseries Equivalent\+Time} (int64\+\_\+t time\+\_\+ms)\label{classv8_1_1internal_1_1_date_cache_af3dd4e80a7ac5044eeb20817d6134bd1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_a0c170e47eb85e4d7ee1a991290571685}{}int {\bfseries Equivalent\+Year} (int year)\label{classv8_1_1internal_1_1_date_cache_a0c170e47eb85e4d7ee1a991290571685}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_a5aa2a0800947deeb859a1392cb4e050d}{}void {\bfseries Year\+Month\+Day\+From\+Days} (int days, int $\ast$year, int $\ast$month, int $\ast$day)\label{classv8_1_1internal_1_1_date_cache_a5aa2a0800947deeb859a1392cb4e050d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_a1eab5288c1b1da6639e14bf4e93509d3}{}int {\bfseries Days\+From\+Year\+Month} (int year, int month)\label{classv8_1_1internal_1_1_date_cache_a1eab5288c1b1da6639e14bf4e93509d3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_a300296627a0a914acde15d6c8b92a047}{}\hyperlink{classv8_1_1internal_1_1_smi}{Smi} $\ast$ {\bfseries stamp} ()\label{classv8_1_1internal_1_1_date_cache_a300296627a0a914acde15d6c8b92a047}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_ae977601d5642d31a9b6ed482fb5bc869}{}void $\ast$ {\bfseries stamp\+\_\+address} ()\label{classv8_1_1internal_1_1_date_cache_ae977601d5642d31a9b6ed482fb5bc869}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_a0414713d5ff25ceba3e28895eac1a11d}{}virtual int {\bfseries Get\+Daylight\+Savings\+Offset\+From\+O\+S} (int64\+\_\+t time\+\_\+sec)\label{classv8_1_1internal_1_1_date_cache_a0414713d5ff25ceba3e28895eac1a11d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_a18150386224c00b71e53bf68a28b25f1}{}virtual int {\bfseries Get\+Local\+Offset\+From\+O\+S} ()\label{classv8_1_1internal_1_1_date_cache_a18150386224c00b71e53bf68a28b25f1}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_aad8fb01f0a57bc43277def6da5993aae}{}static int {\bfseries Days\+From\+Time} (int64\+\_\+t time\+\_\+ms)\label{classv8_1_1internal_1_1_date_cache_aad8fb01f0a57bc43277def6da5993aae}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_a3027a581b156086c088deca2a2a5f768}{}static int {\bfseries Time\+In\+Day} (int64\+\_\+t time\+\_\+ms, int days)\label{classv8_1_1internal_1_1_date_cache_a3027a581b156086c088deca2a2a5f768}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_a3c761028d118de4a4d1e48b61cf4d349}{}static const int {\bfseries k\+Ms\+Per\+Min} = 60 $\ast$ 1000\label{classv8_1_1internal_1_1_date_cache_a3c761028d118de4a4d1e48b61cf4d349}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_a79dad318641797f0763f3ec7c29f206f}{}static const int {\bfseries k\+Sec\+Per\+Day} = 24 $\ast$ 60 $\ast$ 60\label{classv8_1_1internal_1_1_date_cache_a79dad318641797f0763f3ec7c29f206f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_aba1f60dee0b7f7d1b7e0b99323e6d613}{}static const int64\+\_\+t {\bfseries k\+Ms\+Per\+Day} = k\+Sec\+Per\+Day $\ast$ 1000\label{classv8_1_1internal_1_1_date_cache_aba1f60dee0b7f7d1b7e0b99323e6d613}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_a9b0e9e5f19fd9e849462123954e0557d}{}static const int {\bfseries k\+Max\+Epoch\+Time\+In\+Sec} = k\+Max\+Int\label{classv8_1_1internal_1_1_date_cache_a9b0e9e5f19fd9e849462123954e0557d}
+
+\item 
+static const int64\+\_\+t {\bfseries k\+Max\+Epoch\+Time\+In\+Ms}
+\item 
+static const int64\+\_\+t {\bfseries k\+Max\+Time\+In\+Ms}
+\item 
+static const int64\+\_\+t {\bfseries k\+Max\+Time\+Before\+U\+T\+C\+In\+Ms}
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_ab1f3dcb4895b2e277589cce9d025c104}{}static const int {\bfseries k\+Invalid\+Local\+Offset\+In\+Ms} = k\+Max\+Int\label{classv8_1_1internal_1_1_date_cache_ab1f3dcb4895b2e277589cce9d025c104}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_date_cache_a672aa540aa45bd02ac9eea74a1536841}{}static const int {\bfseries k\+Invalid\+Stamp} = -\/1\label{classv8_1_1internal_1_1_date_cache_a672aa540aa45bd02ac9eea74a1536841}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classv8_1_1internal_1_1_date_cache_a86951568799478d24f7a082a282fb950}{}\index{v8\+::internal\+::\+Date\+Cache@{v8\+::internal\+::\+Date\+Cache}!k\+Max\+Epoch\+Time\+In\+Ms@{k\+Max\+Epoch\+Time\+In\+Ms}}
+\index{k\+Max\+Epoch\+Time\+In\+Ms@{k\+Max\+Epoch\+Time\+In\+Ms}!v8\+::internal\+::\+Date\+Cache@{v8\+::internal\+::\+Date\+Cache}}
+\subsubsection[{k\+Max\+Epoch\+Time\+In\+Ms}]{\setlength{\rightskip}{0pt plus 5cm}const int64\+\_\+t v8\+::internal\+::\+Date\+Cache\+::k\+Max\+Epoch\+Time\+In\+Ms\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_date_cache_a86951568799478d24f7a082a282fb950}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      \textcolor{keyword}{static\_cast<}int64\_t\textcolor{keyword}{>}(kMaxInt) * 1000
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_date_cache_aeda61b9cbafe90e99870516c0ce10bcc}{}\index{v8\+::internal\+::\+Date\+Cache@{v8\+::internal\+::\+Date\+Cache}!k\+Max\+Time\+Before\+U\+T\+C\+In\+Ms@{k\+Max\+Time\+Before\+U\+T\+C\+In\+Ms}}
+\index{k\+Max\+Time\+Before\+U\+T\+C\+In\+Ms@{k\+Max\+Time\+Before\+U\+T\+C\+In\+Ms}!v8\+::internal\+::\+Date\+Cache@{v8\+::internal\+::\+Date\+Cache}}
+\subsubsection[{k\+Max\+Time\+Before\+U\+T\+C\+In\+Ms}]{\setlength{\rightskip}{0pt plus 5cm}const int64\+\_\+t v8\+::internal\+::\+Date\+Cache\+::k\+Max\+Time\+Before\+U\+T\+C\+In\+Ms\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_date_cache_aeda61b9cbafe90e99870516c0ce10bcc}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      kMaxTimeInMs + 10 * kMsPerDay
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_date_cache_a9b5d4e427df84cc594d6a541f9ea309e}{}\index{v8\+::internal\+::\+Date\+Cache@{v8\+::internal\+::\+Date\+Cache}!k\+Max\+Time\+In\+Ms@{k\+Max\+Time\+In\+Ms}}
+\index{k\+Max\+Time\+In\+Ms@{k\+Max\+Time\+In\+Ms}!v8\+::internal\+::\+Date\+Cache@{v8\+::internal\+::\+Date\+Cache}}
+\subsubsection[{k\+Max\+Time\+In\+Ms}]{\setlength{\rightskip}{0pt plus 5cm}const int64\+\_\+t v8\+::internal\+::\+Date\+Cache\+::k\+Max\+Time\+In\+Ms\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_date_cache_a9b5d4e427df84cc594d6a541f9ea309e}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      \textcolor{keyword}{static\_cast<}int64\_t\textcolor{keyword}{>}(864000000) * 10000000
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/date.\+h\item 
+src/date.\+cc\end{DoxyCompactItemize}

@@ -1,0 +1,128 @@
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node}{}\section{v8\+:\+:internal\+:\+:Global\+Handles\+:\+:Node Class Reference}
+\label{classv8_1_1internal_1_1_global_handles_1_1_node}\index{v8\+::internal\+::\+Global\+Handles\+::\+Node@{v8\+::internal\+::\+Global\+Handles\+::\+Node}}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_ad0e78c1f3196c693801bcac55e643acb}{}enum {\bfseries State} \{ \\*
+{\bfseries F\+R\+E\+E} = 0, 
+{\bfseries N\+O\+R\+M\+A\+L}, 
+{\bfseries W\+E\+A\+K}, 
+{\bfseries P\+E\+N\+D\+I\+N\+G}, 
+\\*
+{\bfseries N\+E\+A\+R\+\_\+\+D\+E\+A\+T\+H}
+ \}\label{classv8_1_1internal_1_1_global_handles_1_1_node_ad0e78c1f3196c693801bcac55e643acb}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_ad2092d67d09a06198b48cd86f53f1f4d}{}void {\bfseries Initialize} (int index, \hyperlink{classv8_1_1internal_1_1_global_handles_1_1_node}{Node} $\ast$$\ast$first\+\_\+free)\label{classv8_1_1internal_1_1_global_handles_1_1_node_ad2092d67d09a06198b48cd86f53f1f4d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_af7d9c870496b92afc720f5e6deb4e0a7}{}void {\bfseries Acquire} (\hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$object)\label{classv8_1_1internal_1_1_global_handles_1_1_node_af7d9c870496b92afc720f5e6deb4e0a7}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a586a56ec9fc3422e6622b6c612f643c8}{}void {\bfseries Release} ()\label{classv8_1_1internal_1_1_global_handles_1_1_node_a586a56ec9fc3422e6622b6c612f643c8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a2d4d0f96b9a13839c20b4c241ae1e5c3}{}\hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$ {\bfseries object} () const \label{classv8_1_1internal_1_1_global_handles_1_1_node_a2d4d0f96b9a13839c20b4c241ae1e5c3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a1e04151b1c5f59f13081dd581092c032}{}\hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$$\ast$ {\bfseries location} ()\label{classv8_1_1internal_1_1_global_handles_1_1_node_a1e04151b1c5f59f13081dd581092c032}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a76dcdfe5e1c1531af3d4e04bc71d5d2e}{}\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ {\bfseries handle} ()\label{classv8_1_1internal_1_1_global_handles_1_1_node_a76dcdfe5e1c1531af3d4e04bc71d5d2e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a51a37969ddb0827dc69d451344341c2e}{}bool {\bfseries has\+\_\+wrapper\+\_\+class\+\_\+id} () const \label{classv8_1_1internal_1_1_global_handles_1_1_node_a51a37969ddb0827dc69d451344341c2e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_ae9dbf54d075e7f98a46da1288b299d8a}{}uint16\+\_\+t {\bfseries wrapper\+\_\+class\+\_\+id} () const \label{classv8_1_1internal_1_1_global_handles_1_1_node_ae9dbf54d075e7f98a46da1288b299d8a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_aeac7d9f148b9804ff39130fa41c3655c}{}State {\bfseries state} () const \label{classv8_1_1internal_1_1_global_handles_1_1_node_aeac7d9f148b9804ff39130fa41c3655c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a62cc6905a2626126108d3da1523c5047}{}void {\bfseries set\+\_\+state} (State state)\label{classv8_1_1internal_1_1_global_handles_1_1_node_a62cc6905a2626126108d3da1523c5047}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_ad705b4dee1c9327be0ccca4eee5be8cb}{}bool {\bfseries is\+\_\+independent} ()\label{classv8_1_1internal_1_1_global_handles_1_1_node_ad705b4dee1c9327be0ccca4eee5be8cb}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a8a41ece055a6ce757b2bbc30a16f3a7e}{}void {\bfseries set\+\_\+independent} (bool v)\label{classv8_1_1internal_1_1_global_handles_1_1_node_a8a41ece055a6ce757b2bbc30a16f3a7e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a06b3b29a7a20ac9406424068cc810a67}{}bool {\bfseries is\+\_\+partially\+\_\+dependent} ()\label{classv8_1_1internal_1_1_global_handles_1_1_node_a06b3b29a7a20ac9406424068cc810a67}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a3836f0f134b37a294fdd4363d2982760}{}void {\bfseries set\+\_\+partially\+\_\+dependent} (bool v)\label{classv8_1_1internal_1_1_global_handles_1_1_node_a3836f0f134b37a294fdd4363d2982760}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a6e5d7f117ce0a0b8e7344c233f3dddb4}{}bool {\bfseries is\+\_\+in\+\_\+new\+\_\+space\+\_\+list} ()\label{classv8_1_1internal_1_1_global_handles_1_1_node_a6e5d7f117ce0a0b8e7344c233f3dddb4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a5596327b1faad5b93b95132395792fb5}{}void {\bfseries set\+\_\+in\+\_\+new\+\_\+space\+\_\+list} (bool v)\label{classv8_1_1internal_1_1_global_handles_1_1_node_a5596327b1faad5b93b95132395792fb5}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a4dc934f7e29da84517aa8ebd29a9f5c7}{}bool {\bfseries Is\+Near\+Death} () const \label{classv8_1_1internal_1_1_global_handles_1_1_node_a4dc934f7e29da84517aa8ebd29a9f5c7}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_abc52cedd40e2532a2bb2a44b8509eba3}{}bool {\bfseries Is\+Weak} () const \label{classv8_1_1internal_1_1_global_handles_1_1_node_abc52cedd40e2532a2bb2a44b8509eba3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_af51381e72a48d03e23ec8135279575fa}{}bool {\bfseries Is\+Retainer} () const \label{classv8_1_1internal_1_1_global_handles_1_1_node_af51381e72a48d03e23ec8135279575fa}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a3d6fb60e9de800ee504bd60da76893e5}{}bool {\bfseries Is\+Strong\+Retainer} () const \label{classv8_1_1internal_1_1_global_handles_1_1_node_a3d6fb60e9de800ee504bd60da76893e5}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_aa2cf3a7169b51fe3ff3f5ea343ef3ed5}{}bool {\bfseries Is\+Weak\+Retainer} () const \label{classv8_1_1internal_1_1_global_handles_1_1_node_aa2cf3a7169b51fe3ff3f5ea343ef3ed5}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_acb454925d447ff902497f21a7e596eea}{}void {\bfseries Mark\+Pending} ()\label{classv8_1_1internal_1_1_global_handles_1_1_node_acb454925d447ff902497f21a7e596eea}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a8fc7f9f3d7187b1b980e3900ec619e45}{}void {\bfseries Mark\+Independent} ()\label{classv8_1_1internal_1_1_global_handles_1_1_node_a8fc7f9f3d7187b1b980e3900ec619e45}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a81f6467c650368810d1423d9c6e481d9}{}void {\bfseries Mark\+Partially\+Dependent} ()\label{classv8_1_1internal_1_1_global_handles_1_1_node_a81f6467c650368810d1423d9c6e481d9}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_abac00fd84b58b4a4a972df48bf6bdc3d}{}void {\bfseries clear\+\_\+partially\+\_\+dependent} ()\label{classv8_1_1internal_1_1_global_handles_1_1_node_abac00fd84b58b4a4a972df48bf6bdc3d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a85dffe3db281650c32edf180a0d9d48f}{}void {\bfseries set\+\_\+parameter} (void $\ast$parameter)\label{classv8_1_1internal_1_1_global_handles_1_1_node_a85dffe3db281650c32edf180a0d9d48f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a9147080ca6f31bdb7c68ffeb1eb8eab4}{}void $\ast$ {\bfseries parameter} () const \label{classv8_1_1internal_1_1_global_handles_1_1_node_a9147080ca6f31bdb7c68ffeb1eb8eab4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a3c316b1fc6a3d0520e03dd1c81606cbc}{}\hyperlink{classv8_1_1internal_1_1_global_handles_1_1_node}{Node} $\ast$ {\bfseries next\+\_\+free} ()\label{classv8_1_1internal_1_1_global_handles_1_1_node_a3c316b1fc6a3d0520e03dd1c81606cbc}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_af10c1ad6d2969bd15bb7843c7beb4452}{}void {\bfseries set\+\_\+next\+\_\+free} (\hyperlink{classv8_1_1internal_1_1_global_handles_1_1_node}{Node} $\ast$value)\label{classv8_1_1internal_1_1_global_handles_1_1_node_af10c1ad6d2969bd15bb7843c7beb4452}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_af146205ac78bc2d767d1c00f61069f96}{}void {\bfseries Make\+Weak} (void $\ast$parameter, Weak\+Callback weak\+\_\+callback)\label{classv8_1_1internal_1_1_global_handles_1_1_node_af146205ac78bc2d767d1c00f61069f96}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_ad2abb4476219d95838cfb9110030a1e6}{}void $\ast$ {\bfseries Clear\+Weakness} ()\label{classv8_1_1internal_1_1_global_handles_1_1_node_ad2abb4476219d95838cfb9110030a1e6}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_af5f7bb202ad8da637eb3bf84f55513a4}{}bool {\bfseries Post\+Garbage\+Collection\+Processing} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate)\label{classv8_1_1internal_1_1_global_handles_1_1_node_af5f7bb202ad8da637eb3bf84f55513a4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a0ca4bb19bd0b3d379861815ab229d656}{}\hyperlink{classv8_1_1internal_1_1_global_handles}{Global\+Handles} $\ast$ {\bfseries Get\+Global\+Handles} ()\label{classv8_1_1internal_1_1_global_handles_1_1_node_a0ca4bb19bd0b3d379861815ab229d656}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_global_handles_1_1_node_a96d8edb89864010ec5ce1de5835c8e6f}{}static \hyperlink{classv8_1_1internal_1_1_global_handles_1_1_node}{Node} $\ast$ {\bfseries From\+Location} (\hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$$\ast$location)\label{classv8_1_1internal_1_1_global_handles_1_1_node_a96d8edb89864010ec5ce1de5835c8e6f}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/global-\/handles.\+cc\end{DoxyCompactItemize}

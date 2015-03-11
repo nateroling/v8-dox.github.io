@@ -1,0 +1,54 @@
+\hypertarget{classv8_1_1internal_1_1_code_stub_interface_descriptor}{}\section{v8\+:\+:internal\+:\+:Code\+Stub\+Interface\+Descriptor Class Reference}
+\label{classv8_1_1internal_1_1_code_stub_interface_descriptor}\index{v8\+::internal\+::\+Code\+Stub\+Interface\+Descriptor@{v8\+::internal\+::\+Code\+Stub\+Interface\+Descriptor}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Code\+Stub\+Interface\+Descriptor\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classv8_1_1internal_1_1_code_stub_interface_descriptor}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_code_stub_interface_descriptor_acdbad76e82c81f97c34d60ee9f524932}{}void {\bfseries Initialize} (Code\+Stub\+::\+Major major, int register\+\_\+parameter\+\_\+count, Register $\ast$registers, Address deoptimization\+\_\+handler=N\+U\+L\+L, \hyperlink{classv8_1_1internal_1_1_representation}{Representation} $\ast$register\+\_\+param\+\_\+representations=N\+U\+L\+L, int hint\+\_\+stack\+\_\+parameter\+\_\+count=-\/1, Stub\+Function\+Mode function\+\_\+mode=N\+O\+T\+\_\+\+J\+S\+\_\+\+F\+U\+N\+C\+T\+I\+O\+N\+\_\+\+S\+T\+U\+B\+\_\+\+M\+O\+D\+E)\label{classv8_1_1internal_1_1_code_stub_interface_descriptor_acdbad76e82c81f97c34d60ee9f524932}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_code_stub_interface_descriptor_ad1d413a4ac753bcf417d583632cc2f86}{}void {\bfseries Initialize} (Code\+Stub\+::\+Major major, int register\+\_\+parameter\+\_\+count, Register $\ast$registers, Register stack\+\_\+parameter\+\_\+count, Address deoptimization\+\_\+handler=N\+U\+L\+L, \hyperlink{classv8_1_1internal_1_1_representation}{Representation} $\ast$register\+\_\+param\+\_\+representations=N\+U\+L\+L, int hint\+\_\+stack\+\_\+parameter\+\_\+count=-\/1, Stub\+Function\+Mode function\+\_\+mode=N\+O\+T\+\_\+\+J\+S\+\_\+\+F\+U\+N\+C\+T\+I\+O\+N\+\_\+\+S\+T\+U\+B\+\_\+\+M\+O\+D\+E, Handler\+Arguments\+Mode handler\+\_\+mode=D\+O\+N\+T\+\_\+\+P\+A\+S\+S\+\_\+\+A\+R\+G\+U\+M\+E\+N\+T\+S)\label{classv8_1_1internal_1_1_code_stub_interface_descriptor_ad1d413a4ac753bcf417d583632cc2f86}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_code_stub_interface_descriptor_a616c925bf4a1109766f9c443b3a96afc}{}void {\bfseries Set\+Miss\+Handler} (External\+Reference handler)\label{classv8_1_1internal_1_1_code_stub_interface_descriptor_a616c925bf4a1109766f9c443b3a96afc}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_code_stub_interface_descriptor_a1583dd5e8e41abc9e36174571095f823}{}External\+Reference {\bfseries miss\+\_\+handler} () const \label{classv8_1_1internal_1_1_code_stub_interface_descriptor_a1583dd5e8e41abc9e36174571095f823}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_code_stub_interface_descriptor_a41ed38ad62478ef74f3f8d10e7fcfc91}{}bool {\bfseries has\+\_\+miss\+\_\+handler} () const \label{classv8_1_1internal_1_1_code_stub_interface_descriptor_a41ed38ad62478ef74f3f8d10e7fcfc91}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_code_stub_interface_descriptor_af489867e242f79f09e6e3fe93dc6df62}{}bool {\bfseries Is\+Environment\+Parameter\+Count\+Register} (int index) const \label{classv8_1_1internal_1_1_code_stub_interface_descriptor_af489867e242f79f09e6e3fe93dc6df62}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_code_stub_interface_descriptor_a706fd538c44ed9936effb4619e79f78a}{}int {\bfseries Get\+Handler\+Parameter\+Count} () const \label{classv8_1_1internal_1_1_code_stub_interface_descriptor_a706fd538c44ed9936effb4619e79f78a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_code_stub_interface_descriptor_ab5dc1809d2e72370375103b5cff952af}{}int {\bfseries hint\+\_\+stack\+\_\+parameter\+\_\+count} () const \label{classv8_1_1internal_1_1_code_stub_interface_descriptor_ab5dc1809d2e72370375103b5cff952af}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_code_stub_interface_descriptor_a2c93cf33753c87a0035fe35d9f04306a}{}Register {\bfseries stack\+\_\+parameter\+\_\+count} () const \label{classv8_1_1internal_1_1_code_stub_interface_descriptor_a2c93cf33753c87a0035fe35d9f04306a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_code_stub_interface_descriptor_a57f2b8f80cc8f029ec7c5993964acf8b}{}Stub\+Function\+Mode {\bfseries function\+\_\+mode} () const \label{classv8_1_1internal_1_1_code_stub_interface_descriptor_a57f2b8f80cc8f029ec7c5993964acf8b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_code_stub_interface_descriptor_a2ee8de4fa88f2b3df404075cba8563bb}{}Address {\bfseries deoptimization\+\_\+handler} () const \label{classv8_1_1internal_1_1_code_stub_interface_descriptor_a2ee8de4fa88f2b3df404075cba8563bb}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_code_stub_interface_descriptor_a0002f84320919e1859f8e7c58bb92afb}{}Code\+Stub\+::\+Major {\bfseries Major\+Key} () const \label{classv8_1_1internal_1_1_code_stub_interface_descriptor_a0002f84320919e1859f8e7c58bb92afb}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/code-\/stubs.\+h\item 
+src/code-\/stubs.\+cc\end{DoxyCompactItemize}

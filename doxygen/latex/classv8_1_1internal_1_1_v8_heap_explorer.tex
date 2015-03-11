@@ -1,0 +1,80 @@
+\hypertarget{classv8_1_1internal_1_1_v8_heap_explorer}{}\section{v8\+:\+:internal\+:\+:V8\+Heap\+Explorer Class Reference}
+\label{classv8_1_1internal_1_1_v8_heap_explorer}\index{v8\+::internal\+::\+V8\+Heap\+Explorer@{v8\+::internal\+::\+V8\+Heap\+Explorer}}
+Inheritance diagram for v8\+:\+:internal\+:\+:V8\+Heap\+Explorer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classv8_1_1internal_1_1_v8_heap_explorer}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_v8_heap_explorer_a380cad4a97cc6608f02640026ef32441}{}{\bfseries V8\+Heap\+Explorer} (\hyperlink{classv8_1_1internal_1_1_heap_snapshot}{Heap\+Snapshot} $\ast$snapshot, \hyperlink{classv8_1_1internal_1_1_snapshotting_progress_reporting_interface}{Snapshotting\+Progress\+Reporting\+Interface} $\ast$progress, v8\+::\+Heap\+Profiler\+::\+Object\+Name\+Resolver $\ast$resolver)\label{classv8_1_1internal_1_1_v8_heap_explorer_a380cad4a97cc6608f02640026ef32441}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_v8_heap_explorer_a074fd0c7b6ef4e664a873d297850c80e}{}virtual Heap\+Entry $\ast$ {\bfseries Allocate\+Entry} (Heap\+Thing ptr)\label{classv8_1_1internal_1_1_v8_heap_explorer_a074fd0c7b6ef4e664a873d297850c80e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_v8_heap_explorer_a1882a866c08ca2928bf41812b6e80671}{}void {\bfseries Add\+Root\+Entries} (\hyperlink{classv8_1_1internal_1_1_snapshot_filler}{Snapshot\+Filler} $\ast$filler)\label{classv8_1_1internal_1_1_v8_heap_explorer_a1882a866c08ca2928bf41812b6e80671}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_v8_heap_explorer_af4f43686b87f0135ba2db4a384c303f4}{}int {\bfseries Estimate\+Objects\+Count} (Heap\+Iterator $\ast$iterator)\label{classv8_1_1internal_1_1_v8_heap_explorer_af4f43686b87f0135ba2db4a384c303f4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_v8_heap_explorer_a1cf4b763af4920c92a7195e5222a61c4}{}bool {\bfseries Iterate\+And\+Extract\+References} (\hyperlink{classv8_1_1internal_1_1_snapshot_filler}{Snapshot\+Filler} $\ast$filler)\label{classv8_1_1internal_1_1_v8_heap_explorer_a1cf4b763af4920c92a7195e5222a61c4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_v8_heap_explorer_a3fc89ba6b31b1f48e4ce026976eeaf79}{}void {\bfseries Tag\+Global\+Objects} ()\label{classv8_1_1internal_1_1_v8_heap_explorer_a3fc89ba6b31b1f48e4ce026976eeaf79}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_v8_heap_explorer_a05f5e92ad08d54b75baaace7509ec2d4}{}void {\bfseries Tag\+Code\+Object} (\hyperlink{classv8_1_1internal_1_1_code}{Code} $\ast$code)\label{classv8_1_1internal_1_1_v8_heap_explorer_a05f5e92ad08d54b75baaace7509ec2d4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_v8_heap_explorer_ad3d4c6c7b58608611364dd2d926e335e}{}void {\bfseries Tag\+Builtin\+Code\+Object} (\hyperlink{classv8_1_1internal_1_1_code}{Code} $\ast$code, const char $\ast$name)\label{classv8_1_1internal_1_1_v8_heap_explorer_ad3d4c6c7b58608611364dd2d926e335e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_v8_heap_explorer_abd278633cdd9c46c73e0455558f16068}{}Heap\+Entry $\ast$ {\bfseries Add\+Entry} (Address address, Heap\+Entry\+::\+Type type, const char $\ast$name, size\+\_\+t size)\label{classv8_1_1internal_1_1_v8_heap_explorer_abd278633cdd9c46c73e0455558f16068}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_v8_heap_explorer_a6d153afbe0111362b4333c3eed73d9c1}{}static \hyperlink{classv8_1_1internal_1_1_string}{String} $\ast$ {\bfseries Get\+Constructor\+Name} (\hyperlink{classv8_1_1internal_1_1_j_s_object}{J\+S\+Object} $\ast$object)\label{classv8_1_1internal_1_1_v8_heap_explorer_a6d153afbe0111362b4333c3eed73d9c1}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classv8_1_1internal_1_1_heap_object}{Heap\+Object} $\ast$const {\bfseries k\+Internal\+Root\+Object}
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_v8_heap_explorer_a6ef0d133911e40c06746778027023e0a}{}class {\bfseries Indexed\+References\+Extractor}\label{classv8_1_1internal_1_1_v8_heap_explorer_a6ef0d133911e40c06746778027023e0a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_v8_heap_explorer_a09409037b3bbe7dacbad8d92839b47a8}{}class {\bfseries Gc\+Subroots\+Enumerator}\label{classv8_1_1internal_1_1_v8_heap_explorer_a09409037b3bbe7dacbad8d92839b47a8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_v8_heap_explorer_a07c650327bd63061c049a9ae184a0ba6}{}class {\bfseries Roots\+References\+Extractor}\label{classv8_1_1internal_1_1_v8_heap_explorer_a07c650327bd63061c049a9ae184a0ba6}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classv8_1_1internal_1_1_v8_heap_explorer_a11ea29b92366425e7a817fbc9abf466f}{}\index{v8\+::internal\+::\+V8\+Heap\+Explorer@{v8\+::internal\+::\+V8\+Heap\+Explorer}!k\+Internal\+Root\+Object@{k\+Internal\+Root\+Object}}
+\index{k\+Internal\+Root\+Object@{k\+Internal\+Root\+Object}!v8\+::internal\+::\+V8\+Heap\+Explorer@{v8\+::internal\+::\+V8\+Heap\+Explorer}}
+\subsubsection[{k\+Internal\+Root\+Object}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Heap\+Object} $\ast$const v8\+::internal\+::\+V8\+Heap\+Explorer\+::k\+Internal\+Root\+Object\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_v8_heap_explorer_a11ea29b92366425e7a817fbc9abf466f}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+    \textcolor{keyword}{reinterpret\_cast<}HeapObject*\textcolor{keyword}{>}(
+        \textcolor{keyword}{static\_cast<}intptr\_t\textcolor{keyword}{>}(HeapObjectsMap::kInternalRootObjectId))
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/heap-\/snapshot-\/generator.\+h\item 
+src/heap-\/snapshot-\/generator-\/inl.\+h\item 
+src/heap-\/snapshot-\/generator.\+cc\end{DoxyCompactItemize}

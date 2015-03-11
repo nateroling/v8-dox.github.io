@@ -1,0 +1,59 @@
+\hypertarget{classv8_1_1internal_1_1_thread_manager}{}\section{v8\+:\+:internal\+:\+:Thread\+Manager Class Reference}
+\label{classv8_1_1internal_1_1_thread_manager}\index{v8\+::internal\+::\+Thread\+Manager@{v8\+::internal\+::\+Thread\+Manager}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_thread_manager_a8de7abc8b0763f0e1117b61f074410da}{}void {\bfseries Lock} ()\label{classv8_1_1internal_1_1_thread_manager_a8de7abc8b0763f0e1117b61f074410da}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_thread_manager_ab7d0f390011373f4b036548923add1bf}{}void {\bfseries Unlock} ()\label{classv8_1_1internal_1_1_thread_manager_ab7d0f390011373f4b036548923add1bf}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_thread_manager_a36506aaa6d781c749efe48996b48e2a0}{}void {\bfseries Archive\+Thread} ()\label{classv8_1_1internal_1_1_thread_manager_a36506aaa6d781c749efe48996b48e2a0}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_thread_manager_ac7d4ad5d9a21d88fc2d50f5d91a62442}{}bool {\bfseries Restore\+Thread} ()\label{classv8_1_1internal_1_1_thread_manager_ac7d4ad5d9a21d88fc2d50f5d91a62442}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_thread_manager_a7ff25a1bc335c55e57bae1f262f5ac0e}{}void {\bfseries Free\+Thread\+Resources} ()\label{classv8_1_1internal_1_1_thread_manager_a7ff25a1bc335c55e57bae1f262f5ac0e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_thread_manager_a8a5b4eb523ed06c372852b14b5825efb}{}bool {\bfseries Is\+Archived} ()\label{classv8_1_1internal_1_1_thread_manager_a8a5b4eb523ed06c372852b14b5825efb}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_thread_manager_adeebd606e3b84bf2695ef0e36e90c360}{}void {\bfseries Iterate} (Object\+Visitor $\ast$v)\label{classv8_1_1internal_1_1_thread_manager_adeebd606e3b84bf2695ef0e36e90c360}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_thread_manager_a2fec67e06e5fc2f061ac8f87bb2bb080}{}void {\bfseries Iterate\+Archived\+Threads} (\hyperlink{classv8_1_1internal_1_1_thread_visitor}{Thread\+Visitor} $\ast$v)\label{classv8_1_1internal_1_1_thread_manager_a2fec67e06e5fc2f061ac8f87bb2bb080}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_thread_manager_a76827c7de3e7dcba0f6729ad3657a265}{}bool {\bfseries Is\+Locked\+By\+Current\+Thread} ()\label{classv8_1_1internal_1_1_thread_manager_a76827c7de3e7dcba0f6729ad3657a265}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_thread_manager_a20de7ca0770f36132c2f48462ff07e08}{}\hyperlink{classv8_1_1internal_1_1_thread_id}{Thread\+Id} {\bfseries Current\+Id} ()\label{classv8_1_1internal_1_1_thread_manager_a20de7ca0770f36132c2f48462ff07e08}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_thread_manager_a727811d1054cd52d32130897f5362a13}{}void {\bfseries Terminate\+Execution} (\hyperlink{classv8_1_1internal_1_1_thread_id}{Thread\+Id} thread\+\_\+id)\label{classv8_1_1internal_1_1_thread_manager_a727811d1054cd52d32130897f5362a13}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_thread_manager_a31381c48c7f8608f4a2ab582a2c4c729}{}\hyperlink{classv8_1_1internal_1_1_thread_state}{Thread\+State} $\ast$ {\bfseries First\+Thread\+State\+In\+Use} ()\label{classv8_1_1internal_1_1_thread_manager_a31381c48c7f8608f4a2ab582a2c4c729}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_thread_manager_ae7610d3c55e69ceffd65c6b734813f0b}{}\hyperlink{classv8_1_1internal_1_1_thread_state}{Thread\+State} $\ast$ {\bfseries Get\+Free\+Thread\+State} ()\label{classv8_1_1internal_1_1_thread_manager_ae7610d3c55e69ceffd65c6b734813f0b}
+
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_thread_manager_aba4f0964bdacf2bbf62cf876e5d28d0a}{}class {\bfseries Isolate}\label{classv8_1_1internal_1_1_thread_manager_aba4f0964bdacf2bbf62cf876e5d28d0a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_thread_manager_aa9bf73e11f97e69db675bb6d4c212a2a}{}class {\bfseries Thread\+State}\label{classv8_1_1internal_1_1_thread_manager_aa9bf73e11f97e69db675bb6d4c212a2a}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/v8threads.\+h\item 
+src/v8threads.\+cc\end{DoxyCompactItemize}

@@ -1,0 +1,77 @@
+\hypertarget{classv8_1_1internal_1_1_sampler}{}\section{v8\+:\+:internal\+:\+:Sampler Class Reference}
+\label{classv8_1_1internal_1_1_sampler}\index{v8\+::internal\+::\+Sampler@{v8\+::internal\+::\+Sampler}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Sampler\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classv8_1_1internal_1_1_sampler}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_sampler_a2a11e616d00bc5369d44e76113ff48bb}{}{\bfseries Sampler} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, int interval)\label{classv8_1_1internal_1_1_sampler_a2a11e616d00bc5369d44e76113ff48bb}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_sampler_ac03a5a700f506b92eeec457aaa618d21}{}\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$ {\bfseries isolate} () const \label{classv8_1_1internal_1_1_sampler_ac03a5a700f506b92eeec457aaa618d21}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_sampler_a95ac452fc3a30dff69891f742a5c9488}{}int {\bfseries interval} () const \label{classv8_1_1internal_1_1_sampler_a95ac452fc3a30dff69891f742a5c9488}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_sampler_aaed3aa542715995262c3e6989c058c05}{}void {\bfseries Sample\+Stack} (const \hyperlink{structv8_1_1internal_1_1_register_state}{Register\+State} \&regs)\label{classv8_1_1internal_1_1_sampler_aaed3aa542715995262c3e6989c058c05}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_sampler_a49677027e31c1bbe7f6bd66267b9d0db}{}void {\bfseries Start} ()\label{classv8_1_1internal_1_1_sampler_a49677027e31c1bbe7f6bd66267b9d0db}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_sampler_a2147ae394fb08970b4e8bc493bafcbc9}{}void {\bfseries Stop} ()\label{classv8_1_1internal_1_1_sampler_a2147ae394fb08970b4e8bc493bafcbc9}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_sampler_a378c62a3939febba846baaf5eee7023e}{}bool {\bfseries Is\+Profiling} () const \label{classv8_1_1internal_1_1_sampler_a378c62a3939febba846baaf5eee7023e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_sampler_aaf362dfc4fb6f48307885325befe0763}{}void {\bfseries Increase\+Profiling\+Depth} ()\label{classv8_1_1internal_1_1_sampler_aaf362dfc4fb6f48307885325befe0763}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_sampler_a8d407fc72cae1f18f83cdac31f6210a9}{}void {\bfseries Decrease\+Profiling\+Depth} ()\label{classv8_1_1internal_1_1_sampler_a8d407fc72cae1f18f83cdac31f6210a9}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_sampler_ae07953e625ebaed8e9bb9255cebf11b6}{}bool {\bfseries Is\+Active} () const \label{classv8_1_1internal_1_1_sampler_ae07953e625ebaed8e9bb9255cebf11b6}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_sampler_ad0fdfdc8fe6355d20c14fc7dd0f00804}{}void {\bfseries Do\+Sample} ()\label{classv8_1_1internal_1_1_sampler_ad0fdfdc8fe6355d20c14fc7dd0f00804}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_sampler_a169a37b12419bf65e575ce9d3050816a}{}void {\bfseries Set\+Has\+Processing\+Thread} (bool value)\label{classv8_1_1internal_1_1_sampler_a169a37b12419bf65e575ce9d3050816a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_sampler_aa2d68752e0bad2fcbb7e95b2487294ad}{}unsigned {\bfseries js\+\_\+and\+\_\+external\+\_\+sample\+\_\+count} () const \label{classv8_1_1internal_1_1_sampler_aa2d68752e0bad2fcbb7e95b2487294ad}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_sampler_ac96ec0272e98d92db1dbaaaa0c1bfd76}{}void {\bfseries Start\+Counting\+Samples} ()\label{classv8_1_1internal_1_1_sampler_ac96ec0272e98d92db1dbaaaa0c1bfd76}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_sampler_ac489d152f06977d73910ab3a8f9c35e3}{}Platform\+Data $\ast$ {\bfseries platform\+\_\+data} () const \label{classv8_1_1internal_1_1_sampler_ac489d152f06977d73910ab3a8f9c35e3}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_sampler_abba50ae6383b37c6033d9457ca0413c0}{}static void {\bfseries Set\+Up} ()\label{classv8_1_1internal_1_1_sampler_abba50ae6383b37c6033d9457ca0413c0}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_sampler_ad5079e4708095bd40d857a46fe2880b6}{}static void {\bfseries Tear\+Down} ()\label{classv8_1_1internal_1_1_sampler_ad5079e4708095bd40d857a46fe2880b6}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_sampler_a483bcf8623bba0a41f5d769291f9848f}{}virtual void {\bfseries Tick} (\hyperlink{structv8_1_1internal_1_1_tick_sample}{Tick\+Sample} $\ast$sample)=0\label{classv8_1_1internal_1_1_sampler_a483bcf8623bba0a41f5d769291f9848f}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/sampler.\+h\item 
+src/sampler.\+cc\end{DoxyCompactItemize}

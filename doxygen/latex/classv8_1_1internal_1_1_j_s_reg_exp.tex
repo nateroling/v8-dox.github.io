@@ -1,0 +1,184 @@
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp}{}\section{v8\+:\+:internal\+:\+:J\+S\+Reg\+Exp Class Reference}
+\label{classv8_1_1internal_1_1_j_s_reg_exp}\index{v8\+::internal\+::\+J\+S\+Reg\+Exp@{v8\+::internal\+::\+J\+S\+Reg\+Exp}}
+Inheritance diagram for v8\+:\+:internal\+:\+:J\+S\+Reg\+Exp\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{classv8_1_1internal_1_1_j_s_reg_exp}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classv8_1_1internal_1_1_j_s_reg_exp_1_1_flags}{Flags}
+\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a4f505066a55b1fa40937655595e04152}{}enum {\bfseries Type} \{ {\bfseries N\+O\+T\+\_\+\+C\+O\+M\+P\+I\+L\+E\+D}, 
+{\bfseries A\+T\+O\+M}, 
+{\bfseries I\+R\+R\+E\+G\+E\+X\+P}
+ \}\label{classv8_1_1internal_1_1_j_s_reg_exp_a4f505066a55b1fa40937655595e04152}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a3fe304d5d9269091f2a4f33eee1af177}{}enum {\bfseries Flag} \{ {\bfseries N\+O\+N\+E} = 0, 
+{\bfseries G\+L\+O\+B\+A\+L} = 1, 
+{\bfseries I\+G\+N\+O\+R\+E\+\_\+\+C\+A\+S\+E} = 2, 
+{\bfseries M\+U\+L\+T\+I\+L\+I\+N\+E} = 4
+ \}\label{classv8_1_1internal_1_1_j_s_reg_exp_a3fe304d5d9269091f2a4f33eee1af177}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a68d63f1a8f39171df837237edb4ede42}{}Type {\bfseries Type\+Tag} ()\label{classv8_1_1internal_1_1_j_s_reg_exp_a68d63f1a8f39171df837237edb4ede42}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_aa8c0fa84718f6a594ab4ae495ddd2229}{}int {\bfseries Capture\+Count} ()\label{classv8_1_1internal_1_1_j_s_reg_exp_aa8c0fa84718f6a594ab4ae495ddd2229}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a6f300f132299c887336cd9ee91aeaba3}{}\hyperlink{classv8_1_1internal_1_1_j_s_reg_exp_1_1_flags}{Flags} {\bfseries Get\+Flags} ()\label{classv8_1_1internal_1_1_j_s_reg_exp_a6f300f132299c887336cd9ee91aeaba3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a98ae03f77869ab586e9f649e55d34e85}{}\hyperlink{classv8_1_1internal_1_1_string}{String} $\ast$ {\bfseries Pattern} ()\label{classv8_1_1internal_1_1_j_s_reg_exp_a98ae03f77869ab586e9f649e55d34e85}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a32772f058cef001697b855534cd3a4d5}{}\hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$ {\bfseries Data\+At} (int index)\label{classv8_1_1internal_1_1_j_s_reg_exp_a32772f058cef001697b855534cd3a4d5}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a1dd66d58f3fc12d944f63202258a8d8e}{}void {\bfseries Set\+Data\+At} (int index, \hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$value)\label{classv8_1_1internal_1_1_j_s_reg_exp_a1dd66d58f3fc12d944f63202258a8d8e}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_ab48b840200558d01466772e7e916f2d5}{}static int {\bfseries code\+\_\+index} (bool is\+\_\+ascii)\label{classv8_1_1internal_1_1_j_s_reg_exp_ab48b840200558d01466772e7e916f2d5}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a2f6316a4a2c70d4ffff3cfa5b3ac8a93}{}static int {\bfseries saved\+\_\+code\+\_\+index} (bool is\+\_\+ascii)\label{classv8_1_1internal_1_1_j_s_reg_exp_a2f6316a4a2c70d4ffff3cfa5b3ac8a93}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a7fb0f9c5fbcb09431c8d2eb6a24754f8}{}static const int {\bfseries k\+Data\+Offset} = J\+S\+Object\+::k\+Header\+Size\label{classv8_1_1internal_1_1_j_s_reg_exp_a7fb0f9c5fbcb09431c8d2eb6a24754f8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a90b7c792009e3057465b57d833b24953}{}static const int {\bfseries k\+Size} = k\+Data\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_j_s_reg_exp_a90b7c792009e3057465b57d833b24953}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a6b776416f183835b0c80536fb03d8c50}{}static const int {\bfseries k\+Tag\+Index} = 0\label{classv8_1_1internal_1_1_j_s_reg_exp_a6b776416f183835b0c80536fb03d8c50}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a8829823bf0846b7e0e35f177a7073965}{}static const int {\bfseries k\+Source\+Index} = k\+Tag\+Index + 1\label{classv8_1_1internal_1_1_j_s_reg_exp_a8829823bf0846b7e0e35f177a7073965}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a516810e52b83b427e6cce8933e9e0572}{}static const int {\bfseries k\+Flags\+Index} = k\+Source\+Index + 1\label{classv8_1_1internal_1_1_j_s_reg_exp_a516810e52b83b427e6cce8933e9e0572}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_af16b2b10a9e6f1923103fe6bd46c48de}{}static const int {\bfseries k\+Data\+Index} = k\+Flags\+Index + 1\label{classv8_1_1internal_1_1_j_s_reg_exp_af16b2b10a9e6f1923103fe6bd46c48de}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a67adfd18de6fea50f6e492dfdc4b1b04}{}static const int {\bfseries k\+Atom\+Pattern\+Index} = k\+Data\+Index\label{classv8_1_1internal_1_1_j_s_reg_exp_a67adfd18de6fea50f6e492dfdc4b1b04}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_ad68a24d05c9c76742bf98370f73ddde8}{}static const int {\bfseries k\+Atom\+Data\+Size} = k\+Atom\+Pattern\+Index + 1\label{classv8_1_1internal_1_1_j_s_reg_exp_ad68a24d05c9c76742bf98370f73ddde8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a6dc4a0aa6315ca324ac5f05b2dc4e3f8}{}static const int {\bfseries k\+Irregexp\+A\+S\+C\+I\+I\+Code\+Index} = k\+Data\+Index\label{classv8_1_1internal_1_1_j_s_reg_exp_a6dc4a0aa6315ca324ac5f05b2dc4e3f8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a624664cd30b9dae03165e951d9421831}{}static const int {\bfseries k\+Irregexp\+U\+C16\+Code\+Index} = k\+Data\+Index + 1\label{classv8_1_1internal_1_1_j_s_reg_exp_a624664cd30b9dae03165e951d9421831}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a6fde0108d83608838ab321412c73f471}{}static const int {\bfseries k\+Irregexp\+A\+S\+C\+I\+I\+Code\+Saved\+Index} = k\+Data\+Index + 2\label{classv8_1_1internal_1_1_j_s_reg_exp_a6fde0108d83608838ab321412c73f471}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a09739e5fb05fad16b244502716b4a7a7}{}static const int {\bfseries k\+Irregexp\+U\+C16\+Code\+Saved\+Index} = k\+Data\+Index + 3\label{classv8_1_1internal_1_1_j_s_reg_exp_a09739e5fb05fad16b244502716b4a7a7}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a6a3fe9d11dfd961544062fff4af53726}{}static const int {\bfseries k\+Irregexp\+Max\+Register\+Count\+Index} = k\+Data\+Index + 4\label{classv8_1_1internal_1_1_j_s_reg_exp_a6a3fe9d11dfd961544062fff4af53726}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a0e2173e190617f634aed74000af8f412}{}static const int {\bfseries k\+Irregexp\+Capture\+Count\+Index} = k\+Data\+Index + 5\label{classv8_1_1internal_1_1_j_s_reg_exp_a0e2173e190617f634aed74000af8f412}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_ab5b2b03b911c494d666b474d4e686233}{}static const int {\bfseries k\+Irregexp\+Data\+Size} = k\+Irregexp\+Capture\+Count\+Index + 1\label{classv8_1_1internal_1_1_j_s_reg_exp_ab5b2b03b911c494d666b474d4e686233}
+
+\item 
+static const int {\bfseries k\+Data\+Tag\+Offset}
+\item 
+static const int {\bfseries k\+Data\+Ascii\+Code\+Offset}
+\item 
+static const int {\bfseries k\+Data\+U\+C16\+Code\+Offset}
+\item 
+static const int {\bfseries k\+Irregexp\+Capture\+Count\+Offset}
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a03a9ac29c03e20399e2f7836440ad0b0}{}static const int {\bfseries k\+Source\+Field\+Index} = 0\label{classv8_1_1internal_1_1_j_s_reg_exp_a03a9ac29c03e20399e2f7836440ad0b0}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a8a50035ff6f1913378c5d929504564c4}{}static const int {\bfseries k\+Global\+Field\+Index} = 1\label{classv8_1_1internal_1_1_j_s_reg_exp_a8a50035ff6f1913378c5d929504564c4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_af1107ecaa8d57e2297aacc7d4da64aab}{}static const int {\bfseries k\+Ignore\+Case\+Field\+Index} = 2\label{classv8_1_1internal_1_1_j_s_reg_exp_af1107ecaa8d57e2297aacc7d4da64aab}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a0bad568d45f1fabe5bed27d750ec27db}{}static const int {\bfseries k\+Multiline\+Field\+Index} = 3\label{classv8_1_1internal_1_1_j_s_reg_exp_a0bad568d45f1fabe5bed27d750ec27db}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_acbd49fd9b1fd11429c5e34bdfa8075a4}{}static const int {\bfseries k\+Last\+Index\+Field\+Index} = 4\label{classv8_1_1internal_1_1_j_s_reg_exp_acbd49fd9b1fd11429c5e34bdfa8075a4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_aa2a8207a8ea8c66ba8aaa6b55c5f0f92}{}static const int {\bfseries k\+In\+Object\+Field\+Count} = 5\label{classv8_1_1internal_1_1_j_s_reg_exp_aa2a8207a8ea8c66ba8aaa6b55c5f0f92}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a0b4c665fbb52801f03a418dda10b8891}{}static const int {\bfseries k\+Uninitialized\+Value} = -\/1\label{classv8_1_1internal_1_1_j_s_reg_exp_a0b4c665fbb52801f03a418dda10b8891}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a1eedcec275d583051a7904e68adf12b2}{}static const int {\bfseries k\+Compilation\+Error\+Value} = -\/2\label{classv8_1_1internal_1_1_j_s_reg_exp_a1eedcec275d583051a7904e68adf12b2}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_ae6261c435a2c70c96ab1ba11a6b5d51b}{}static const int {\bfseries k\+Code\+Age\+Mask} = 0xff\label{classv8_1_1internal_1_1_j_s_reg_exp_ae6261c435a2c70c96ab1ba11a6b5d51b}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_ab7baf775761fe915954f2cb6bfbbae68}{}\index{v8\+::internal\+::\+J\+S\+Reg\+Exp@{v8\+::internal\+::\+J\+S\+Reg\+Exp}!k\+Data\+Ascii\+Code\+Offset@{k\+Data\+Ascii\+Code\+Offset}}
+\index{k\+Data\+Ascii\+Code\+Offset@{k\+Data\+Ascii\+Code\+Offset}!v8\+::internal\+::\+J\+S\+Reg\+Exp@{v8\+::internal\+::\+J\+S\+Reg\+Exp}}
+\subsubsection[{k\+Data\+Ascii\+Code\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+J\+S\+Reg\+Exp\+::k\+Data\+Ascii\+Code\+Offset\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_j_s_reg_exp_ab7baf775761fe915954f2cb6bfbbae68}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      FixedArray::kHeaderSize + kIrregexpASCIICodeIndex * kPointerSize
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a77317a79138a05743d0d3b2361243192}{}\index{v8\+::internal\+::\+J\+S\+Reg\+Exp@{v8\+::internal\+::\+J\+S\+Reg\+Exp}!k\+Data\+Tag\+Offset@{k\+Data\+Tag\+Offset}}
+\index{k\+Data\+Tag\+Offset@{k\+Data\+Tag\+Offset}!v8\+::internal\+::\+J\+S\+Reg\+Exp@{v8\+::internal\+::\+J\+S\+Reg\+Exp}}
+\subsubsection[{k\+Data\+Tag\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+J\+S\+Reg\+Exp\+::k\+Data\+Tag\+Offset\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_j_s_reg_exp_a77317a79138a05743d0d3b2361243192}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      FixedArray::kHeaderSize + kTagIndex * kPointerSize
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a949f4bc648cd6a11a8e0e01b5a4e9641}{}\index{v8\+::internal\+::\+J\+S\+Reg\+Exp@{v8\+::internal\+::\+J\+S\+Reg\+Exp}!k\+Data\+U\+C16\+Code\+Offset@{k\+Data\+U\+C16\+Code\+Offset}}
+\index{k\+Data\+U\+C16\+Code\+Offset@{k\+Data\+U\+C16\+Code\+Offset}!v8\+::internal\+::\+J\+S\+Reg\+Exp@{v8\+::internal\+::\+J\+S\+Reg\+Exp}}
+\subsubsection[{k\+Data\+U\+C16\+Code\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+J\+S\+Reg\+Exp\+::k\+Data\+U\+C16\+Code\+Offset\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_j_s_reg_exp_a949f4bc648cd6a11a8e0e01b5a4e9641}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      FixedArray::kHeaderSize + kIrregexpUC16CodeIndex * kPointerSize
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_j_s_reg_exp_a73f20a1f8eedfd27dad9c34fc2e24468}{}\index{v8\+::internal\+::\+J\+S\+Reg\+Exp@{v8\+::internal\+::\+J\+S\+Reg\+Exp}!k\+Irregexp\+Capture\+Count\+Offset@{k\+Irregexp\+Capture\+Count\+Offset}}
+\index{k\+Irregexp\+Capture\+Count\+Offset@{k\+Irregexp\+Capture\+Count\+Offset}!v8\+::internal\+::\+J\+S\+Reg\+Exp@{v8\+::internal\+::\+J\+S\+Reg\+Exp}}
+\subsubsection[{k\+Irregexp\+Capture\+Count\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+J\+S\+Reg\+Exp\+::k\+Irregexp\+Capture\+Count\+Offset\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_j_s_reg_exp_a73f20a1f8eedfd27dad9c34fc2e24468}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      FixedArray::kHeaderSize + kIrregexpCaptureCountIndex * kPointerSize
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/objects.\+h\item 
+src/objects-\/inl.\+h\end{DoxyCompactItemize}

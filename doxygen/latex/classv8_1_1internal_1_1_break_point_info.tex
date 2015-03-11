@@ -1,0 +1,68 @@
+\hypertarget{classv8_1_1internal_1_1_break_point_info}{}\section{v8\+:\+:internal\+:\+:Break\+Point\+Info Class Reference}
+\label{classv8_1_1internal_1_1_break_point_info}\index{v8\+::internal\+::\+Break\+Point\+Info@{v8\+::internal\+::\+Break\+Point\+Info}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Break\+Point\+Info\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classv8_1_1internal_1_1_break_point_info}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_break_point_info_afef5eea1b97cdc1c1a52ecbabc22e900}{}int {\bfseries Get\+Break\+Point\+Count} ()\label{classv8_1_1internal_1_1_break_point_info_afef5eea1b97cdc1c1a52ecbabc22e900}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_break_point_info_ad36403b6aef5c298a27971fef29f845a}{}static void {\bfseries Clear\+Break\+Point} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_break_point_info}{Break\+Point\+Info} $>$ info, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ break\+\_\+point\+\_\+object)\label{classv8_1_1internal_1_1_break_point_info_ad36403b6aef5c298a27971fef29f845a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_break_point_info_ad9496b6de8a915c671c353d1ef3d379c}{}static void {\bfseries Set\+Break\+Point} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_break_point_info}{Break\+Point\+Info} $>$ info, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ break\+\_\+point\+\_\+object)\label{classv8_1_1internal_1_1_break_point_info_ad9496b6de8a915c671c353d1ef3d379c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_break_point_info_aa79786626248be34e202c696c7c10eeb}{}static bool {\bfseries Has\+Break\+Point\+Object} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_break_point_info}{Break\+Point\+Info} $>$ info, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ break\+\_\+point\+\_\+object)\label{classv8_1_1internal_1_1_break_point_info_aa79786626248be34e202c696c7c10eeb}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_break_point_info_aab11782a8a2cefb3488f9122fff2df1d}{}static const int {\bfseries k\+Code\+Position\+Index} = Struct\+::k\+Header\+Size\label{classv8_1_1internal_1_1_break_point_info_aab11782a8a2cefb3488f9122fff2df1d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_break_point_info_a276bc6e4b8c20c6e1e2a9478500fc592}{}static const int {\bfseries k\+Source\+Position\+Index} = k\+Code\+Position\+Index + k\+Pointer\+Size\label{classv8_1_1internal_1_1_break_point_info_a276bc6e4b8c20c6e1e2a9478500fc592}
+
+\item 
+static const int {\bfseries k\+Statement\+Position\+Index}
+\item 
+static const int {\bfseries k\+Break\+Point\+Objects\+Index}
+\item 
+\hypertarget{classv8_1_1internal_1_1_break_point_info_a50c4c77b2856170fe150ee0e1a1e5d28}{}static const int {\bfseries k\+Size} = k\+Break\+Point\+Objects\+Index + k\+Pointer\+Size\label{classv8_1_1internal_1_1_break_point_info_a50c4c77b2856170fe150ee0e1a1e5d28}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classv8_1_1internal_1_1_break_point_info_ae4ecacd32915b48357a34430c701256f}{}\index{v8\+::internal\+::\+Break\+Point\+Info@{v8\+::internal\+::\+Break\+Point\+Info}!k\+Break\+Point\+Objects\+Index@{k\+Break\+Point\+Objects\+Index}}
+\index{k\+Break\+Point\+Objects\+Index@{k\+Break\+Point\+Objects\+Index}!v8\+::internal\+::\+Break\+Point\+Info@{v8\+::internal\+::\+Break\+Point\+Info}}
+\subsubsection[{k\+Break\+Point\+Objects\+Index}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+Break\+Point\+Info\+::k\+Break\+Point\+Objects\+Index\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_break_point_info_ae4ecacd32915b48357a34430c701256f}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      kStatementPositionIndex + kPointerSize
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_break_point_info_a4faddc22ed2545a08c99fae693c638cf}{}\index{v8\+::internal\+::\+Break\+Point\+Info@{v8\+::internal\+::\+Break\+Point\+Info}!k\+Statement\+Position\+Index@{k\+Statement\+Position\+Index}}
+\index{k\+Statement\+Position\+Index@{k\+Statement\+Position\+Index}!v8\+::internal\+::\+Break\+Point\+Info@{v8\+::internal\+::\+Break\+Point\+Info}}
+\subsubsection[{k\+Statement\+Position\+Index}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+Break\+Point\+Info\+::k\+Statement\+Position\+Index\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_break_point_info_a4faddc22ed2545a08c99fae693c638cf}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      kSourcePositionIndex + kPointerSize
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/objects.\+h\item 
+src/objects.\+cc\end{DoxyCompactItemize}

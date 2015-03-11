@@ -1,0 +1,287 @@
+\hypertarget{classv8_1_1internal_1_1_reloc_info}{}\section{v8\+:\+:internal\+:\+:Reloc\+Info Class Reference}
+\label{classv8_1_1internal_1_1_reloc_info}\index{v8\+::internal\+::\+Reloc\+Info@{v8\+::internal\+::\+Reloc\+Info}}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a86a473758194fc2e4bf836e53a6db856}{}enum {\bfseries Mode} \{ \\*
+{\bfseries C\+O\+D\+E\+\_\+\+T\+A\+R\+G\+E\+T}, 
+{\bfseries C\+O\+D\+E\+\_\+\+T\+A\+R\+G\+E\+T\+\_\+\+W\+I\+T\+H\+\_\+\+I\+D}, 
+{\bfseries C\+O\+N\+S\+T\+R\+U\+C\+T\+\_\+\+C\+A\+L\+L}, 
+{\bfseries D\+E\+B\+U\+G\+\_\+\+B\+R\+E\+A\+K}, 
+\\*
+{\bfseries E\+M\+B\+E\+D\+D\+E\+D\+\_\+\+O\+B\+J\+E\+C\+T}, 
+{\bfseries C\+E\+L\+L}, 
+{\bfseries R\+U\+N\+T\+I\+M\+E\+\_\+\+E\+N\+T\+R\+Y}, 
+{\bfseries J\+S\+\_\+\+R\+E\+T\+U\+R\+N}, 
+\\*
+{\bfseries C\+O\+M\+M\+E\+N\+T}, 
+{\bfseries P\+O\+S\+I\+T\+I\+O\+N}, 
+{\bfseries S\+T\+A\+T\+E\+M\+E\+N\+T\+\_\+\+P\+O\+S\+I\+T\+I\+O\+N}, 
+{\bfseries D\+E\+B\+U\+G\+\_\+\+B\+R\+E\+A\+K\+\_\+\+S\+L\+O\+T}, 
+\\*
+{\bfseries E\+X\+T\+E\+R\+N\+A\+L\+\_\+\+R\+E\+F\+E\+R\+E\+N\+C\+E}, 
+{\bfseries I\+N\+T\+E\+R\+N\+A\+L\+\_\+\+R\+E\+F\+E\+R\+E\+N\+C\+E}, 
+{\bfseries C\+O\+N\+S\+T\+\_\+\+P\+O\+O\+L}, 
+{\bfseries V\+E\+N\+E\+E\+R\+\_\+\+P\+O\+O\+L}, 
+\\*
+{\bfseries N\+U\+M\+B\+E\+R\+\_\+\+O\+F\+\_\+\+M\+O\+D\+E\+S}, 
+{\bfseries N\+O\+N\+E32}, 
+{\bfseries N\+O\+N\+E64}, 
+{\bfseries C\+O\+D\+E\+\_\+\+A\+G\+E\+\_\+\+S\+E\+Q\+U\+E\+N\+C\+E}, 
+\\*
+{\bfseries F\+I\+R\+S\+T\+\_\+\+R\+E\+A\+L\+\_\+\+R\+E\+L\+O\+C\+\_\+\+M\+O\+D\+E} = C\+O\+D\+E\+\_\+\+T\+A\+R\+G\+E\+T, 
+{\bfseries L\+A\+S\+T\+\_\+\+R\+E\+A\+L\+\_\+\+R\+E\+L\+O\+C\+\_\+\+M\+O\+D\+E} = V\+E\+N\+E\+E\+R\+\_\+\+P\+O\+O\+L, 
+{\bfseries F\+I\+R\+S\+T\+\_\+\+P\+S\+E\+U\+D\+O\+\_\+\+R\+E\+L\+O\+C\+\_\+\+M\+O\+D\+E} = C\+O\+D\+E\+\_\+\+A\+G\+E\+\_\+\+S\+E\+Q\+U\+E\+N\+C\+E, 
+{\bfseries L\+A\+S\+T\+\_\+\+P\+S\+E\+U\+D\+O\+\_\+\+R\+E\+L\+O\+C\+\_\+\+M\+O\+D\+E} = C\+O\+D\+E\+\_\+\+A\+G\+E\+\_\+\+S\+E\+Q\+U\+E\+N\+C\+E, 
+\\*
+{\bfseries L\+A\+S\+T\+\_\+\+C\+O\+D\+E\+\_\+\+E\+N\+U\+M} = D\+E\+B\+U\+G\+\_\+\+B\+R\+E\+A\+K, 
+{\bfseries L\+A\+S\+T\+\_\+\+G\+C\+E\+D\+\_\+\+E\+N\+U\+M} = C\+E\+L\+L, 
+{\bfseries L\+A\+S\+T\+\_\+\+C\+O\+M\+P\+A\+C\+T\+\_\+\+E\+N\+U\+M} = C\+O\+D\+E\+\_\+\+T\+A\+R\+G\+E\+T\+\_\+\+W\+I\+T\+H\+\_\+\+I\+D, 
+{\bfseries L\+A\+S\+T\+\_\+\+S\+T\+A\+N\+D\+A\+R\+D\+\_\+\+N\+O\+N\+C\+O\+M\+P\+A\+C\+T\+\_\+\+E\+N\+U\+M} = I\+N\+T\+E\+R\+N\+A\+L\+\_\+\+R\+E\+F\+E\+R\+E\+N\+C\+E
+ \}\label{classv8_1_1internal_1_1_reloc_info_a86a473758194fc2e4bf836e53a6db856}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a5a12971387fe33791ad586df9d75b73b}{}{\bfseries Reloc\+Info} (byte $\ast$pc, Mode rmode, intptr\+\_\+t data, \hyperlink{classv8_1_1internal_1_1_code}{Code} $\ast$host)\label{classv8_1_1internal_1_1_reloc_info_a5a12971387fe33791ad586df9d75b73b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a7bdea959d1d938e6c3fa43533dcca20e}{}{\bfseries Reloc\+Info} (byte $\ast$pc, double data64)\label{classv8_1_1internal_1_1_reloc_info_a7bdea959d1d938e6c3fa43533dcca20e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_aa51a0de54cd6ee69318e775b0d696f4e}{}byte $\ast$ {\bfseries pc} () const \label{classv8_1_1internal_1_1_reloc_info_aa51a0de54cd6ee69318e775b0d696f4e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_ab4d0db4514112f204629a12038067002}{}void {\bfseries set\+\_\+pc} (byte $\ast$pc)\label{classv8_1_1internal_1_1_reloc_info_ab4d0db4514112f204629a12038067002}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a6557113415d565412e8d880495b86439}{}Mode {\bfseries rmode} () const \label{classv8_1_1internal_1_1_reloc_info_a6557113415d565412e8d880495b86439}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a3cc9a6deed9b6d5cdc2acad8e1e2ecf7}{}intptr\+\_\+t {\bfseries data} () const \label{classv8_1_1internal_1_1_reloc_info_a3cc9a6deed9b6d5cdc2acad8e1e2ecf7}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_ad66aba86d3a3b5213b5c3d2dbd45ae4e}{}double {\bfseries data64} () const \label{classv8_1_1internal_1_1_reloc_info_ad66aba86d3a3b5213b5c3d2dbd45ae4e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a932b9ed9f9ff0e4b3c4c3851d8ca7619}{}uint64\+\_\+t {\bfseries raw\+\_\+data64} ()\label{classv8_1_1internal_1_1_reloc_info_a932b9ed9f9ff0e4b3c4c3851d8ca7619}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_aebdb6182117b663964fec7b2ac117c61}{}\hyperlink{classv8_1_1internal_1_1_code}{Code} $\ast$ {\bfseries host} () const \label{classv8_1_1internal_1_1_reloc_info_aebdb6182117b663964fec7b2ac117c61}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_af75c22e2b412d6c9cf663a65c928ea52}{}void {\bfseries set\+\_\+host} (\hyperlink{classv8_1_1internal_1_1_code}{Code} $\ast$host)\label{classv8_1_1internal_1_1_reloc_info_af75c22e2b412d6c9cf663a65c928ea52}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_ae1b679e8a450e827d5c33b2759418156}{}{\bfseries I\+N\+L\+I\+N\+E} (void apply(intptr\+\_\+t delta, I\+Cache\+Flush\+Mode icache\+\_\+flush\+\_\+mode=F\+L\+U\+S\+H\+\_\+\+I\+C\+A\+C\+H\+E\+\_\+\+I\+F\+\_\+\+N\+E\+E\+D\+E\+D))\label{classv8_1_1internal_1_1_reloc_info_ae1b679e8a450e827d5c33b2759418156}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a8f33d5c22a0e3cbe30e5ff67843dea3f}{}bool {\bfseries Is\+Coded\+Specially} ()\label{classv8_1_1internal_1_1_reloc_info_a8f33d5c22a0e3cbe30e5ff67843dea3f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a74178a98b5efdd971a4f647281b6296e}{}bool {\bfseries Is\+In\+Constant\+Pool} ()\label{classv8_1_1internal_1_1_reloc_info_a74178a98b5efdd971a4f647281b6296e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a3ddf4a07c8ce0a7859c1591c5a1de96f}{}{\bfseries I\+N\+L\+I\+N\+E} (Address target\+\_\+address())\label{classv8_1_1internal_1_1_reloc_info_a3ddf4a07c8ce0a7859c1591c5a1de96f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a0494dff2013fdf78b0fe4465775aec99}{}{\bfseries I\+N\+L\+I\+N\+E} (void set\+\_\+target\+\_\+address(Address target, Write\+Barrier\+Mode write\+\_\+barrier\+\_\+mode=U\+P\+D\+A\+T\+E\+\_\+\+W\+R\+I\+T\+E\+\_\+\+B\+A\+R\+R\+I\+E\+R, I\+Cache\+Flush\+Mode icache\+\_\+flush\+\_\+mode=F\+L\+U\+S\+H\+\_\+\+I\+C\+A\+C\+H\+E\+\_\+\+I\+F\+\_\+\+N\+E\+E\+D\+E\+D))\label{classv8_1_1internal_1_1_reloc_info_a0494dff2013fdf78b0fe4465775aec99}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a30056a5abdddadd54ad5f17c7f036a2b}{}{\bfseries I\+N\+L\+I\+N\+E} (\hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$target\+\_\+object())\label{classv8_1_1internal_1_1_reloc_info_a30056a5abdddadd54ad5f17c7f036a2b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_abd1a358990f0a48e294f2b420681ffeb}{}{\bfseries I\+N\+L\+I\+N\+E} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ target\+\_\+object\+\_\+handle(Assembler $\ast$origin))\label{classv8_1_1internal_1_1_reloc_info_abd1a358990f0a48e294f2b420681ffeb}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a20fe5e264759d58a3f9ed3da08bb59ca}{}{\bfseries I\+N\+L\+I\+N\+E} (void set\+\_\+target\+\_\+object(\hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$target, Write\+Barrier\+Mode write\+\_\+barrier\+\_\+mode=U\+P\+D\+A\+T\+E\+\_\+\+W\+R\+I\+T\+E\+\_\+\+B\+A\+R\+R\+I\+E\+R, I\+Cache\+Flush\+Mode icache\+\_\+flush\+\_\+mode=F\+L\+U\+S\+H\+\_\+\+I\+C\+A\+C\+H\+E\+\_\+\+I\+F\+\_\+\+N\+E\+E\+D\+E\+D))\label{classv8_1_1internal_1_1_reloc_info_a20fe5e264759d58a3f9ed3da08bb59ca}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_aa18787c0c4aa5185802b95fa932641dd}{}{\bfseries I\+N\+L\+I\+N\+E} (Address target\+\_\+runtime\+\_\+entry(Assembler $\ast$origin))\label{classv8_1_1internal_1_1_reloc_info_aa18787c0c4aa5185802b95fa932641dd}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a543b31672b2ba87becbc86ce19d15642}{}{\bfseries I\+N\+L\+I\+N\+E} (void set\+\_\+target\+\_\+runtime\+\_\+entry(Address target, Write\+Barrier\+Mode write\+\_\+barrier\+\_\+mode=U\+P\+D\+A\+T\+E\+\_\+\+W\+R\+I\+T\+E\+\_\+\+B\+A\+R\+R\+I\+E\+R, I\+Cache\+Flush\+Mode icache\+\_\+flush\+\_\+mode=F\+L\+U\+S\+H\+\_\+\+I\+C\+A\+C\+H\+E\+\_\+\+I\+F\+\_\+\+N\+E\+E\+D\+E\+D))\label{classv8_1_1internal_1_1_reloc_info_a543b31672b2ba87becbc86ce19d15642}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_afd57c668730c2b872937041116bc1a47}{}{\bfseries I\+N\+L\+I\+N\+E} (\hyperlink{classv8_1_1internal_1_1_cell}{Cell} $\ast$target\+\_\+cell())\label{classv8_1_1internal_1_1_reloc_info_afd57c668730c2b872937041116bc1a47}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a53a2b792883dc89d8c83cfc7daf2b54e}{}{\bfseries I\+N\+L\+I\+N\+E} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_cell}{Cell} $>$ target\+\_\+cell\+\_\+handle())\label{classv8_1_1internal_1_1_reloc_info_a53a2b792883dc89d8c83cfc7daf2b54e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a2de019805d0bb49cad94d0ead995a01d}{}{\bfseries I\+N\+L\+I\+N\+E} (void set\+\_\+target\+\_\+cell(\hyperlink{classv8_1_1internal_1_1_cell}{Cell} $\ast$cell, Write\+Barrier\+Mode write\+\_\+barrier\+\_\+mode=U\+P\+D\+A\+T\+E\+\_\+\+W\+R\+I\+T\+E\+\_\+\+B\+A\+R\+R\+I\+E\+R, I\+Cache\+Flush\+Mode icache\+\_\+flush\+\_\+mode=F\+L\+U\+S\+H\+\_\+\+I\+C\+A\+C\+H\+E\+\_\+\+I\+F\+\_\+\+N\+E\+E\+D\+E\+D))\label{classv8_1_1internal_1_1_reloc_info_a2de019805d0bb49cad94d0ead995a01d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a8d7e195c31afc9400cec9025bee47355}{}{\bfseries I\+N\+L\+I\+N\+E} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ code\+\_\+age\+\_\+stub\+\_\+handle(Assembler $\ast$origin))\label{classv8_1_1internal_1_1_reloc_info_a8d7e195c31afc9400cec9025bee47355}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a3d0f27312c882a24cc408009fb809608}{}{\bfseries I\+N\+L\+I\+N\+E} (\hyperlink{classv8_1_1internal_1_1_code}{Code} $\ast$code\+\_\+age\+\_\+stub())\label{classv8_1_1internal_1_1_reloc_info_a3d0f27312c882a24cc408009fb809608}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a7371b688fc32e9befb897b1ffdc50b18}{}{\bfseries I\+N\+L\+I\+N\+E} (void set\+\_\+code\+\_\+age\+\_\+stub(\hyperlink{classv8_1_1internal_1_1_code}{Code} $\ast$stub, I\+Cache\+Flush\+Mode icache\+\_\+flush\+\_\+mode=F\+L\+U\+S\+H\+\_\+\+I\+C\+A\+C\+H\+E\+\_\+\+I\+F\+\_\+\+N\+E\+E\+D\+E\+D))\label{classv8_1_1internal_1_1_reloc_info_a7371b688fc32e9befb897b1ffdc50b18}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a4079d9f09809a5edb5859f9ceb34f23e}{}{\bfseries I\+N\+L\+I\+N\+E} (Address constant\+\_\+pool\+\_\+entry\+\_\+address())\label{classv8_1_1internal_1_1_reloc_info_a4079d9f09809a5edb5859f9ceb34f23e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a2572ce3ce1269f8998e4742a3d7c647a}{}{\bfseries I\+N\+L\+I\+N\+E} (Address target\+\_\+address\+\_\+address())\label{classv8_1_1internal_1_1_reloc_info_a2572ce3ce1269f8998e4742a3d7c647a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a8c54c1ada127ad24fd8723339b9b638b}{}{\bfseries I\+N\+L\+I\+N\+E} (int target\+\_\+address\+\_\+size())\label{classv8_1_1internal_1_1_reloc_info_a8c54c1ada127ad24fd8723339b9b638b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a8ebafa75fb987f6f28d79ea2d57318e4}{}{\bfseries I\+N\+L\+I\+N\+E} (Address target\+\_\+reference())\label{classv8_1_1internal_1_1_reloc_info_a8ebafa75fb987f6f28d79ea2d57318e4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_ab2d948d1a0470e47dbd0641c090711b7}{}{\bfseries I\+N\+L\+I\+N\+E} (Address call\+\_\+address())\label{classv8_1_1internal_1_1_reloc_info_ab2d948d1a0470e47dbd0641c090711b7}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a7af600bb66f78a6433fdac5c627bc06f}{}{\bfseries I\+N\+L\+I\+N\+E} (void set\+\_\+call\+\_\+address(Address target))\label{classv8_1_1internal_1_1_reloc_info_a7af600bb66f78a6433fdac5c627bc06f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a46a562b90c1c811ede61db804e44717b}{}{\bfseries I\+N\+L\+I\+N\+E} (\hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$call\+\_\+object())\label{classv8_1_1internal_1_1_reloc_info_a46a562b90c1c811ede61db804e44717b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_ac2ed43e109e232b38100f9702d0d6fdc}{}{\bfseries I\+N\+L\+I\+N\+E} (void set\+\_\+call\+\_\+object(\hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$target))\label{classv8_1_1internal_1_1_reloc_info_ac2ed43e109e232b38100f9702d0d6fdc}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a550033bcb9a237a366eef6a839c676ce}{}{\bfseries I\+N\+L\+I\+N\+E} (\hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$$\ast$call\+\_\+object\+\_\+address())\label{classv8_1_1internal_1_1_reloc_info_a550033bcb9a237a366eef6a839c676ce}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a97878ee9adeea7ce30430e88a79ad4d5}{}{\bfseries I\+N\+L\+I\+N\+E} (void Wipe\+Out())\label{classv8_1_1internal_1_1_reloc_info_a97878ee9adeea7ce30430e88a79ad4d5}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_aeefc9e771d7e1a2394b4c16a5bb66b89}{}{\footnotesize template$<$typename Static\+Visitor $>$ }\\void {\bfseries Visit} (Heap $\ast$heap)\label{classv8_1_1internal_1_1_reloc_info_aeefc9e771d7e1a2394b4c16a5bb66b89}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a3b94366a341e38ec540ff56a9aa3c91e}{}void {\bfseries Visit} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, Object\+Visitor $\ast$v)\label{classv8_1_1internal_1_1_reloc_info_a3b94366a341e38ec540ff56a9aa3c91e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a55096aa878c98ff8ec79444d7184915b}{}void {\bfseries Patch\+Code} (byte $\ast$instructions, int instruction\+\_\+count)\label{classv8_1_1internal_1_1_reloc_info_a55096aa878c98ff8ec79444d7184915b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_af6063a9d60b71889ff1a6550471d0de3}{}void {\bfseries Patch\+Code\+With\+Call} (Address target, int guard\+\_\+bytes)\label{classv8_1_1internal_1_1_reloc_info_af6063a9d60b71889ff1a6550471d0de3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a77d8296ef59345e035cc24d8e9d997b9}{}{\bfseries I\+N\+L\+I\+N\+E} (bool Is\+Patched\+Return\+Sequence())\label{classv8_1_1internal_1_1_reloc_info_a77d8296ef59345e035cc24d8e9d997b9}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a2f7fc056b978ebba1264b6c041a39964}{}{\bfseries I\+N\+L\+I\+N\+E} (bool Is\+Patched\+Debug\+Break\+Slot\+Sequence())\label{classv8_1_1internal_1_1_reloc_info_a2f7fc056b978ebba1264b6c041a39964}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a925d4626231522321411392cf0126ce0}{}static bool {\bfseries Is\+Real\+Reloc\+Mode} (Mode mode)\label{classv8_1_1internal_1_1_reloc_info_a925d4626231522321411392cf0126ce0}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_aca6d1f0cc52b07ed3111e4f64d6d5b85}{}static bool {\bfseries Is\+Pseudo\+Reloc\+Mode} (Mode mode)\label{classv8_1_1internal_1_1_reloc_info_aca6d1f0cc52b07ed3111e4f64d6d5b85}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a9dfabfd9c0521ab0c578b1d018e09fd6}{}static bool {\bfseries Is\+Construct\+Call} (Mode mode)\label{classv8_1_1internal_1_1_reloc_info_a9dfabfd9c0521ab0c578b1d018e09fd6}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a43f7e86c401d3004a4d51c7c43742310}{}static bool {\bfseries Is\+Code\+Target} (Mode mode)\label{classv8_1_1internal_1_1_reloc_info_a43f7e86c401d3004a4d51c7c43742310}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a22053c0a32e7a602ff948898fe896372}{}static bool {\bfseries Is\+Embedded\+Object} (Mode mode)\label{classv8_1_1internal_1_1_reloc_info_a22053c0a32e7a602ff948898fe896372}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a31b175c3f3c5230f0eb4b9ecb5f23791}{}static bool {\bfseries Is\+Runtime\+Entry} (Mode mode)\label{classv8_1_1internal_1_1_reloc_info_a31b175c3f3c5230f0eb4b9ecb5f23791}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_af72572e2c923844b7cce40b08d2a504c}{}static bool {\bfseries Is\+G\+C\+Reloc\+Mode} (Mode mode)\label{classv8_1_1internal_1_1_reloc_info_af72572e2c923844b7cce40b08d2a504c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a1537e0b2c7ad89b1aaaf56a8a4e83089}{}static bool {\bfseries Is\+J\+S\+Return} (Mode mode)\label{classv8_1_1internal_1_1_reloc_info_a1537e0b2c7ad89b1aaaf56a8a4e83089}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a1d260e2a61c43fb7d6f54ca8870686ec}{}static bool {\bfseries Is\+Comment} (Mode mode)\label{classv8_1_1internal_1_1_reloc_info_a1d260e2a61c43fb7d6f54ca8870686ec}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a8fc1dfc884d77d04e030973b71375506}{}static bool {\bfseries Is\+Const\+Pool} (Mode mode)\label{classv8_1_1internal_1_1_reloc_info_a8fc1dfc884d77d04e030973b71375506}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a154f34cc6320cbf6c1e8bdad051b5437}{}static bool {\bfseries Is\+Veneer\+Pool} (Mode mode)\label{classv8_1_1internal_1_1_reloc_info_a154f34cc6320cbf6c1e8bdad051b5437}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a3494835fa667ff485f1cdbfe9995c392}{}static bool {\bfseries Is\+Position} (Mode mode)\label{classv8_1_1internal_1_1_reloc_info_a3494835fa667ff485f1cdbfe9995c392}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_adb25b20e8e5daeced667dde430727ba4}{}static bool {\bfseries Is\+Statement\+Position} (Mode mode)\label{classv8_1_1internal_1_1_reloc_info_adb25b20e8e5daeced667dde430727ba4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a5c60c6f1f4f0b00645865a4872b89859}{}static bool {\bfseries Is\+External\+Reference} (Mode mode)\label{classv8_1_1internal_1_1_reloc_info_a5c60c6f1f4f0b00645865a4872b89859}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_ae71eaf1d47bbb5222a7163a00aab7709}{}static bool {\bfseries Is\+Internal\+Reference} (Mode mode)\label{classv8_1_1internal_1_1_reloc_info_ae71eaf1d47bbb5222a7163a00aab7709}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a01b23fb31661beba3637943088752467}{}static bool {\bfseries Is\+Debug\+Break\+Slot} (Mode mode)\label{classv8_1_1internal_1_1_reloc_info_a01b23fb31661beba3637943088752467}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a4ab994cff72287120b2122ae80285960}{}static bool {\bfseries Is\+None} (Mode mode)\label{classv8_1_1internal_1_1_reloc_info_a4ab994cff72287120b2122ae80285960}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_aeaa71c56924a1875eb74b107d6c0e403}{}static bool {\bfseries Is\+Code\+Age\+Sequence} (Mode mode)\label{classv8_1_1internal_1_1_reloc_info_aeaa71c56924a1875eb74b107d6c0e403}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a002820c955566503335ea1a6ec4a5898}{}static int {\bfseries Mode\+Mask} (Mode mode)\label{classv8_1_1internal_1_1_reloc_info_a002820c955566503335ea1a6ec4a5898}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_ae93b3e9c57966ed571acf3eff24d9320}{}static bool {\bfseries Is\+Equal} (\hyperlink{classv8_1_1internal_1_1_reloc_info}{Reloc\+Info} first, \hyperlink{classv8_1_1internal_1_1_reloc_info}{Reloc\+Info} second)\label{classv8_1_1internal_1_1_reloc_info_ae93b3e9c57966ed571acf3eff24d9320}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_af18236bde80b2776cb8e62e565053a89}{}static const int {\bfseries k\+No\+Position} = -\/1\label{classv8_1_1internal_1_1_reloc_info_af18236bde80b2776cb8e62e565053a89}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a5dca3a70ad12924b3a1d6a42c3b03a98}{}static const char $\ast$const {\bfseries k\+Filler\+Comment\+String} = \char`\"{}D\+E\+O\+P\+T\+I\+M\+I\+Z\+A\+T\+I\+O\+N P\+A\+D\+D\+I\+N\+G\char`\"{}\label{classv8_1_1internal_1_1_reloc_info_a5dca3a70ad12924b3a1d6a42c3b03a98}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_ac4fb63784119fabde3751f74a4c6317c}{}static const int {\bfseries k\+Min\+Reloc\+Comment\+Size} = 3 + k\+Pointer\+Size\label{classv8_1_1internal_1_1_reloc_info_ac4fb63784119fabde3751f74a4c6317c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a67b0b843b7077292ca5e49d94470c54b}{}static const int {\bfseries k\+Max\+Call\+Size} = 6\label{classv8_1_1internal_1_1_reloc_info_a67b0b843b7077292ca5e49d94470c54b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_aaa24612c6d9accc00a457efc88180136}{}static const int {\bfseries k\+Max\+Small\+P\+C\+Delta} = k\+Small\+P\+C\+Delta\+Mask\label{classv8_1_1internal_1_1_reloc_info_aaa24612c6d9accc00a457efc88180136}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a0193c4195c5b1dce42953210d9ec6dd4}{}static const int {\bfseries k\+Code\+Target\+Mask} = (1 $<$$<$ (L\+A\+S\+T\+\_\+\+C\+O\+D\+E\+\_\+\+E\+N\+U\+M + 1)) -\/ 1\label{classv8_1_1internal_1_1_reloc_info_a0193c4195c5b1dce42953210d9ec6dd4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a0ddf7d06f2fe51a53769262eb9529b6d}{}static const int {\bfseries k\+Position\+Mask} = 1 $<$$<$ P\+O\+S\+I\+T\+I\+O\+N $\vert$ 1 $<$$<$ S\+T\+A\+T\+E\+M\+E\+N\+T\+\_\+\+P\+O\+S\+I\+T\+I\+O\+N\label{classv8_1_1internal_1_1_reloc_info_a0ddf7d06f2fe51a53769262eb9529b6d}
+
+\item 
+static const int {\bfseries k\+Data\+Mask}
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a3674f1738fbd7b36d670397d0fbd363e}{}static const int {\bfseries k\+Apply\+Mask}\label{classv8_1_1internal_1_1_reloc_info_a3674f1738fbd7b36d670397d0fbd363e}
+
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a9ff673d9f08f4ce3738760e4e66dc88a}{}class {\bfseries Reloc\+Iterator}\label{classv8_1_1internal_1_1_reloc_info_a9ff673d9f08f4ce3738760e4e66dc88a}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classv8_1_1internal_1_1_reloc_info_a81087f9aba7b7a2a529d3c166093fb61}{}\index{v8\+::internal\+::\+Reloc\+Info@{v8\+::internal\+::\+Reloc\+Info}!k\+Data\+Mask@{k\+Data\+Mask}}
+\index{k\+Data\+Mask@{k\+Data\+Mask}!v8\+::internal\+::\+Reloc\+Info@{v8\+::internal\+::\+Reloc\+Info}}
+\subsubsection[{k\+Data\+Mask}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+Reloc\+Info\+::k\+Data\+Mask\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_reloc_info_a81087f9aba7b7a2a529d3c166093fb61}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      (1 << CODE\_TARGET\_WITH\_ID) | kPositionMask | (1 << COMMENT)
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/assembler.\+h\item 
+src/assembler.\+cc\end{DoxyCompactItemize}

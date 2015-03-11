@@ -1,0 +1,77 @@
+\hypertarget{classv8_1_1internal_1_1_builtins}{}\section{v8\+:\+:internal\+:\+:Builtins Class Reference}
+\label{classv8_1_1internal_1_1_builtins}\index{v8\+::internal\+::\+Builtins@{v8\+::internal\+::\+Builtins}}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_builtins_af0fa18b8b976be56ea5cba1f88a5720e}{}enum {\bfseries Name} \{ {\bfseries builtin\+\_\+count}
+ \}\label{classv8_1_1internal_1_1_builtins_af0fa18b8b976be56ea5cba1f88a5720e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_builtins_a4b8719d456ae0289285e542440d1ad9e}{}enum {\bfseries C\+Function\+Id} \{ {\bfseries cfunction\+\_\+count}
+ \}\label{classv8_1_1internal_1_1_builtins_a4b8719d456ae0289285e542440d1ad9e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_builtins_a0f02160f66bb9a9dee9f8f0cda538c1d}{}enum {\bfseries Java\+Script} \{ {\bfseries id\+\_\+count}
+ \}\label{classv8_1_1internal_1_1_builtins_a0f02160f66bb9a9dee9f8f0cda538c1d}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_builtins_a75e1d9f48247554cfe5523c1daf71371}{}void {\bfseries Set\+Up} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, bool create\+\_\+heap\+\_\+objects)\label{classv8_1_1internal_1_1_builtins_a75e1d9f48247554cfe5523c1daf71371}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_builtins_a0dd5f6b191e420297c6e6cfa801df51e}{}void {\bfseries Tear\+Down} ()\label{classv8_1_1internal_1_1_builtins_a0dd5f6b191e420297c6e6cfa801df51e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_builtins_a0da2dcc2e4d1c551beef7576b1f7f5c5}{}void {\bfseries Iterate\+Builtins} (Object\+Visitor $\ast$v)\label{classv8_1_1internal_1_1_builtins_a0da2dcc2e4d1c551beef7576b1f7f5c5}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_builtins_a22c3b1cfab8e834234d728c03e332e26}{}const char $\ast$ {\bfseries Lookup} (byte $\ast$pc)\label{classv8_1_1internal_1_1_builtins_a22c3b1cfab8e834234d728c03e332e26}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_builtins_a7c2862becc6cf484e05195a4f180b04f}{}\hyperlink{classv8_1_1internal_1_1_code}{Code} $\ast$ {\bfseries builtin} (Name name)\label{classv8_1_1internal_1_1_builtins_a7c2862becc6cf484e05195a4f180b04f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_builtins_a7f2c4c5fa584b481598b346f42ac9a7e}{}Address {\bfseries builtin\+\_\+address} (Name name)\label{classv8_1_1internal_1_1_builtins_a7f2c4c5fa584b481598b346f42ac9a7e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_builtins_a91b89e9e3abd524b033e20105c67243a}{}const char $\ast$ {\bfseries name} (int index)\label{classv8_1_1internal_1_1_builtins_a91b89e9e3abd524b033e20105c67243a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_builtins_a165fd1f5b1cb27a378fe333f0ba485bf}{}\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_code}{Code} $>$ {\bfseries Get\+Code} (Java\+Script id, bool $\ast$resolved)\label{classv8_1_1internal_1_1_builtins_a165fd1f5b1cb27a378fe333f0ba485bf}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_builtins_a764c94df78f2579f0afc3023a8a4bf2f}{}bool {\bfseries is\+\_\+initialized} () const \label{classv8_1_1internal_1_1_builtins_a764c94df78f2579f0afc3023a8a4bf2f}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_builtins_a025a6664443f93abe1cb67d45d2845f8}{}static Address {\bfseries c\+\_\+function\+\_\+address} (C\+Function\+Id id)\label{classv8_1_1internal_1_1_builtins_a025a6664443f93abe1cb67d45d2845f8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_builtins_ae238a93c60137e19bbe4989d18258de8}{}static const char $\ast$ {\bfseries Get\+Name} (Java\+Script id)\label{classv8_1_1internal_1_1_builtins_ae238a93c60137e19bbe4989d18258de8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_builtins_afb983983c64c15a2ab0b5e1abbfdbff7}{}static int {\bfseries Get\+Arguments\+Count} (Java\+Script id)\label{classv8_1_1internal_1_1_builtins_afb983983c64c15a2ab0b5e1abbfdbff7}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_builtins_a2a062555a2f09307ae8b73bec2964b6c}{}static int {\bfseries Number\+Of\+Java\+Script\+Builtins} ()\label{classv8_1_1internal_1_1_builtins_a2a062555a2f09307ae8b73bec2964b6c}
+
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_builtins_a6bf55384c2c77dfdeecf52210335713e}{}class {\bfseries Builtin\+Function\+Table}\label{classv8_1_1internal_1_1_builtins_a6bf55384c2c77dfdeecf52210335713e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_builtins_aba4f0964bdacf2bbf62cf876e5d28d0a}{}class {\bfseries Isolate}\label{classv8_1_1internal_1_1_builtins_aba4f0964bdacf2bbf62cf876e5d28d0a}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/builtins.\+h\item 
+src/builtins.\+cc\end{DoxyCompactItemize}
