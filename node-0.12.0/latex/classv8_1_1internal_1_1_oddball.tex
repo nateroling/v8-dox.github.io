@@ -1,0 +1,91 @@
+\hypertarget{classv8_1_1internal_1_1_oddball}{}\section{v8\+:\+:internal\+:\+:Oddball Class Reference}
+\label{classv8_1_1internal_1_1_oddball}\index{v8\+::internal\+::\+Oddball@{v8\+::internal\+::\+Oddball}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Oddball\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classv8_1_1internal_1_1_oddball}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_ad1d459bb4618454b50c162aa60785ca0}{}typedef \hyperlink{classv8_1_1internal_1_1_fixed_body_descriptor}{Fixed\+Body\+Descriptor}$<$ k\+To\+String\+Offset, k\+To\+Number\+Offset+k\+Pointer\+Size, k\+Size $>$ {\bfseries Body\+Descriptor}\label{classv8_1_1internal_1_1_oddball_ad1d459bb4618454b50c162aa60785ca0}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_a4e4dcda0283ac0d7c5075ac66a450c13}{}byte {\bfseries kind} () const \label{classv8_1_1internal_1_1_oddball_a4e4dcda0283ac0d7c5075ac66a450c13}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_a23ac73dee2b9eccc79fad51864a92061}{}void {\bfseries set\+\_\+kind} (byte kind)\label{classv8_1_1internal_1_1_oddball_a23ac73dee2b9eccc79fad51864a92061}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_adaa90c45078014efb0017364c9fc7505}{}{\bfseries S\+T\+A\+T\+I\+C\+\_\+\+A\+S\+S\+E\+R\+T} (k\+Kind\+Offset==Internals\+::k\+Oddball\+Kind\+Offset)\label{classv8_1_1internal_1_1_oddball_adaa90c45078014efb0017364c9fc7505}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_a8b098918d70d60336f7cb6686df4cee3}{}{\bfseries S\+T\+A\+T\+I\+C\+\_\+\+A\+S\+S\+E\+R\+T} (k\+Null==Internals\+::k\+Null\+Oddball\+Kind)\label{classv8_1_1internal_1_1_oddball_a8b098918d70d60336f7cb6686df4cee3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_ac59ae66d1803a5c087b45515d9358891}{}{\bfseries S\+T\+A\+T\+I\+C\+\_\+\+A\+S\+S\+E\+R\+T} (k\+Undefined==Internals\+::k\+Undefined\+Oddball\+Kind)\label{classv8_1_1internal_1_1_oddball_ac59ae66d1803a5c087b45515d9358891}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_a2c8baf154774caefe968bf9cb5bc7499}{}static void {\bfseries Initialize} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_oddball}{Oddball} $>$ oddball, const char $\ast$to\+\_\+string, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ to\+\_\+number, byte kind)\label{classv8_1_1internal_1_1_oddball_a2c8baf154774caefe968bf9cb5bc7499}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_aa6a9637c9e8da1a28f83c788c1027013}{}static const int {\bfseries k\+To\+String\+Offset} = Heap\+Object\+::k\+Header\+Size\label{classv8_1_1internal_1_1_oddball_aa6a9637c9e8da1a28f83c788c1027013}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_a15f1533c8dc4c622d3a14c291103d5e3}{}static const int {\bfseries k\+To\+Number\+Offset} = k\+To\+String\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_oddball_a15f1533c8dc4c622d3a14c291103d5e3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_a3aa86ed02d356c506c27a284e683b865}{}static const int {\bfseries k\+Kind\+Offset} = k\+To\+Number\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_oddball_a3aa86ed02d356c506c27a284e683b865}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_a94ef696c3fd95d44b6ace00ae799d890}{}static const int {\bfseries k\+Size} = k\+Kind\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_oddball_a94ef696c3fd95d44b6ace00ae799d890}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_a3556ea40330ca7f13d1546b9a5ab278c}{}static const byte {\bfseries k\+False} = 0\label{classv8_1_1internal_1_1_oddball_a3556ea40330ca7f13d1546b9a5ab278c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_a7dd4be392c0689925b57abb5898c8b47}{}static const byte {\bfseries k\+True} = 1\label{classv8_1_1internal_1_1_oddball_a7dd4be392c0689925b57abb5898c8b47}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_a0286390eeab3d5ff7cd0e0dd09712c1b}{}static const byte {\bfseries k\+Not\+Boolean\+Mask} = $\sim$1\label{classv8_1_1internal_1_1_oddball_a0286390eeab3d5ff7cd0e0dd09712c1b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_a56d93ed85d040bf41eb738a1f0e0c2f2}{}static const byte {\bfseries k\+The\+Hole} = 2\label{classv8_1_1internal_1_1_oddball_a56d93ed85d040bf41eb738a1f0e0c2f2}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_a7e9e260f9a1ee980b4ac12e2d534ff27}{}static const byte {\bfseries k\+Null} = 3\label{classv8_1_1internal_1_1_oddball_a7e9e260f9a1ee980b4ac12e2d534ff27}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_a3fa2607976e877ccca4e4b2e23a060a6}{}static const byte {\bfseries k\+Argument\+Marker} = 4\label{classv8_1_1internal_1_1_oddball_a3fa2607976e877ccca4e4b2e23a060a6}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_a38ddddfd10d8732bcef0714b3bd57008}{}static const byte {\bfseries k\+Undefined} = 5\label{classv8_1_1internal_1_1_oddball_a38ddddfd10d8732bcef0714b3bd57008}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_ab030131494be698f1e666ce7d50cc873}{}static const byte {\bfseries k\+Uninitialized} = 6\label{classv8_1_1internal_1_1_oddball_ab030131494be698f1e666ce7d50cc873}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_af181f2f5cc1b00216ed1a2ebacecc40e}{}static const byte {\bfseries k\+Other} = 7\label{classv8_1_1internal_1_1_oddball_af181f2f5cc1b00216ed1a2ebacecc40e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_oddball_a56b06e715a40821036ac6fec67b7ec60}{}static const byte {\bfseries k\+Exception} = 8\label{classv8_1_1internal_1_1_oddball_a56b06e715a40821036ac6fec67b7ec60}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/objects.\+h\item 
+src/objects-\/inl.\+h\item 
+src/objects.\+cc\end{DoxyCompactItemize}

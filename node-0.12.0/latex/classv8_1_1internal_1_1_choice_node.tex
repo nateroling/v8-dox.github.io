@@ -1,0 +1,87 @@
+\hypertarget{classv8_1_1internal_1_1_choice_node}{}\section{v8\+:\+:internal\+:\+:Choice\+Node Class Reference}
+\label{classv8_1_1internal_1_1_choice_node}\index{v8\+::internal\+::\+Choice\+Node@{v8\+::internal\+::\+Choice\+Node}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Choice\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classv8_1_1internal_1_1_choice_node}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_a018fa28745789e0eb28b243570ed025c}{}{\bfseries Choice\+Node} (int expected\+\_\+size, \hyperlink{classv8_1_1internal_1_1_zone}{Zone} $\ast$zone)\label{classv8_1_1internal_1_1_choice_node_a018fa28745789e0eb28b243570ed025c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_a53d7cb491441f0469f69073aab9de65e}{}virtual void {\bfseries Accept} (\hyperlink{classv8_1_1internal_1_1_node_visitor}{Node\+Visitor} $\ast$visitor)\label{classv8_1_1internal_1_1_choice_node_a53d7cb491441f0469f69073aab9de65e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_a43dcb33c0c050a62d779d8d7c82ab868}{}void {\bfseries Add\+Alternative} (\hyperlink{classv8_1_1internal_1_1_guarded_alternative}{Guarded\+Alternative} node)\label{classv8_1_1internal_1_1_choice_node_a43dcb33c0c050a62d779d8d7c82ab868}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_a2e4d4b33b955dfbef9722332f9209906}{}\hyperlink{classv8_1_1internal_1_1_zone_list}{Zone\+List}$<$ \hyperlink{classv8_1_1internal_1_1_guarded_alternative}{Guarded\+Alternative} $>$ $\ast$ {\bfseries alternatives} ()\label{classv8_1_1internal_1_1_choice_node_a2e4d4b33b955dfbef9722332f9209906}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_a0e140854cd34988a22154bca49ead44c}{}\hyperlink{classv8_1_1internal_1_1_dispatch_table}{Dispatch\+Table} $\ast$ {\bfseries Get\+Table} (bool ignore\+\_\+case)\label{classv8_1_1internal_1_1_choice_node_a0e140854cd34988a22154bca49ead44c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_afdb66d254862379b9ee921a0bf85077d}{}virtual void {\bfseries Emit} (\hyperlink{classv8_1_1internal_1_1_reg_exp_compiler}{Reg\+Exp\+Compiler} $\ast$compiler, \hyperlink{classv8_1_1internal_1_1_trace}{Trace} $\ast$trace)\label{classv8_1_1internal_1_1_choice_node_afdb66d254862379b9ee921a0bf85077d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_ab757cf462efb1b94601ee36bae019536}{}virtual int {\bfseries Eats\+At\+Least} (int still\+\_\+to\+\_\+find, int budget, bool not\+\_\+at\+\_\+start)\label{classv8_1_1internal_1_1_choice_node_ab757cf462efb1b94601ee36bae019536}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_afcd5ff9141d54e2d163a60a66cb3abbd}{}int {\bfseries Eats\+At\+Least\+Helper} (int still\+\_\+to\+\_\+find, int budget, \hyperlink{classv8_1_1internal_1_1_reg_exp_node}{Reg\+Exp\+Node} $\ast$ignore\+\_\+this\+\_\+node, bool not\+\_\+at\+\_\+start)\label{classv8_1_1internal_1_1_choice_node_afcd5ff9141d54e2d163a60a66cb3abbd}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_a7e49411bc661f7902bc9c8d048fbc265}{}virtual void {\bfseries Get\+Quick\+Check\+Details} (\hyperlink{classv8_1_1internal_1_1_quick_check_details}{Quick\+Check\+Details} $\ast$details, \hyperlink{classv8_1_1internal_1_1_reg_exp_compiler}{Reg\+Exp\+Compiler} $\ast$compiler, int characters\+\_\+filled\+\_\+in, bool not\+\_\+at\+\_\+start)\label{classv8_1_1internal_1_1_choice_node_a7e49411bc661f7902bc9c8d048fbc265}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_a7b08dcfb510c57af423f70c5a175885f}{}virtual void {\bfseries Fill\+In\+B\+M\+Info} (int offset, int budget, \hyperlink{classv8_1_1internal_1_1_boyer_moore_lookahead}{Boyer\+Moore\+Lookahead} $\ast$bm, bool not\+\_\+at\+\_\+start)\label{classv8_1_1internal_1_1_choice_node_a7b08dcfb510c57af423f70c5a175885f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_a424ff01754676f5bac9b7e5356332dc3}{}bool {\bfseries being\+\_\+calculated} ()\label{classv8_1_1internal_1_1_choice_node_a424ff01754676f5bac9b7e5356332dc3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_ac196fd8c0df4d1676a23fed33ad460c6}{}bool {\bfseries not\+\_\+at\+\_\+start} ()\label{classv8_1_1internal_1_1_choice_node_ac196fd8c0df4d1676a23fed33ad460c6}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_a43edce21f575aebdb5417794138043be}{}void {\bfseries set\+\_\+not\+\_\+at\+\_\+start} ()\label{classv8_1_1internal_1_1_choice_node_a43edce21f575aebdb5417794138043be}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_a756fc92efb374945d6584a8f68ba9e1f}{}void {\bfseries set\+\_\+being\+\_\+calculated} (bool b)\label{classv8_1_1internal_1_1_choice_node_a756fc92efb374945d6584a8f68ba9e1f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_aeffa466aec1c019bebfeb833e05c4ae6}{}virtual bool {\bfseries try\+\_\+to\+\_\+emit\+\_\+quick\+\_\+check\+\_\+for\+\_\+alternative} (int i)\label{classv8_1_1internal_1_1_choice_node_aeffa466aec1c019bebfeb833e05c4ae6}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_a9ef837737cc368710655184a4b91b762}{}virtual \hyperlink{classv8_1_1internal_1_1_reg_exp_node}{Reg\+Exp\+Node} $\ast$ {\bfseries Filter\+A\+S\+C\+I\+I} (int depth, bool ignore\+\_\+case)\label{classv8_1_1internal_1_1_choice_node_a9ef837737cc368710655184a4b91b762}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_a4c728774f51d6874a8894a444486f10e}{}int {\bfseries Greedy\+Loop\+Text\+Length\+For\+Alternative} (\hyperlink{classv8_1_1internal_1_1_guarded_alternative}{Guarded\+Alternative} $\ast$alternative)\label{classv8_1_1internal_1_1_choice_node_a4c728774f51d6874a8894a444486f10e}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_a3820e11ba725590ffc4e1d5d3a2b19ad}{}\hyperlink{classv8_1_1internal_1_1_zone_list}{Zone\+List}$<$ \hyperlink{classv8_1_1internal_1_1_guarded_alternative}{Guarded\+Alternative} $>$ $\ast$ {\bfseries alternatives\+\_\+}\label{classv8_1_1internal_1_1_choice_node_a3820e11ba725590ffc4e1d5d3a2b19ad}
+
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_ab1c57f90b7cb7e0e0c0a088d6a0f8f6c}{}class {\bfseries Dispatch\+Table\+Constructor}\label{classv8_1_1internal_1_1_choice_node_ab1c57f90b7cb7e0e0c0a088d6a0f8f6c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_choice_node_a1e23f70a55de946d03c863586003862d}{}class {\bfseries Analysis}\label{classv8_1_1internal_1_1_choice_node_a1e23f70a55de946d03c863586003862d}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/jsregexp.\+h\item 
+src/jsregexp.\+cc\end{DoxyCompactItemize}

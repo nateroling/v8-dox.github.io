@@ -1,0 +1,53 @@
+\hypertarget{classv8_1_1internal_1_1_call_i_c}{}\section{v8\+:\+:internal\+:\+:Call\+I\+C Class Reference}
+\label{classv8_1_1internal_1_1_call_i_c}\index{v8\+::internal\+::\+Call\+I\+C@{v8\+::internal\+::\+Call\+I\+C}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Call\+I\+C\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classv8_1_1internal_1_1_call_i_c}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classv8_1_1internal_1_1_call_i_c_1_1_b_a_s_e___e_m_b_e_d_d_e_d}{B\+A\+S\+E\+\_\+\+E\+M\+B\+E\+D\+D\+E\+D}
+\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_call_i_c_a2479b33e456da6239fe91f8e5d017fde}{}enum {\bfseries Call\+Type} \{ {\bfseries M\+E\+T\+H\+O\+D}, 
+{\bfseries F\+U\+N\+C\+T\+I\+O\+N}
+ \}\label{classv8_1_1internal_1_1_call_i_c_a2479b33e456da6239fe91f8e5d017fde}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_call_i_c_ad6d7d05e19218aa378057855930e7385}{}{\bfseries Call\+I\+C} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate)\label{classv8_1_1internal_1_1_call_i_c_ad6d7d05e19218aa378057855930e7385}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_call_i_c_ab8106613d486f5750ea5971e9f7618aa}{}void {\bfseries Patch\+Megamorphic} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ function, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_fixed_array}{Fixed\+Array} $>$ vector, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_smi}{Smi} $>$ slot)\label{classv8_1_1internal_1_1_call_i_c_ab8106613d486f5750ea5971e9f7618aa}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_call_i_c_a4c217561e5491073af2e13041adb4848}{}void {\bfseries Handle\+Miss} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ receiver, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ function, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_fixed_array}{Fixed\+Array} $>$ vector, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_smi}{Smi} $>$ slot)\label{classv8_1_1internal_1_1_call_i_c_a4c217561e5491073af2e13041adb4848}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_call_i_c_a6fc1985a0776d9885480632b6766093b}{}bool {\bfseries Do\+Custom\+Handler} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ receiver, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ function, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_fixed_array}{Fixed\+Array} $>$ vector, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_smi}{Smi} $>$ slot, const State \&state)\label{classv8_1_1internal_1_1_call_i_c_a6fc1985a0776d9885480632b6766093b}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_call_i_c_a627b387e7ff68ffdcaa9739ea1648aaa}{}static \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_code}{Code} $>$ {\bfseries initialize\+\_\+stub} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, int argc, Call\+Type call\+\_\+type)\label{classv8_1_1internal_1_1_call_i_c_a627b387e7ff68ffdcaa9739ea1648aaa}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_call_i_c_a5ffce3305f7d0f67647a839be167a8b1}{}static void {\bfseries Clear} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, Address address, \hyperlink{classv8_1_1internal_1_1_code}{Code} $\ast$target, \hyperlink{classv8_1_1internal_1_1_constant_pool_array}{Constant\+Pool\+Array} $\ast$constant\+\_\+pool)\label{classv8_1_1internal_1_1_call_i_c_a5ffce3305f7d0f67647a839be167a8b1}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/ic.\+h\item 
+src/ic-\/inl.\+h\item 
+src/ic.\+cc\end{DoxyCompactItemize}

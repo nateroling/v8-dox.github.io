@@ -1,0 +1,88 @@
+\hypertarget{classv8_1_1internal_1_1_splay_tree}{}\section{v8\+:\+:internal\+:\+:Splay\+Tree$<$ Config, Allocation\+Policy $>$ Class Template Reference}
+\label{classv8_1_1internal_1_1_splay_tree}\index{v8\+::internal\+::\+Splay\+Tree$<$ Config, Allocation\+Policy $>$@{v8\+::internal\+::\+Splay\+Tree$<$ Config, Allocation\+Policy $>$}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classv8_1_1internal_1_1_splay_tree_1_1_b_a_s_e___e_m_b_e_d_d_e_d}{B\+A\+S\+E\+\_\+\+E\+M\+B\+E\+D\+D\+E\+D}
+\item 
+class \hyperlink{classv8_1_1internal_1_1_splay_tree_1_1_node}{Node}
+\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_a37fb72d02bb9916a61b98b985bd376ba}{}typedef Config\+::\+Key {\bfseries Key}\label{classv8_1_1internal_1_1_splay_tree_a37fb72d02bb9916a61b98b985bd376ba}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_aa2d8e0e29b39457fa56226c8e18c41f7}{}typedef Config\+::\+Value {\bfseries Value}\label{classv8_1_1internal_1_1_splay_tree_aa2d8e0e29b39457fa56226c8e18c41f7}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_a32079df13e173728baa4e30b22835155}{}{\bfseries Splay\+Tree} (Allocation\+Policy allocator=Allocation\+Policy())\label{classv8_1_1internal_1_1_splay_tree_a32079df13e173728baa4e30b22835155}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_aa2712b930607076703084d49a08fa715}{}{\bfseries I\+N\+L\+I\+N\+E} (void $\ast$operator new(size\+\_\+t size, Allocation\+Policy allocator=Allocation\+Policy()))\label{classv8_1_1internal_1_1_splay_tree_aa2712b930607076703084d49a08fa715}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_aa82a2181a29f67cab2be46b6acf8d548}{}{\bfseries I\+N\+L\+I\+N\+E} (void operator delete(void $\ast$p))\label{classv8_1_1internal_1_1_splay_tree_aa82a2181a29f67cab2be46b6acf8d548}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_abe023fb5b9ce3fed7322bbaf756231c0}{}{\bfseries I\+N\+L\+I\+N\+E} (void operator delete(void $\ast$p, Allocation\+Policy policy))\label{classv8_1_1internal_1_1_splay_tree_abe023fb5b9ce3fed7322bbaf756231c0}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_a1f246b50b6918ac8dd2651817ab43b20}{}Allocation\+Policy {\bfseries allocator} ()\label{classv8_1_1internal_1_1_splay_tree_a1f246b50b6918ac8dd2651817ab43b20}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_a2df37e47951b6090ecd2787663a96ab3}{}bool {\bfseries Contains} (const Key \&key)\label{classv8_1_1internal_1_1_splay_tree_a2df37e47951b6090ecd2787663a96ab3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_aeadaecb47733848fb6b6eb835b9a729c}{}bool {\bfseries Insert} (const Key \&key, Locator $\ast$locator)\label{classv8_1_1internal_1_1_splay_tree_aeadaecb47733848fb6b6eb835b9a729c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_ad055e7fd298d8c50d7772584469bda67}{}bool {\bfseries Find} (const Key \&key, Locator $\ast$locator)\label{classv8_1_1internal_1_1_splay_tree_ad055e7fd298d8c50d7772584469bda67}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_a1017cfc30654ba532f6039eff73de8c8}{}bool {\bfseries Find\+Greatest\+Less\+Than} (const Key \&key, Locator $\ast$locator)\label{classv8_1_1internal_1_1_splay_tree_a1017cfc30654ba532f6039eff73de8c8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_aa9c4bffb3e15a22809a9014f374530e1}{}bool {\bfseries Find\+Greatest} (Locator $\ast$locator)\label{classv8_1_1internal_1_1_splay_tree_aa9c4bffb3e15a22809a9014f374530e1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_a95fb504c2fa06a211446d983e689e944}{}bool {\bfseries Find\+Least\+Greater\+Than} (const Key \&key, Locator $\ast$locator)\label{classv8_1_1internal_1_1_splay_tree_a95fb504c2fa06a211446d983e689e944}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_a1379eb90062c1a6b9e7173792d651e86}{}bool {\bfseries Find\+Least} (Locator $\ast$locator)\label{classv8_1_1internal_1_1_splay_tree_a1379eb90062c1a6b9e7173792d651e86}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_a401e85c47e6fc90f75ac37220d2a4bc2}{}bool {\bfseries Move} (const Key \&old\+\_\+key, const Key \&new\+\_\+key)\label{classv8_1_1internal_1_1_splay_tree_a401e85c47e6fc90f75ac37220d2a4bc2}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_a193702074e0c336766c28e68a8355c34}{}bool {\bfseries Remove} (const Key \&key)\label{classv8_1_1internal_1_1_splay_tree_a193702074e0c336766c28e68a8355c34}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_a1ff226e5ca35dc162b0c5f878a7e6d8f}{}void {\bfseries Clear} ()\label{classv8_1_1internal_1_1_splay_tree_a1ff226e5ca35dc162b0c5f878a7e6d8f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_ad2d753c67a570c9d879fbf958b89feaa}{}bool {\bfseries is\+\_\+empty} ()\label{classv8_1_1internal_1_1_splay_tree_ad2d753c67a570c9d879fbf958b89feaa}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_aea827bdddbd85bf3b188f8b6c9a5a298}{}void {\bfseries Splay} (const Key \&key)\label{classv8_1_1internal_1_1_splay_tree_aea827bdddbd85bf3b188f8b6c9a5a298}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_a86bc3543b4ba7a00ea043ce4b08d8fae}{}{\footnotesize template$<$class Callback $>$ }\\void {\bfseries For\+Each} (Callback $\ast$callback)\label{classv8_1_1internal_1_1_splay_tree_a86bc3543b4ba7a00ea043ce4b08d8fae}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_splay_tree_a2c43926f549f2cc564e6b66fe5fdd040}{}void {\bfseries Reset\+Root} ()\label{classv8_1_1internal_1_1_splay_tree_a2c43926f549f2cc564e6b66fe5fdd040}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/globals.\+h\item 
+src/splay-\/tree.\+h\item 
+src/splay-\/tree-\/inl.\+h\end{DoxyCompactItemize}

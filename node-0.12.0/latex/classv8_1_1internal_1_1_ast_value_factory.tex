@@ -1,0 +1,62 @@
+\hypertarget{classv8_1_1internal_1_1_ast_value_factory}{}\section{v8\+:\+:internal\+:\+:Ast\+Value\+Factory Class Reference}
+\label{classv8_1_1internal_1_1_ast_value_factory}\index{v8\+::internal\+::\+Ast\+Value\+Factory@{v8\+::internal\+::\+Ast\+Value\+Factory}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_ast_value_factory_a70127bc521314ac55105a1725819c8c1}{}{\bfseries Ast\+Value\+Factory} (\hyperlink{classv8_1_1internal_1_1_zone}{Zone} $\ast$zone, uint32\+\_\+t hash\+\_\+seed)\label{classv8_1_1internal_1_1_ast_value_factory_a70127bc521314ac55105a1725819c8c1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_ast_value_factory_a8b185da53432ca85bb3b6d46556c0d75}{}const \hyperlink{classv8_1_1internal_1_1_ast_raw_string}{Ast\+Raw\+String} $\ast$ {\bfseries Get\+One\+Byte\+String} (\hyperlink{classv8_1_1internal_1_1_vector}{Vector}$<$ const uint8\+\_\+t $>$ literal)\label{classv8_1_1internal_1_1_ast_value_factory_a8b185da53432ca85bb3b6d46556c0d75}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_ast_value_factory_a4de86ce5c6002dec8cd8e441a36871ac}{}const \hyperlink{classv8_1_1internal_1_1_ast_raw_string}{Ast\+Raw\+String} $\ast$ {\bfseries Get\+One\+Byte\+String} (const char $\ast$string)\label{classv8_1_1internal_1_1_ast_value_factory_a4de86ce5c6002dec8cd8e441a36871ac}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_ast_value_factory_a7de761f4c43839504dbcbbea2950854a}{}const \hyperlink{classv8_1_1internal_1_1_ast_raw_string}{Ast\+Raw\+String} $\ast$ {\bfseries Get\+Two\+Byte\+String} (\hyperlink{classv8_1_1internal_1_1_vector}{Vector}$<$ const uint16\+\_\+t $>$ literal)\label{classv8_1_1internal_1_1_ast_value_factory_a7de761f4c43839504dbcbbea2950854a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_ast_value_factory_aaf364273b48895f490ec1008ecd29bed}{}const \hyperlink{classv8_1_1internal_1_1_ast_raw_string}{Ast\+Raw\+String} $\ast$ {\bfseries Get\+String} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ literal)\label{classv8_1_1internal_1_1_ast_value_factory_aaf364273b48895f490ec1008ecd29bed}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_ast_value_factory_a97eccad8901b4bdfa0cc00d4a133f6f3}{}const \hyperlink{classv8_1_1internal_1_1_ast_cons_string}{Ast\+Cons\+String} $\ast$ {\bfseries New\+Cons\+String} (const \hyperlink{classv8_1_1internal_1_1_ast_string}{Ast\+String} $\ast$left, const \hyperlink{classv8_1_1internal_1_1_ast_string}{Ast\+String} $\ast$right)\label{classv8_1_1internal_1_1_ast_value_factory_a97eccad8901b4bdfa0cc00d4a133f6f3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_ast_value_factory_a5deb8e954fe78ec1910d5fe494e602d3}{}void {\bfseries Internalize} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate)\label{classv8_1_1internal_1_1_ast_value_factory_a5deb8e954fe78ec1910d5fe494e602d3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_ast_value_factory_ad4d40aa31bd431a57a985f9c87242ed9}{}bool {\bfseries Is\+Internalized} ()\label{classv8_1_1internal_1_1_ast_value_factory_ad4d40aa31bd431a57a985f9c87242ed9}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_ast_value_factory_acc10654c4900ddf6c9df0eb0db570c5d}{}const \hyperlink{classv8_1_1internal_1_1_ast_value}{Ast\+Value} $\ast$ {\bfseries New\+String} (const \hyperlink{classv8_1_1internal_1_1_ast_raw_string}{Ast\+Raw\+String} $\ast$string)\label{classv8_1_1internal_1_1_ast_value_factory_acc10654c4900ddf6c9df0eb0db570c5d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_ast_value_factory_ae532fb5eee98a9b1aca33b08241b4798}{}const \hyperlink{classv8_1_1internal_1_1_ast_value}{Ast\+Value} $\ast$ {\bfseries New\+Symbol} (const char $\ast$name)\label{classv8_1_1internal_1_1_ast_value_factory_ae532fb5eee98a9b1aca33b08241b4798}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_ast_value_factory_a8f65cf3651fb792b1c3551c7b29a5b9b}{}const \hyperlink{classv8_1_1internal_1_1_ast_value}{Ast\+Value} $\ast$ {\bfseries New\+Number} (double number)\label{classv8_1_1internal_1_1_ast_value_factory_a8f65cf3651fb792b1c3551c7b29a5b9b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_ast_value_factory_a946e0af513192f073660d80e03a904d8}{}const \hyperlink{classv8_1_1internal_1_1_ast_value}{Ast\+Value} $\ast$ {\bfseries New\+Smi} (int number)\label{classv8_1_1internal_1_1_ast_value_factory_a946e0af513192f073660d80e03a904d8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_ast_value_factory_ae03a5d1347d22306588b0e5709ccfc82}{}const \hyperlink{classv8_1_1internal_1_1_ast_value}{Ast\+Value} $\ast$ {\bfseries New\+Boolean} (bool b)\label{classv8_1_1internal_1_1_ast_value_factory_ae03a5d1347d22306588b0e5709ccfc82}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_ast_value_factory_a7bee5a9a03b03f59d2a6c62ab52045ed}{}const \hyperlink{classv8_1_1internal_1_1_ast_value}{Ast\+Value} $\ast$ {\bfseries New\+String\+List} (\hyperlink{classv8_1_1internal_1_1_zone_list}{Zone\+List}$<$ const \hyperlink{classv8_1_1internal_1_1_ast_raw_string}{Ast\+Raw\+String} $\ast$ $>$ $\ast$strings)\label{classv8_1_1internal_1_1_ast_value_factory_a7bee5a9a03b03f59d2a6c62ab52045ed}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_ast_value_factory_a93026a40389b24fda775956f218248b8}{}const \hyperlink{classv8_1_1internal_1_1_ast_value}{Ast\+Value} $\ast$ {\bfseries New\+Null} ()\label{classv8_1_1internal_1_1_ast_value_factory_a93026a40389b24fda775956f218248b8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_ast_value_factory_a8822771d32f8a55049f7698cc936b495}{}const \hyperlink{classv8_1_1internal_1_1_ast_value}{Ast\+Value} $\ast$ {\bfseries New\+Undefined} ()\label{classv8_1_1internal_1_1_ast_value_factory_a8822771d32f8a55049f7698cc936b495}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_ast_value_factory_acb9d0ab346a47b869034be56f9fda62d}{}const \hyperlink{classv8_1_1internal_1_1_ast_value}{Ast\+Value} $\ast$ {\bfseries New\+The\+Hole} ()\label{classv8_1_1internal_1_1_ast_value_factory_acb9d0ab346a47b869034be56f9fda62d}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/ast-\/value-\/factory.\+h\item 
+src/ast-\/value-\/factory.\+cc\end{DoxyCompactItemize}

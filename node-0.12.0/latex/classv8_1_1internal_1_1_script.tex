@@ -1,0 +1,142 @@
+\hypertarget{classv8_1_1internal_1_1_script}{}\section{v8\+:\+:internal\+:\+:Script Class Reference}
+\label{classv8_1_1internal_1_1_script}\index{v8\+::internal\+::\+Script@{v8\+::internal\+::\+Script}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Script\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classv8_1_1internal_1_1_script}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_ab293a016cf807eed21d94c4eb8b5d3a4}{}enum {\bfseries Type} \{ {\bfseries T\+Y\+P\+E\+\_\+\+N\+A\+T\+I\+V\+E} = 0, 
+{\bfseries T\+Y\+P\+E\+\_\+\+E\+X\+T\+E\+N\+S\+I\+O\+N} = 1, 
+{\bfseries T\+Y\+P\+E\+\_\+\+N\+O\+R\+M\+A\+L} = 2
+ \}\label{classv8_1_1internal_1_1_script_ab293a016cf807eed21d94c4eb8b5d3a4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_ad5ba2ef0105d489f8e29013ad262f584}{}enum {\bfseries Compilation\+Type} \{ {\bfseries C\+O\+M\+P\+I\+L\+A\+T\+I\+O\+N\+\_\+\+T\+Y\+P\+E\+\_\+\+H\+O\+S\+T} = 0, 
+{\bfseries C\+O\+M\+P\+I\+L\+A\+T\+I\+O\+N\+\_\+\+T\+Y\+P\+E\+\_\+\+E\+V\+A\+L} = 1
+ \}\label{classv8_1_1internal_1_1_script_ad5ba2ef0105d489f8e29013ad262f584}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_a365b68632fc01a8bbae09764f6a0c2d5}{}enum {\bfseries Compilation\+State} \{ {\bfseries C\+O\+M\+P\+I\+L\+A\+T\+I\+O\+N\+\_\+\+S\+T\+A\+T\+E\+\_\+\+I\+N\+I\+T\+I\+A\+L} = 0, 
+{\bfseries C\+O\+M\+P\+I\+L\+A\+T\+I\+O\+N\+\_\+\+S\+T\+A\+T\+E\+\_\+\+C\+O\+M\+P\+I\+L\+E\+D} = 1
+ \}\label{classv8_1_1internal_1_1_script_a365b68632fc01a8bbae09764f6a0c2d5}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_ae3652d31a2782b16aab75be392caec97}{}Compilation\+Type {\bfseries compilation\+\_\+type} ()\label{classv8_1_1internal_1_1_script_ae3652d31a2782b16aab75be392caec97}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_ac5c747e61ee61b21cb9b3b41fb8f7e37}{}void {\bfseries set\+\_\+compilation\+\_\+type} (Compilation\+Type type)\label{classv8_1_1internal_1_1_script_ac5c747e61ee61b21cb9b3b41fb8f7e37}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_a36c45ec6978ec29f14a5f4d5107040a4}{}Compilation\+State {\bfseries compilation\+\_\+state} ()\label{classv8_1_1internal_1_1_script_a36c45ec6978ec29f14a5f4d5107040a4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_ad6da453b2b624bb195815bd5463d8d05}{}void {\bfseries set\+\_\+compilation\+\_\+state} (Compilation\+State state)\label{classv8_1_1internal_1_1_script_ad6da453b2b624bb195815bd5463d8d05}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_a1e8a6bb49156831a6a52ff05c4635208}{}bool {\bfseries Has\+Valid\+Source} ()\label{classv8_1_1internal_1_1_script_a1e8a6bb49156831a6a52ff05c4635208}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_a112cba4bc4be05febf66068ac7aae26c}{}int {\bfseries Get\+Line\+Number} (int code\+\_\+pos)\label{classv8_1_1internal_1_1_script_a112cba4bc4be05febf66068ac7aae26c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_a79960904f58df0bf0c238d093f4fae55}{}void {\bfseries Clear\+Wrapper\+Cache} ()\label{classv8_1_1internal_1_1_script_a79960904f58df0bf0c238d093f4fae55}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_a55c19d42384732300d10e24e08111388}{}static int {\bfseries Get\+Column\+Number} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_script}{Script} $>$ script, int code\+\_\+pos)\label{classv8_1_1internal_1_1_script_a55c19d42384732300d10e24e08111388}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_ac4c805194bb37998b48c165bae21d4ff}{}static int {\bfseries Get\+Line\+Number} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_script}{Script} $>$ script, int code\+\_\+pos)\label{classv8_1_1internal_1_1_script_ac4c805194bb37998b48c165bae21d4ff}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_a396ee21c2637f6099a50d104adaa709d}{}static \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ {\bfseries Get\+Name\+Or\+Source\+U\+R\+L} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_script}{Script} $>$ script)\label{classv8_1_1internal_1_1_script_a396ee21c2637f6099a50d104adaa709d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_ab34230113920d04f77c2a884c47a9506}{}static void {\bfseries Init\+Line\+Ends} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_script}{Script} $>$ script)\label{classv8_1_1internal_1_1_script_ab34230113920d04f77c2a884c47a9506}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_abf57cb5e70fa77906c644efa9a3ea1d5}{}static \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_object}{J\+S\+Object} $>$ {\bfseries Get\+Wrapper} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_script}{Script} $>$ script)\label{classv8_1_1internal_1_1_script_abf57cb5e70fa77906c644efa9a3ea1d5}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_a225adb25596f83c8821fe3eabd39c511}{}static const int {\bfseries k\+Source\+Offset} = Heap\+Object\+::k\+Header\+Size\label{classv8_1_1internal_1_1_script_a225adb25596f83c8821fe3eabd39c511}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_a40ff6e23759cd2b3a04ecf027325ce78}{}static const int {\bfseries k\+Name\+Offset} = k\+Source\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_script_a40ff6e23759cd2b3a04ecf027325ce78}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_a956dac18eae162c1b27233b8dde59f24}{}static const int {\bfseries k\+Line\+Offset\+Offset} = k\+Name\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_script_a956dac18eae162c1b27233b8dde59f24}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_a07bdb4450a61351c14c57340cb433def}{}static const int {\bfseries k\+Column\+Offset\+Offset} = k\+Line\+Offset\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_script_a07bdb4450a61351c14c57340cb433def}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_aa5f92f3d5a8070ff039dd47e866d942e}{}static const int {\bfseries k\+Context\+Offset} = k\+Column\+Offset\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_script_aa5f92f3d5a8070ff039dd47e866d942e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_a1a469ce1fd98e3243c5c93e23d8af841}{}static const int {\bfseries k\+Wrapper\+Offset} = k\+Context\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_script_a1a469ce1fd98e3243c5c93e23d8af841}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_a209c86d068d81195af0c6382f771f5ae}{}static const int {\bfseries k\+Type\+Offset} = k\+Wrapper\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_script_a209c86d068d81195af0c6382f771f5ae}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_a4ad5125df9cf76582ea2a70b11c70bba}{}static const int {\bfseries k\+Line\+Ends\+Offset} = k\+Type\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_script_a4ad5125df9cf76582ea2a70b11c70bba}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_aee4b2225f5e2ec14f122c6d06d0f1c51}{}static const int {\bfseries k\+Id\+Offset} = k\+Line\+Ends\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_script_aee4b2225f5e2ec14f122c6d06d0f1c51}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_ad65ac113056769cff3093fede56c5c34}{}static const int {\bfseries k\+Eval\+From\+Shared\+Offset} = k\+Id\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_script_ad65ac113056769cff3093fede56c5c34}
+
+\item 
+static const int {\bfseries k\+Eval\+Frominstructions\+Offset\+Offset}
+\item 
+static const int {\bfseries k\+Flags\+Offset}
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_a7568c12789b46731e2189037d7b41841}{}static const int {\bfseries k\+Source\+Url\+Offset} = k\+Flags\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_script_a7568c12789b46731e2189037d7b41841}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_a23d5b6efceed60bc940db2870f4d8ebd}{}static const int {\bfseries k\+Source\+Mapping\+Url\+Offset} = k\+Source\+Url\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_script_a23d5b6efceed60bc940db2870f4d8ebd}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_script_a80d31769a7f5c7901ff3a9534b4fcae3}{}static const int {\bfseries k\+Size} = k\+Source\+Mapping\+Url\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_script_a80d31769a7f5c7901ff3a9534b4fcae3}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classv8_1_1internal_1_1_script_a5c7eecae36ba89633e7a9854a7f79629}{}\index{v8\+::internal\+::\+Script@{v8\+::internal\+::\+Script}!k\+Eval\+Frominstructions\+Offset\+Offset@{k\+Eval\+Frominstructions\+Offset\+Offset}}
+\index{k\+Eval\+Frominstructions\+Offset\+Offset@{k\+Eval\+Frominstructions\+Offset\+Offset}!v8\+::internal\+::\+Script@{v8\+::internal\+::\+Script}}
+\subsubsection[{k\+Eval\+Frominstructions\+Offset\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+Script\+::k\+Eval\+Frominstructions\+Offset\+Offset\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_script_a5c7eecae36ba89633e7a9854a7f79629}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      kEvalFromSharedOffset + kPointerSize
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_script_a885bc782f8dc8c358d4aae4a72b97e9b}{}\index{v8\+::internal\+::\+Script@{v8\+::internal\+::\+Script}!k\+Flags\+Offset@{k\+Flags\+Offset}}
+\index{k\+Flags\+Offset@{k\+Flags\+Offset}!v8\+::internal\+::\+Script@{v8\+::internal\+::\+Script}}
+\subsubsection[{k\+Flags\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+Script\+::k\+Flags\+Offset\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_script_a885bc782f8dc8c358d4aae4a72b97e9b}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      kEvalFrominstructionsOffsetOffset + kPointerSize
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/objects.\+h\item 
+src/objects-\/inl.\+h\item 
+src/objects.\+cc\end{DoxyCompactItemize}

@@ -1,0 +1,65 @@
+\hypertarget{classv8_1_1internal_1_1_native_reg_exp_macro_assembler}{}\section{v8\+:\+:internal\+:\+:Native\+Reg\+Exp\+Macro\+Assembler Class Reference}
+\label{classv8_1_1internal_1_1_native_reg_exp_macro_assembler}\index{v8\+::internal\+::\+Native\+Reg\+Exp\+Macro\+Assembler@{v8\+::internal\+::\+Native\+Reg\+Exp\+Macro\+Assembler}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Native\+Reg\+Exp\+Macro\+Assembler\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classv8_1_1internal_1_1_native_reg_exp_macro_assembler}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_a0d5534efccb56e5c02e89be0081f406a}{}enum {\bfseries Mode} \{ {\bfseries A\+S\+C\+I\+I} = 1, 
+{\bfseries U\+C16} = 2
+ \}\label{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_a0d5534efccb56e5c02e89be0081f406a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_a454f330d24fa368c4ea0ff628f1d28f1}{}enum {\bfseries Result} \{ {\bfseries R\+E\+T\+R\+Y} = -\/2, 
+{\bfseries E\+X\+C\+E\+P\+T\+I\+O\+N} = -\/1, 
+{\bfseries F\+A\+I\+L\+U\+R\+E} = 0, 
+{\bfseries S\+U\+C\+C\+E\+S\+S} = 1
+ \}\label{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_a454f330d24fa368c4ea0ff628f1d28f1}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_a965230c9b91eed32674dcb6c626f2f7c}{}{\bfseries Native\+Reg\+Exp\+Macro\+Assembler} (\hyperlink{classv8_1_1internal_1_1_zone}{Zone} $\ast$zone)\label{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_a965230c9b91eed32674dcb6c626f2f7c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_a1003ca71e0d3be0be6b29bcbd88c8d2f}{}virtual bool {\bfseries Can\+Read\+Unaligned} ()\label{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_a1003ca71e0d3be0be6b29bcbd88c8d2f}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_adf3c85eed3ff0ba2abc1f455bca600be}{}static Result {\bfseries Match} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_code}{Code} $>$ regexp, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ subject, int $\ast$offsets\+\_\+vector, int offsets\+\_\+vector\+\_\+length, int previous\+\_\+index, \hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate)\label{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_adf3c85eed3ff0ba2abc1f455bca600be}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_af6141c631b2362416f8e9f83fff12e49}{}static int {\bfseries Case\+Insensitive\+Compare\+U\+C16} (Address byte\+\_\+offset1, Address byte\+\_\+offset2, size\+\_\+t byte\+\_\+length, \hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate)\label{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_af6141c631b2362416f8e9f83fff12e49}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_a473d8e744726a35090f726c48927985c}{}static Address {\bfseries Grow\+Stack} (Address stack\+\_\+pointer, Address $\ast$stack\+\_\+top, \hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate)\label{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_a473d8e744726a35090f726c48927985c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_aee21c9c8a14dc0a4cae37b824b37b398}{}static const byte $\ast$ {\bfseries String\+Character\+Position} (\hyperlink{classv8_1_1internal_1_1_string}{String} $\ast$subject, int start\+\_\+index)\label{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_aee21c9c8a14dc0a4cae37b824b37b398}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_accf544c18ba07a35b990d2a71412a752}{}static Address {\bfseries word\+\_\+character\+\_\+map\+\_\+address} ()\label{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_accf544c18ba07a35b990d2a71412a752}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_acb1847e00b0dadbc2a75cba6baf1f192}{}static Result {\bfseries Execute} (\hyperlink{classv8_1_1internal_1_1_code}{Code} $\ast$code, \hyperlink{classv8_1_1internal_1_1_string}{String} $\ast$input, int start\+\_\+offset, const byte $\ast$input\+\_\+start, const byte $\ast$input\+\_\+end, int $\ast$output, int output\+\_\+size, \hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate)\label{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_acb1847e00b0dadbc2a75cba6baf1f192}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_ab96e1f9e3bc1f9938a06183c0ebf1fca}{}static const byte {\bfseries word\+\_\+character\+\_\+map} \mbox{[}256\mbox{]}\label{classv8_1_1internal_1_1_native_reg_exp_macro_assembler_ab96e1f9e3bc1f9938a06183c0ebf1fca}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/regexp-\/macro-\/assembler.\+h\item 
+src/regexp-\/macro-\/assembler.\+cc\end{DoxyCompactItemize}

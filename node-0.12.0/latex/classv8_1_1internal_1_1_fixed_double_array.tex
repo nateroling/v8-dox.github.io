@@ -1,0 +1,69 @@
+\hypertarget{classv8_1_1internal_1_1_fixed_double_array}{}\section{v8\+:\+:internal\+:\+:Fixed\+Double\+Array Class Reference}
+\label{classv8_1_1internal_1_1_fixed_double_array}\index{v8\+::internal\+::\+Fixed\+Double\+Array@{v8\+::internal\+::\+Fixed\+Double\+Array}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Fixed\+Double\+Array\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classv8_1_1internal_1_1_fixed_double_array}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_fixed_double_array_ae6e3bf394ba1f81b492327e9f34b113a}{}double {\bfseries get\+\_\+scalar} (int index)\label{classv8_1_1internal_1_1_fixed_double_array_ae6e3bf394ba1f81b492327e9f34b113a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_fixed_double_array_ad2f719770f3e758aee3bcf046123a9a7}{}int64\+\_\+t {\bfseries get\+\_\+representation} (int index)\label{classv8_1_1internal_1_1_fixed_double_array_ad2f719770f3e758aee3bcf046123a9a7}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_fixed_double_array_a6f5fbb4259d14d215c0b87ebadcf8004}{}void {\bfseries set} (int index, double value)\label{classv8_1_1internal_1_1_fixed_double_array_a6f5fbb4259d14d215c0b87ebadcf8004}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_fixed_double_array_aaae3696dea2160214010cb79e96930e2}{}void {\bfseries set\+\_\+the\+\_\+hole} (int index)\label{classv8_1_1internal_1_1_fixed_double_array_aaae3696dea2160214010cb79e96930e2}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_fixed_double_array_a4364352ae43ff6250bacc9cfc4467b59}{}bool {\bfseries is\+\_\+the\+\_\+hole} (int index)\label{classv8_1_1internal_1_1_fixed_double_array_a4364352ae43ff6250bacc9cfc4467b59}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_fixed_double_array_a95351113d9bfd733432ffdd50c368ca3}{}double $\ast$ {\bfseries data\+\_\+start} ()\label{classv8_1_1internal_1_1_fixed_double_array_a95351113d9bfd733432ffdd50c368ca3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_fixed_double_array_aec3fa54db75885b5d2ce535add8d8193}{}void {\bfseries Fill\+With\+Holes} (int from, int to)\label{classv8_1_1internal_1_1_fixed_double_array_aec3fa54db75885b5d2ce535add8d8193}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_fixed_double_array_aeb86d79f163a49529a1b37594682d9dd}{}static \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ {\bfseries get} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_fixed_double_array}{Fixed\+Double\+Array} $>$ array, int index)\label{classv8_1_1internal_1_1_fixed_double_array_aeb86d79f163a49529a1b37594682d9dd}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_fixed_double_array_ad43d5cfebc4805de874b189cf2c94055}{}static int {\bfseries Size\+For} (int length)\label{classv8_1_1internal_1_1_fixed_double_array_ad43d5cfebc4805de874b189cf2c94055}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_fixed_double_array_aea74d64b36ea2275796e59287e418316}{}static int {\bfseries Offset\+Of\+Element\+At} (int index)\label{classv8_1_1internal_1_1_fixed_double_array_aea74d64b36ea2275796e59287e418316}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_fixed_double_array_a66a1f24312fad593c80f7927faad8abd}{}static bool {\bfseries is\+\_\+the\+\_\+hole\+\_\+nan} (double value)\label{classv8_1_1internal_1_1_fixed_double_array_a66a1f24312fad593c80f7927faad8abd}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_fixed_double_array_a2fa074e014854280c345f85fb4bdb85a}{}static double {\bfseries hole\+\_\+nan\+\_\+as\+\_\+double} ()\label{classv8_1_1internal_1_1_fixed_double_array_a2fa074e014854280c345f85fb4bdb85a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_fixed_double_array_a1ba16717f43f27f13f1a9708098d03c8}{}static double {\bfseries canonical\+\_\+not\+\_\+the\+\_\+hole\+\_\+nan\+\_\+as\+\_\+double} ()\label{classv8_1_1internal_1_1_fixed_double_array_a1ba16717f43f27f13f1a9708098d03c8}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_fixed_double_array_a857be21c642353c126dddfd6dd2e672b}{}static const int {\bfseries k\+Max\+Size} = 512 $\ast$ M\+B\label{classv8_1_1internal_1_1_fixed_double_array_a857be21c642353c126dddfd6dd2e672b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_fixed_double_array_af65b3ad9319ef84e8ae0f878b7556d92}{}static const int {\bfseries k\+Max\+Length} = (k\+Max\+Size -\/ k\+Header\+Size) / k\+Double\+Size\label{classv8_1_1internal_1_1_fixed_double_array_af65b3ad9319ef84e8ae0f878b7556d92}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/objects.\+h\item 
+src/objects-\/inl.\+h\end{DoxyCompactItemize}

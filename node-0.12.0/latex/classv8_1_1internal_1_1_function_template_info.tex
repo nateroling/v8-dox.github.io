@@ -1,0 +1,120 @@
+\hypertarget{classv8_1_1internal_1_1_function_template_info}{}\section{v8\+:\+:internal\+:\+:Function\+Template\+Info Class Reference}
+\label{classv8_1_1internal_1_1_function_template_info}\index{v8\+::internal\+::\+Function\+Template\+Info@{v8\+::internal\+::\+Function\+Template\+Info}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Function\+Template\+Info\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{classv8_1_1internal_1_1_function_template_info}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_function_template_info_a6d8bda16d223be7b324990226db7cadb}{}int {\bfseries length} () const \label{classv8_1_1internal_1_1_function_template_info_a6d8bda16d223be7b324990226db7cadb}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_function_template_info_a53eeebcf90c65b5dcfe97b7cb452f0bc}{}void {\bfseries set\+\_\+length} (int value)\label{classv8_1_1internal_1_1_function_template_info_a53eeebcf90c65b5dcfe97b7cb452f0bc}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_function_template_info_ac8ff72779008703bc0dd4f7ab12c56bb}{}bool {\bfseries Is\+Template\+For} (\hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$object)\label{classv8_1_1internal_1_1_function_template_info_ac8ff72779008703bc0dd4f7ab12c56bb}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_function_template_info_a4697f335fb987b0a42d1167b89ec330f}{}bool {\bfseries Is\+Template\+For} (\hyperlink{classv8_1_1internal_1_1_map}{Map} $\ast$map)\label{classv8_1_1internal_1_1_function_template_info_a4697f335fb987b0a42d1167b89ec330f}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_function_template_info_a546ba76897d5fc9f51f3140e7bb4dbfa}{}static const int {\bfseries k\+Serial\+Number\+Offset} = Template\+Info\+::k\+Header\+Size\label{classv8_1_1internal_1_1_function_template_info_a546ba76897d5fc9f51f3140e7bb4dbfa}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_function_template_info_a64955d670817f4c46b8418a5e142093b}{}static const int {\bfseries k\+Call\+Code\+Offset} = k\+Serial\+Number\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_function_template_info_a64955d670817f4c46b8418a5e142093b}
+
+\item 
+static const int {\bfseries k\+Prototype\+Template\+Offset}
+\item 
+static const int {\bfseries k\+Parent\+Template\+Offset}
+\item 
+static const int {\bfseries k\+Named\+Property\+Handler\+Offset}
+\item 
+static const int {\bfseries k\+Indexed\+Property\+Handler\+Offset}
+\item 
+static const int {\bfseries k\+Instance\+Template\+Offset}
+\item 
+\hypertarget{classv8_1_1internal_1_1_function_template_info_a7599e8be26fa10816008af1ca12a59c6}{}static const int {\bfseries k\+Class\+Name\+Offset} = k\+Instance\+Template\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_function_template_info_a7599e8be26fa10816008af1ca12a59c6}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_function_template_info_a46ed1c6bf24edb069411dcd0a0773047}{}static const int {\bfseries k\+Signature\+Offset} = k\+Class\+Name\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_function_template_info_a46ed1c6bf24edb069411dcd0a0773047}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_function_template_info_a56173d05992d27484b5782160f795588}{}static const int {\bfseries k\+Instance\+Call\+Handler\+Offset} = k\+Signature\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_function_template_info_a56173d05992d27484b5782160f795588}
+
+\item 
+static const int {\bfseries k\+Access\+Check\+Info\+Offset}
+\item 
+\hypertarget{classv8_1_1internal_1_1_function_template_info_a9287109e0a19b92dd8ddcbd3e5d8aa89}{}static const int {\bfseries k\+Flag\+Offset} = k\+Access\+Check\+Info\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_function_template_info_a9287109e0a19b92dd8ddcbd3e5d8aa89}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_function_template_info_a3486aacd2eec65a1118faa477ea213ea}{}static const int {\bfseries k\+Length\+Offset} = k\+Flag\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_function_template_info_a3486aacd2eec65a1118faa477ea213ea}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_function_template_info_a3b835a83d17c1b75f9d619017e7d985b}{}static const int {\bfseries k\+Size} = k\+Length\+Offset + k\+Pointer\+Size\label{classv8_1_1internal_1_1_function_template_info_a3b835a83d17c1b75f9d619017e7d985b}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classv8_1_1internal_1_1_function_template_info_aeb29db7f860af834c77262bcc6384d57}{}\index{v8\+::internal\+::\+Function\+Template\+Info@{v8\+::internal\+::\+Function\+Template\+Info}!k\+Access\+Check\+Info\+Offset@{k\+Access\+Check\+Info\+Offset}}
+\index{k\+Access\+Check\+Info\+Offset@{k\+Access\+Check\+Info\+Offset}!v8\+::internal\+::\+Function\+Template\+Info@{v8\+::internal\+::\+Function\+Template\+Info}}
+\subsubsection[{k\+Access\+Check\+Info\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+Function\+Template\+Info\+::k\+Access\+Check\+Info\+Offset\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_function_template_info_aeb29db7f860af834c77262bcc6384d57}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      kInstanceCallHandlerOffset + kPointerSize
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_function_template_info_a10153571866872320285f7f60686ce33}{}\index{v8\+::internal\+::\+Function\+Template\+Info@{v8\+::internal\+::\+Function\+Template\+Info}!k\+Indexed\+Property\+Handler\+Offset@{k\+Indexed\+Property\+Handler\+Offset}}
+\index{k\+Indexed\+Property\+Handler\+Offset@{k\+Indexed\+Property\+Handler\+Offset}!v8\+::internal\+::\+Function\+Template\+Info@{v8\+::internal\+::\+Function\+Template\+Info}}
+\subsubsection[{k\+Indexed\+Property\+Handler\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+Function\+Template\+Info\+::k\+Indexed\+Property\+Handler\+Offset\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_function_template_info_a10153571866872320285f7f60686ce33}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      kNamedPropertyHandlerOffset + kPointerSize
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_function_template_info_a718d431c763bdeb6f9296f565917bcd5}{}\index{v8\+::internal\+::\+Function\+Template\+Info@{v8\+::internal\+::\+Function\+Template\+Info}!k\+Instance\+Template\+Offset@{k\+Instance\+Template\+Offset}}
+\index{k\+Instance\+Template\+Offset@{k\+Instance\+Template\+Offset}!v8\+::internal\+::\+Function\+Template\+Info@{v8\+::internal\+::\+Function\+Template\+Info}}
+\subsubsection[{k\+Instance\+Template\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+Function\+Template\+Info\+::k\+Instance\+Template\+Offset\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_function_template_info_a718d431c763bdeb6f9296f565917bcd5}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      kIndexedPropertyHandlerOffset + kPointerSize
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_function_template_info_a80ab9a5f2c7652897ef9e13c41e8abc3}{}\index{v8\+::internal\+::\+Function\+Template\+Info@{v8\+::internal\+::\+Function\+Template\+Info}!k\+Named\+Property\+Handler\+Offset@{k\+Named\+Property\+Handler\+Offset}}
+\index{k\+Named\+Property\+Handler\+Offset@{k\+Named\+Property\+Handler\+Offset}!v8\+::internal\+::\+Function\+Template\+Info@{v8\+::internal\+::\+Function\+Template\+Info}}
+\subsubsection[{k\+Named\+Property\+Handler\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+Function\+Template\+Info\+::k\+Named\+Property\+Handler\+Offset\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_function_template_info_a80ab9a5f2c7652897ef9e13c41e8abc3}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      kParentTemplateOffset + kPointerSize
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_function_template_info_a55c986ed16644ef6ed27d17c09f2ab3a}{}\index{v8\+::internal\+::\+Function\+Template\+Info@{v8\+::internal\+::\+Function\+Template\+Info}!k\+Parent\+Template\+Offset@{k\+Parent\+Template\+Offset}}
+\index{k\+Parent\+Template\+Offset@{k\+Parent\+Template\+Offset}!v8\+::internal\+::\+Function\+Template\+Info@{v8\+::internal\+::\+Function\+Template\+Info}}
+\subsubsection[{k\+Parent\+Template\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+Function\+Template\+Info\+::k\+Parent\+Template\+Offset\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_function_template_info_a55c986ed16644ef6ed27d17c09f2ab3a}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      kPrototypeTemplateOffset + kPointerSize
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_function_template_info_adb0f454aeb8a89f2d58cb96fd79246a8}{}\index{v8\+::internal\+::\+Function\+Template\+Info@{v8\+::internal\+::\+Function\+Template\+Info}!k\+Prototype\+Template\+Offset@{k\+Prototype\+Template\+Offset}}
+\index{k\+Prototype\+Template\+Offset@{k\+Prototype\+Template\+Offset}!v8\+::internal\+::\+Function\+Template\+Info@{v8\+::internal\+::\+Function\+Template\+Info}}
+\subsubsection[{k\+Prototype\+Template\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+Function\+Template\+Info\+::k\+Prototype\+Template\+Offset\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_function_template_info_adb0f454aeb8a89f2d58cb96fd79246a8}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      kCallCodeOffset + kPointerSize
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/objects.\+h\item 
+src/objects.\+cc\end{DoxyCompactItemize}

@@ -1,0 +1,54 @@
+\hypertarget{classv8_1_1internal_1_1_loop_choice_node}{}\section{v8\+:\+:internal\+:\+:Loop\+Choice\+Node Class Reference}
+\label{classv8_1_1internal_1_1_loop_choice_node}\index{v8\+::internal\+::\+Loop\+Choice\+Node@{v8\+::internal\+::\+Loop\+Choice\+Node}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Loop\+Choice\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classv8_1_1internal_1_1_loop_choice_node}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_loop_choice_node_aadfc784a1d1f92ae02c66c1b2f9cddea}{}{\bfseries Loop\+Choice\+Node} (bool body\+\_\+can\+\_\+be\+\_\+zero\+\_\+length, \hyperlink{classv8_1_1internal_1_1_zone}{Zone} $\ast$zone)\label{classv8_1_1internal_1_1_loop_choice_node_aadfc784a1d1f92ae02c66c1b2f9cddea}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_loop_choice_node_a815bc1ebd29be2a63d8d69991c3a44c1}{}void {\bfseries Add\+Loop\+Alternative} (\hyperlink{classv8_1_1internal_1_1_guarded_alternative}{Guarded\+Alternative} alt)\label{classv8_1_1internal_1_1_loop_choice_node_a815bc1ebd29be2a63d8d69991c3a44c1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_loop_choice_node_a30882e49330a344892de6024e1a9138c}{}void {\bfseries Add\+Continue\+Alternative} (\hyperlink{classv8_1_1internal_1_1_guarded_alternative}{Guarded\+Alternative} alt)\label{classv8_1_1internal_1_1_loop_choice_node_a30882e49330a344892de6024e1a9138c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_loop_choice_node_ae7f3eb93d0ed5bc473764b2db7729190}{}virtual void {\bfseries Emit} (\hyperlink{classv8_1_1internal_1_1_reg_exp_compiler}{Reg\+Exp\+Compiler} $\ast$compiler, \hyperlink{classv8_1_1internal_1_1_trace}{Trace} $\ast$trace)\label{classv8_1_1internal_1_1_loop_choice_node_ae7f3eb93d0ed5bc473764b2db7729190}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_loop_choice_node_adf3e929b831ea3c23156112a50a4c2f4}{}virtual int {\bfseries Eats\+At\+Least} (int still\+\_\+to\+\_\+find, int budget, bool not\+\_\+at\+\_\+start)\label{classv8_1_1internal_1_1_loop_choice_node_adf3e929b831ea3c23156112a50a4c2f4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_loop_choice_node_a446b56f3550c63ef2b8a3a732e5f714b}{}virtual void {\bfseries Get\+Quick\+Check\+Details} (\hyperlink{classv8_1_1internal_1_1_quick_check_details}{Quick\+Check\+Details} $\ast$details, \hyperlink{classv8_1_1internal_1_1_reg_exp_compiler}{Reg\+Exp\+Compiler} $\ast$compiler, int characters\+\_\+filled\+\_\+in, bool not\+\_\+at\+\_\+start)\label{classv8_1_1internal_1_1_loop_choice_node_a446b56f3550c63ef2b8a3a732e5f714b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_loop_choice_node_a9afaf1de44864b6d1a26bee827cde8c4}{}virtual void {\bfseries Fill\+In\+B\+M\+Info} (int offset, int budget, \hyperlink{classv8_1_1internal_1_1_boyer_moore_lookahead}{Boyer\+Moore\+Lookahead} $\ast$bm, bool not\+\_\+at\+\_\+start)\label{classv8_1_1internal_1_1_loop_choice_node_a9afaf1de44864b6d1a26bee827cde8c4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_loop_choice_node_ab7302af501d9e4fc180be3c3531c308a}{}\hyperlink{classv8_1_1internal_1_1_reg_exp_node}{Reg\+Exp\+Node} $\ast$ {\bfseries loop\+\_\+node} ()\label{classv8_1_1internal_1_1_loop_choice_node_ab7302af501d9e4fc180be3c3531c308a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_loop_choice_node_a16806e7a3a040882b1d268c01127e96c}{}\hyperlink{classv8_1_1internal_1_1_reg_exp_node}{Reg\+Exp\+Node} $\ast$ {\bfseries continue\+\_\+node} ()\label{classv8_1_1internal_1_1_loop_choice_node_a16806e7a3a040882b1d268c01127e96c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_loop_choice_node_a2f44790afa263a24910170fdf12e6076}{}bool {\bfseries body\+\_\+can\+\_\+be\+\_\+zero\+\_\+length} ()\label{classv8_1_1internal_1_1_loop_choice_node_a2f44790afa263a24910170fdf12e6076}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_loop_choice_node_aa5078b0084b7659910a67f79b905045a}{}virtual void {\bfseries Accept} (\hyperlink{classv8_1_1internal_1_1_node_visitor}{Node\+Visitor} $\ast$visitor)\label{classv8_1_1internal_1_1_loop_choice_node_aa5078b0084b7659910a67f79b905045a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_loop_choice_node_aef887e91e11fb94c7d1d104c6180bd15}{}virtual \hyperlink{classv8_1_1internal_1_1_reg_exp_node}{Reg\+Exp\+Node} $\ast$ {\bfseries Filter\+A\+S\+C\+I\+I} (int depth, bool ignore\+\_\+case)\label{classv8_1_1internal_1_1_loop_choice_node_aef887e91e11fb94c7d1d104c6180bd15}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/jsregexp.\+h\item 
+src/jsregexp.\+cc\end{DoxyCompactItemize}

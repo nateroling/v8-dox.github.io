@@ -1,0 +1,58 @@
+\hypertarget{structv8_1_1internal_1_1_bounds_impl}{}\section{v8\+:\+:internal\+:\+:Bounds\+Impl$<$ Config $>$ Struct Template Reference}
+\label{structv8_1_1internal_1_1_bounds_impl}\index{v8\+::internal\+::\+Bounds\+Impl$<$ Config $>$@{v8\+::internal\+::\+Bounds\+Impl$<$ Config $>$}}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structv8_1_1internal_1_1_bounds_impl_a934636d91c5cdf7dd0d79ab335785e9c}{}typedef \hyperlink{classv8_1_1internal_1_1_type_impl}{Type\+Impl}$<$ Config $>$ {\bfseries Type}\label{structv8_1_1internal_1_1_bounds_impl_a934636d91c5cdf7dd0d79ab335785e9c}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_bounds_impl_a5785ddd04663cd63a61e3c9834e39ae8}{}typedef Type\+::\+Type\+Handle {\bfseries Type\+Handle}\label{structv8_1_1internal_1_1_bounds_impl_a5785ddd04663cd63a61e3c9834e39ae8}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_bounds_impl_a13288e891a385b88a8f645399daafd3f}{}typedef Type\+::\+Region {\bfseries Region}\label{structv8_1_1internal_1_1_bounds_impl_a13288e891a385b88a8f645399daafd3f}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structv8_1_1internal_1_1_bounds_impl_a2fa08ce90535e3cb78145a1a0e54e9fd}{}{\bfseries Bounds\+Impl} (Type\+Handle t)\label{structv8_1_1internal_1_1_bounds_impl_a2fa08ce90535e3cb78145a1a0e54e9fd}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_bounds_impl_a246e6cf03fac25321cbeae99a86f2aef}{}{\bfseries Bounds\+Impl} (Type\+Handle l, Type\+Handle u)\label{structv8_1_1internal_1_1_bounds_impl_a246e6cf03fac25321cbeae99a86f2aef}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_bounds_impl_ac4ad41a7bfada311b28f426c50425711}{}bool {\bfseries Narrows} (\hyperlink{structv8_1_1internal_1_1_bounds_impl}{Bounds\+Impl} that)\label{structv8_1_1internal_1_1_bounds_impl_ac4ad41a7bfada311b28f426c50425711}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structv8_1_1internal_1_1_bounds_impl_abb12ca29dd00a64e7edcffa7bd17d492}{}static \hyperlink{structv8_1_1internal_1_1_bounds_impl}{Bounds\+Impl} {\bfseries Unbounded} (Region $\ast$region)\label{structv8_1_1internal_1_1_bounds_impl_abb12ca29dd00a64e7edcffa7bd17d492}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_bounds_impl_a1616307121ef7a63b4069ebe0c9f8c1c}{}static \hyperlink{structv8_1_1internal_1_1_bounds_impl}{Bounds\+Impl} {\bfseries Both} (\hyperlink{structv8_1_1internal_1_1_bounds_impl}{Bounds\+Impl} b1, \hyperlink{structv8_1_1internal_1_1_bounds_impl}{Bounds\+Impl} b2, Region $\ast$region)\label{structv8_1_1internal_1_1_bounds_impl_a1616307121ef7a63b4069ebe0c9f8c1c}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_bounds_impl_afda06a1fe7974e54aa5eb2cfe5cf518f}{}static \hyperlink{structv8_1_1internal_1_1_bounds_impl}{Bounds\+Impl} {\bfseries Either} (\hyperlink{structv8_1_1internal_1_1_bounds_impl}{Bounds\+Impl} b1, \hyperlink{structv8_1_1internal_1_1_bounds_impl}{Bounds\+Impl} b2, Region $\ast$region)\label{structv8_1_1internal_1_1_bounds_impl_afda06a1fe7974e54aa5eb2cfe5cf518f}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_bounds_impl_a059b623d5bb3927121824b055d5f55fb}{}static \hyperlink{structv8_1_1internal_1_1_bounds_impl}{Bounds\+Impl} {\bfseries Narrow\+Lower} (\hyperlink{structv8_1_1internal_1_1_bounds_impl}{Bounds\+Impl} b, Type\+Handle t, Region $\ast$region)\label{structv8_1_1internal_1_1_bounds_impl_a059b623d5bb3927121824b055d5f55fb}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_bounds_impl_a24f1231317eb27591fcc5b2934befb3d}{}static \hyperlink{structv8_1_1internal_1_1_bounds_impl}{Bounds\+Impl} {\bfseries Narrow\+Upper} (\hyperlink{structv8_1_1internal_1_1_bounds_impl}{Bounds\+Impl} b, Type\+Handle t, Region $\ast$region)\label{structv8_1_1internal_1_1_bounds_impl_a24f1231317eb27591fcc5b2934befb3d}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structv8_1_1internal_1_1_bounds_impl_aac854c13587f0688751bf35254f746eb}{}Type\+Handle {\bfseries lower}\label{structv8_1_1internal_1_1_bounds_impl_aac854c13587f0688751bf35254f746eb}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_bounds_impl_abdabba77770b14836a3e5e974282c50a}{}Type\+Handle {\bfseries upper}\label{structv8_1_1internal_1_1_bounds_impl_abdabba77770b14836a3e5e974282c50a}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/types.\+h\end{DoxyCompactItemize}

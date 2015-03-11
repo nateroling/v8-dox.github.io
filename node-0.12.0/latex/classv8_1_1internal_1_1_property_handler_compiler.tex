@@ -1,0 +1,68 @@
+\hypertarget{classv8_1_1internal_1_1_property_handler_compiler}{}\section{v8\+:\+:internal\+:\+:Property\+Handler\+Compiler Class Reference}
+\label{classv8_1_1internal_1_1_property_handler_compiler}\index{v8\+::internal\+::\+Property\+Handler\+Compiler@{v8\+::internal\+::\+Property\+Handler\+Compiler}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Property\+Handler\+Compiler\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.222222cm]{classv8_1_1internal_1_1_property_handler_compiler}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_property_handler_compiler_abc2933bfe634a17a62554ceac4eb481a}{}static \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_code}{Code} $>$ {\bfseries Find} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_name}{Name} $>$ name, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_map}{Map} $>$ map, Code\+::\+Kind kind, Cache\+Holder\+Flag cache\+\_\+holder, Code\+::\+Stub\+Type type)\label{classv8_1_1internal_1_1_property_handler_compiler_abc2933bfe634a17a62554ceac4eb481a}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_property_handler_compiler_a72333b5e452f946a98c8e3582420142e}{}{\bfseries Property\+Handler\+Compiler} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, Code\+::\+Kind kind, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_type_impl}{Heap\+Type} $>$ type, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_object}{J\+S\+Object} $>$ holder, Cache\+Holder\+Flag cache\+\_\+holder)\label{classv8_1_1internal_1_1_property_handler_compiler_a72333b5e452f946a98c8e3582420142e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_property_handler_compiler_ae65fd5c4b297d4e78fe66633e68b1b56}{}virtual Register {\bfseries Frontend\+Header} (Register object\+\_\+reg, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_name}{Name} $>$ name, Label $\ast$miss)\label{classv8_1_1internal_1_1_property_handler_compiler_ae65fd5c4b297d4e78fe66633e68b1b56}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_property_handler_compiler_a70769f25637e653ba559753e00919c1d}{}virtual void {\bfseries Frontend\+Footer} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_name}{Name} $>$ name, Label $\ast$miss)\label{classv8_1_1internal_1_1_property_handler_compiler_a70769f25637e653ba559753e00919c1d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_property_handler_compiler_adf4880d7b18f60fab678031e5d5db94c}{}Register {\bfseries Frontend} (Register object\+\_\+reg, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_name}{Name} $>$ name)\label{classv8_1_1internal_1_1_property_handler_compiler_adf4880d7b18f60fab678031e5d5db94c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_property_handler_compiler_a1378868a0eb5fd209acd2d40871e5360}{}void {\bfseries Nonexistent\+Frontend\+Header} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_name}{Name} $>$ name, Label $\ast$miss, Register scratch1, Register scratch2)\label{classv8_1_1internal_1_1_property_handler_compiler_a1378868a0eb5fd209acd2d40871e5360}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_property_handler_compiler_a789c3008a301a12b9f38b15f8e561500}{}Register {\bfseries Check\+Prototypes} (Register object\+\_\+reg, Register holder\+\_\+reg, Register scratch1, Register scratch2, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_name}{Name} $>$ name, Label $\ast$miss, Prototype\+Check\+Type check=C\+H\+E\+C\+K\+\_\+\+A\+L\+L\+\_\+\+M\+A\+P\+S)\label{classv8_1_1internal_1_1_property_handler_compiler_a789c3008a301a12b9f38b15f8e561500}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_property_handler_compiler_a941a852e0c3bcb99659ae53b2cc74f18}{}\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_code}{Code} $>$ {\bfseries Get\+Code} (Code\+::\+Kind kind, Code\+::\+Stub\+Type type, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_name}{Name} $>$ name)\label{classv8_1_1internal_1_1_property_handler_compiler_a941a852e0c3bcb99659ae53b2cc74f18}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_property_handler_compiler_a374b4635d65a52817da57deaac557bd2}{}void {\bfseries set\+\_\+type\+\_\+for\+\_\+object} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ object)\label{classv8_1_1internal_1_1_property_handler_compiler_a374b4635d65a52817da57deaac557bd2}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_property_handler_compiler_aea9ee9652675a3c91401f1df943bbcd0}{}void {\bfseries set\+\_\+holder} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_object}{J\+S\+Object} $>$ holder)\label{classv8_1_1internal_1_1_property_handler_compiler_aea9ee9652675a3c91401f1df943bbcd0}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_property_handler_compiler_a86682f61f51c5d5d439b29278a100cfa}{}\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_type_impl}{Heap\+Type} $>$ {\bfseries type} () const \label{classv8_1_1internal_1_1_property_handler_compiler_a86682f61f51c5d5d439b29278a100cfa}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_property_handler_compiler_a3c05a2ca79df15bd7d38772cacf59eca}{}\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_object}{J\+S\+Object} $>$ {\bfseries holder} () const \label{classv8_1_1internal_1_1_property_handler_compiler_a3c05a2ca79df15bd7d38772cacf59eca}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_property_handler_compiler_add52b371fc33950829ef5a09eb2fc0e9}{}static void {\bfseries Generate\+Fast\+Api\+Call} (Macro\+Assembler $\ast$masm, const Call\+Optimization \&optimization, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_map}{Map} $>$ receiver\+\_\+map, Register receiver, Register scratch, bool is\+\_\+store, int argc, Register $\ast$values)\label{classv8_1_1internal_1_1_property_handler_compiler_add52b371fc33950829ef5a09eb2fc0e9}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_property_handler_compiler_abee80afea50a5a66ac6b69dcc46a2c96}{}static void {\bfseries Generate\+Dictionary\+Negative\+Lookup} (Macro\+Assembler $\ast$masm, Label $\ast$miss\+\_\+label, Register receiver, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_name}{Name} $>$ name, Register r0, Register r1)\label{classv8_1_1internal_1_1_property_handler_compiler_abee80afea50a5a66ac6b69dcc46a2c96}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_property_handler_compiler_ae56b23f38944af3bf62d7edcb66adfb3}{}static void {\bfseries Generate\+Check\+Property\+Cell} (Macro\+Assembler $\ast$masm, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_global_object}{J\+S\+Global\+Object} $>$ global, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_name}{Name} $>$ name, Register scratch, Label $\ast$miss)\label{classv8_1_1internal_1_1_property_handler_compiler_ae56b23f38944af3bf62d7edcb66adfb3}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/stub-\/cache.\+h\item 
+src/stub-\/cache.\+cc\end{DoxyCompactItemize}

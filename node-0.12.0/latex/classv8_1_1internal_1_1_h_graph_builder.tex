@@ -1,0 +1,475 @@
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder}{}\section{v8\+:\+:internal\+:\+:H\+Graph\+Builder Class Reference}
+\label{classv8_1_1internal_1_1_h_graph_builder}\index{v8\+::internal\+::\+H\+Graph\+Builder@{v8\+::internal\+::\+H\+Graph\+Builder}}
+Inheritance diagram for v8\+:\+:internal\+:\+:H\+Graph\+Builder\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.489362cm]{classv8_1_1internal_1_1_h_graph_builder}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classv8_1_1internal_1_1_h_graph_builder_1_1_v8___f_i_n_a_l}{V8\+\_\+\+F\+I\+N\+A\+L}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a5e7d3b6a54d1f4cb483c13480ef46cff}{}{\bfseries H\+Graph\+Builder} (\hyperlink{classv8_1_1internal_1_1_compilation_info}{Compilation\+Info} $\ast$info)\label{classv8_1_1internal_1_1_h_graph_builder_a5e7d3b6a54d1f4cb483c13480ef46cff}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a0a465994ebb126f9b90d1898f91442aa}{}\hyperlink{classv8_1_1internal_1_1_scope}{Scope} $\ast$ {\bfseries scope} () const \label{classv8_1_1internal_1_1_h_graph_builder_a0a465994ebb126f9b90d1898f91442aa}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a776be88cba46abad6c62cd37a5bd08ef}{}void {\bfseries set\+\_\+scope} (\hyperlink{classv8_1_1internal_1_1_scope}{Scope} $\ast$scope)\label{classv8_1_1internal_1_1_h_graph_builder_a776be88cba46abad6c62cd37a5bd08ef}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a6b0d44a14bf0757687af734f79c764e9}{}H\+Basic\+Block $\ast$ {\bfseries current\+\_\+block} () const \label{classv8_1_1internal_1_1_h_graph_builder_a6b0d44a14bf0757687af734f79c764e9}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a30bed3013c6b3f0aa896b66a7858f139}{}void {\bfseries set\+\_\+current\+\_\+block} (H\+Basic\+Block $\ast$block)\label{classv8_1_1internal_1_1_h_graph_builder_a30bed3013c6b3f0aa896b66a7858f139}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ace09f39d064083cf3d464a3b333c8f1a}{}H\+Environment $\ast$ {\bfseries environment} () const \label{classv8_1_1internal_1_1_h_graph_builder_ace09f39d064083cf3d464a3b333c8f1a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a8151f3b70f260e3dafd70e6d3de4b771}{}\hyperlink{classv8_1_1internal_1_1_zone}{Zone} $\ast$ {\bfseries zone} () const \label{classv8_1_1internal_1_1_h_graph_builder_a8151f3b70f260e3dafd70e6d3de4b771}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ab096344159983d27519eb267c84a4f86}{}H\+Graph $\ast$ {\bfseries graph} () const \label{classv8_1_1internal_1_1_h_graph_builder_ab096344159983d27519eb267c84a4f86}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a7fa655c028337d96873a51b9c10980c4}{}\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$ {\bfseries isolate} () const \label{classv8_1_1internal_1_1_h_graph_builder_a7fa655c028337d96873a51b9c10980c4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_adfa9459fad8f99fdce3bde341d24d6b9}{}\hyperlink{classv8_1_1internal_1_1_compilation_info}{Compilation\+Info} $\ast$ {\bfseries top\+\_\+info} ()\label{classv8_1_1internal_1_1_h_graph_builder_adfa9459fad8f99fdce3bde341d24d6b9}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_af1e71b52b4467246993ee998b660dfb9}{}H\+Graph $\ast$ {\bfseries Create\+Graph} ()\label{classv8_1_1internal_1_1_h_graph_builder_af1e71b52b4467246993ee998b660dfb9}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a4058fde4cb3a9b6431d75445c5871a16}{}void {\bfseries Push} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$value)\label{classv8_1_1internal_1_1_h_graph_builder_a4058fde4cb3a9b6431d75445c5871a16}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a9837810213a3ae4dcd4e2bb40a8b9856}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Pop} ()\label{classv8_1_1internal_1_1_h_graph_builder_a9837810213a3ae4dcd4e2bb40a8b9856}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a623ae50d34c37fcc492cad8e1761eaa9}{}virtual \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries context} ()=0\label{classv8_1_1internal_1_1_h_graph_builder_a623ae50d34c37fcc492cad8e1761eaa9}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_aa8262ee4476f567e7545dc5bcc99ceb0}{}\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Add\+Instruction} (\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$instr)\label{classv8_1_1internal_1_1_h_graph_builder_aa8262ee4476f567e7545dc5bcc99ceb0}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_afc18fd7c42bb215f4011e5ffcdc6f2c6}{}void {\bfseries Finish\+Current\+Block} (\hyperlink{classv8_1_1internal_1_1_h_control_instruction}{H\+Control\+Instruction} $\ast$last)\label{classv8_1_1internal_1_1_h_graph_builder_afc18fd7c42bb215f4011e5ffcdc6f2c6}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_aa9124a49444198fd4191b3c19e3ddf8c}{}void {\bfseries Finish\+Exit\+Current\+Block} (\hyperlink{classv8_1_1internal_1_1_h_control_instruction}{H\+Control\+Instruction} $\ast$instruction)\label{classv8_1_1internal_1_1_h_graph_builder_aa9124a49444198fd4191b3c19e3ddf8c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a876abe12fa00ec9814d67070fa5ecb65}{}void {\bfseries Goto} (H\+Basic\+Block $\ast$from, H\+Basic\+Block $\ast$target, Function\+State $\ast$state=N\+U\+L\+L, bool add\+\_\+simulate=true)\label{classv8_1_1internal_1_1_h_graph_builder_a876abe12fa00ec9814d67070fa5ecb65}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_afb6d8a887251a6f3df75da20e0890140}{}void {\bfseries Goto} (H\+Basic\+Block $\ast$target, Function\+State $\ast$state=N\+U\+L\+L, bool add\+\_\+simulate=true)\label{classv8_1_1internal_1_1_h_graph_builder_afb6d8a887251a6f3df75da20e0890140}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a404c0c32a2cf8f2ea1f4f82a6232b3c3}{}void {\bfseries Goto\+No\+Simulate} (H\+Basic\+Block $\ast$from, H\+Basic\+Block $\ast$target)\label{classv8_1_1internal_1_1_h_graph_builder_a404c0c32a2cf8f2ea1f4f82a6232b3c3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a4564168b5850b52312084777addc961c}{}void {\bfseries Goto\+No\+Simulate} (H\+Basic\+Block $\ast$target)\label{classv8_1_1internal_1_1_h_graph_builder_a4564168b5850b52312084777addc961c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_af52a2feef21c80ffd1f0d767e7ab64b3}{}void {\bfseries Add\+Leave\+Inlined} (H\+Basic\+Block $\ast$block, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$return\+\_\+value, Function\+State $\ast$state)\label{classv8_1_1internal_1_1_h_graph_builder_af52a2feef21c80ffd1f0d767e7ab64b3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a50e208c659ee3412eca8d0bfb9496b9e}{}void {\bfseries Add\+Leave\+Inlined} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$return\+\_\+value, Function\+State $\ast$state)\label{classv8_1_1internal_1_1_h_graph_builder_a50e208c659ee3412eca8d0bfb9496b9e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_aad1aec7021a863f7ee3063eace5e6bb1}{}{\footnotesize template$<$class I $>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries New\+Uncasted} ()\label{classv8_1_1internal_1_1_h_graph_builder_aad1aec7021a863f7ee3063eace5e6bb1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a0d8a69b10a17d9a58d8a57522787470a}{}{\footnotesize template$<$class I $>$ }\\I $\ast$ {\bfseries New} ()\label{classv8_1_1internal_1_1_h_graph_builder_a0d8a69b10a17d9a58d8a57522787470a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_aa3c94f36b42da5aadc5a4b670e059ecc}{}{\footnotesize template$<$class I $>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Add\+Uncasted} ()\label{classv8_1_1internal_1_1_h_graph_builder_aa3c94f36b42da5aadc5a4b670e059ecc}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ac9903cf29b61067b844affba8e65f1ae}{}{\footnotesize template$<$class I $>$ }\\I $\ast$ {\bfseries Add} ()\label{classv8_1_1internal_1_1_h_graph_builder_ac9903cf29b61067b844affba8e65f1ae}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ad2e27f0614e05c78dfb90d6520a278de}{}{\footnotesize template$<$class I , class P1 $>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries New\+Uncasted} (P1 p1)\label{classv8_1_1internal_1_1_h_graph_builder_ad2e27f0614e05c78dfb90d6520a278de}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_af0bdf90d8159037ff8e4295a5a9eddfb}{}{\footnotesize template$<$class I , class P1 $>$ }\\I $\ast$ {\bfseries New} (P1 p1)\label{classv8_1_1internal_1_1_h_graph_builder_af0bdf90d8159037ff8e4295a5a9eddfb}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a0a8366a2feb984425d6671cb78157e81}{}{\footnotesize template$<$class I , class P1 $>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Add\+Uncasted} (P1 p1)\label{classv8_1_1internal_1_1_h_graph_builder_a0a8366a2feb984425d6671cb78157e81}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a7d6a298ab96376633d2cd8dd7cc1f618}{}{\footnotesize template$<$class I , class P1 $>$ }\\I $\ast$ {\bfseries Add} (P1 p1)\label{classv8_1_1internal_1_1_h_graph_builder_a7d6a298ab96376633d2cd8dd7cc1f618}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a10cad3de4825148ab4c93b69416e819f}{}{\footnotesize template$<$class I , class P1 , class P2 $>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries New\+Uncasted} (P1 p1, P2 p2)\label{classv8_1_1internal_1_1_h_graph_builder_a10cad3de4825148ab4c93b69416e819f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_aae2acabd10188a0a55dd4840b29f6baf}{}{\footnotesize template$<$class I , class P1 , class P2 $>$ }\\I $\ast$ {\bfseries New} (P1 p1, P2 p2)\label{classv8_1_1internal_1_1_h_graph_builder_aae2acabd10188a0a55dd4840b29f6baf}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a48a8c0ed3a6c2363a1cafba9b4223a37}{}{\footnotesize template$<$class I , class P1 , class P2 $>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Add\+Uncasted} (P1 p1, P2 p2)\label{classv8_1_1internal_1_1_h_graph_builder_a48a8c0ed3a6c2363a1cafba9b4223a37}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a362f0202012ace8038a9c1cfe239ef12}{}{\footnotesize template$<$class I , class P1 , class P2 $>$ }\\I $\ast$ {\bfseries Add} (P1 p1, P2 p2)\label{classv8_1_1internal_1_1_h_graph_builder_a362f0202012ace8038a9c1cfe239ef12}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a3881f206014cc74df55704065c7b27c1}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 $>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries New\+Uncasted} (P1 p1, P2 p2, P3 p3)\label{classv8_1_1internal_1_1_h_graph_builder_a3881f206014cc74df55704065c7b27c1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ada350fd78c23c1fa3716ddd4ec312d4e}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 $>$ }\\I $\ast$ {\bfseries New} (P1 p1, P2 p2, P3 p3)\label{classv8_1_1internal_1_1_h_graph_builder_ada350fd78c23c1fa3716ddd4ec312d4e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_aff2d81ad06ed7719007cfc326b884d72}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 $>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Add\+Uncasted} (P1 p1, P2 p2, P3 p3)\label{classv8_1_1internal_1_1_h_graph_builder_aff2d81ad06ed7719007cfc326b884d72}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_abd15e7596368f13569e6c3b050b7f884}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 $>$ }\\I $\ast$ {\bfseries Add} (P1 p1, P2 p2, P3 p3)\label{classv8_1_1internal_1_1_h_graph_builder_abd15e7596368f13569e6c3b050b7f884}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a288d97c75872e441ed1084e05b203410}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 $>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries New\+Uncasted} (P1 p1, P2 p2, P3 p3, P4 p4)\label{classv8_1_1internal_1_1_h_graph_builder_a288d97c75872e441ed1084e05b203410}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ad7f2e521d1197f68aa812228b8bac315}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 $>$ }\\I $\ast$ {\bfseries New} (P1 p1, P2 p2, P3 p3, P4 p4)\label{classv8_1_1internal_1_1_h_graph_builder_ad7f2e521d1197f68aa812228b8bac315}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a7e66f56c6ee19aada6a057d977bbe84b}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 $>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Add\+Uncasted} (P1 p1, P2 p2, P3 p3, P4 p4)\label{classv8_1_1internal_1_1_h_graph_builder_a7e66f56c6ee19aada6a057d977bbe84b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a9dcd4e4fc37ede14981a0529dd443af3}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 $>$ }\\I $\ast$ {\bfseries Add} (P1 p1, P2 p2, P3 p3, P4 p4)\label{classv8_1_1internal_1_1_h_graph_builder_a9dcd4e4fc37ede14981a0529dd443af3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a6c505a1dd7dc3477154ccdfd969714bf}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 , class P5 $>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries New\+Uncasted} (P1 p1, P2 p2, P3 p3, P4 p4, P5 p5)\label{classv8_1_1internal_1_1_h_graph_builder_a6c505a1dd7dc3477154ccdfd969714bf}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a7295038551d619d0679f3343b3b787ce}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 , class P5 $>$ }\\I $\ast$ {\bfseries New} (P1 p1, P2 p2, P3 p3, P4 p4, P5 p5)\label{classv8_1_1internal_1_1_h_graph_builder_a7295038551d619d0679f3343b3b787ce}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a0c4b81ac0c9e8a6a57d633e5b0eec946}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 , class P5 $>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Add\+Uncasted} (P1 p1, P2 p2, P3 p3, P4 p4, P5 p5)\label{classv8_1_1internal_1_1_h_graph_builder_a0c4b81ac0c9e8a6a57d633e5b0eec946}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a24cb3477ef726cbccbe93ddec0b8894b}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 , class P5 $>$ }\\I $\ast$ {\bfseries Add} (P1 p1, P2 p2, P3 p3, P4 p4, P5 p5)\label{classv8_1_1internal_1_1_h_graph_builder_a24cb3477ef726cbccbe93ddec0b8894b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a4d53a60ad9189df924c282a10cf5d73e}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 , class P5 , class P6 $>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries New\+Uncasted} (P1 p1, P2 p2, P3 p3, P4 p4, P5 p5, P6 p6)\label{classv8_1_1internal_1_1_h_graph_builder_a4d53a60ad9189df924c282a10cf5d73e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a610fa47d77c385921e3b3169d7834d6e}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 , class P5 , class P6 $>$ }\\I $\ast$ {\bfseries New} (P1 p1, P2 p2, P3 p3, P4 p4, P5 p5, P6 p6)\label{classv8_1_1internal_1_1_h_graph_builder_a610fa47d77c385921e3b3169d7834d6e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_acbd23499ba4112eb9334a42f2b2f9613}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 , class P5 , class P6 $>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Add\+Uncasted} (P1 p1, P2 p2, P3 p3, P4 p4, P5 p5, P6 p6)\label{classv8_1_1internal_1_1_h_graph_builder_acbd23499ba4112eb9334a42f2b2f9613}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a1b9325be14c1a3c406f12bc8c311b5a4}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 , class P5 , class P6 $>$ }\\I $\ast$ {\bfseries Add} (P1 p1, P2 p2, P3 p3, P4 p4, P5 p5, P6 p6)\label{classv8_1_1internal_1_1_h_graph_builder_a1b9325be14c1a3c406f12bc8c311b5a4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_af4d9a5f99ae44c76f79e69b3f372132a}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 , class P5 , class P6 , class P7 $>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries New\+Uncasted} (P1 p1, P2 p2, P3 p3, P4 p4, P5 p5, P6 p6, P7 p7)\label{classv8_1_1internal_1_1_h_graph_builder_af4d9a5f99ae44c76f79e69b3f372132a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a3fc0a007550890edb1b3cd59a1aacb75}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 , class P5 , class P6 , class P7 $>$ }\\I $\ast$ {\bfseries New} (P1 p1, P2 p2, P3 p3, P4 p4, P5 p5, P6 p6, P7 p7)\label{classv8_1_1internal_1_1_h_graph_builder_a3fc0a007550890edb1b3cd59a1aacb75}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_aa718fe1dc95a7444fa2107df39686b67}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 , class P5 , class P6 , class P7 $>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Add\+Uncasted} (P1 p1, P2 p2, P3 p3, P4 p4, P5 p5, P6 p6, P7 p7)\label{classv8_1_1internal_1_1_h_graph_builder_aa718fe1dc95a7444fa2107df39686b67}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ac2839044c0a2fe5f7bd848c34a6ab991}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 , class P5 , class P6 , class P7 $>$ }\\I $\ast$ {\bfseries Add} (P1 p1, P2 p2, P3 p3, P4 p4, P5 p5, P6 p6, P7 p7)\label{classv8_1_1internal_1_1_h_graph_builder_ac2839044c0a2fe5f7bd848c34a6ab991}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a4cff9fb7728d794b326cc12ec3ca084c}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 , class P5 , class P6 , class P7 , class P8 $>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries New\+Uncasted} (P1 p1, P2 p2, P3 p3, P4 p4, P5 p5, P6 p6, P7 p7, P8 p8)\label{classv8_1_1internal_1_1_h_graph_builder_a4cff9fb7728d794b326cc12ec3ca084c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_addca06fd25b3481255bc25e2adc1358c}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 , class P5 , class P6 , class P7 , class P8 $>$ }\\I $\ast$ {\bfseries New} (P1 p1, P2 p2, P3 p3, P4 p4, P5 p5, P6 p6, P7 p7, P8 p8)\label{classv8_1_1internal_1_1_h_graph_builder_addca06fd25b3481255bc25e2adc1358c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_aeaea143dd1e7af96ea1fc5dea0ebdf76}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 , class P5 , class P6 , class P7 , class P8 $>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Add\+Uncasted} (P1 p1, P2 p2, P3 p3, P4 p4, P5 p5, P6 p6, P7 p7, P8 p8)\label{classv8_1_1internal_1_1_h_graph_builder_aeaea143dd1e7af96ea1fc5dea0ebdf76}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a4a93858e92e98389a959d17e23eeb973}{}{\footnotesize template$<$class I , class P1 , class P2 , class P3 , class P4 , class P5 , class P6 , class P7 , class P8 $>$ }\\I $\ast$ {\bfseries Add} (P1 p1, P2 p2, P3 p3, P4 p4, P5 p5, P6 p6, P7 p7, P8 p8)\label{classv8_1_1internal_1_1_h_graph_builder_a4a93858e92e98389a959d17e23eeb973}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a3c9c8f998d8d79f6329e2d39756522bd}{}void {\bfseries Add\+Simulate} (\hyperlink{classv8_1_1internal_1_1_bailout_id}{Bailout\+Id} id, Removable\+Simulate removable=F\+I\+X\+E\+D\+\_\+\+S\+I\+M\+U\+L\+A\+T\+E)\label{classv8_1_1internal_1_1_h_graph_builder_a3c9c8f998d8d79f6329e2d39756522bd}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a28f8bd88422ed5c2f60ea84ed5368995}{}{\footnotesize template$<$$>$ }\\H\+Deoptimize $\ast$ {\bfseries Add} (const char $\ast$reason, Deoptimizer\+::\+Bailout\+Type type)\label{classv8_1_1internal_1_1_h_graph_builder_a28f8bd88422ed5c2f60ea84ed5368995}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a940a8e705f4f122e2ac22280f3e400d4}{}{\footnotesize template$<$$>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Add\+Uncasted} (const char $\ast$reason, Deoptimizer\+::\+Bailout\+Type type)\label{classv8_1_1internal_1_1_h_graph_builder_a940a8e705f4f122e2ac22280f3e400d4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a2f9a5a6886f61b1c58224a248af1bc75}{}{\footnotesize template$<$$>$ }\\H\+Simulate $\ast$ {\bfseries Add} (\hyperlink{classv8_1_1internal_1_1_bailout_id}{Bailout\+Id} id, Removable\+Simulate removable)\label{classv8_1_1internal_1_1_h_graph_builder_a2f9a5a6886f61b1c58224a248af1bc75}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a5a6dca5268760c271b73c16a3fbd568b}{}{\footnotesize template$<$$>$ }\\H\+Simulate $\ast$ {\bfseries Add} (\hyperlink{classv8_1_1internal_1_1_bailout_id}{Bailout\+Id} id)\label{classv8_1_1internal_1_1_h_graph_builder_a5a6dca5268760c271b73c16a3fbd568b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a1c0eef80951bfeab68d62778423e13ab}{}{\footnotesize template$<$$>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Add\+Uncasted} (\hyperlink{classv8_1_1internal_1_1_bailout_id}{Bailout\+Id} id)\label{classv8_1_1internal_1_1_h_graph_builder_a1c0eef80951bfeab68d62778423e13ab}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a0b63c2c20363e038a8dcb583aafc1e29}{}{\footnotesize template$<$$>$ }\\H\+Return $\ast$ {\bfseries Add} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$value)\label{classv8_1_1internal_1_1_h_graph_builder_a0b63c2c20363e038a8dcb583aafc1e29}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_adef4b9accd8c6c944c875d06d3ce8ed3}{}{\footnotesize template$<$$>$ }\\H\+Return $\ast$ {\bfseries Add} (H\+Constant $\ast$value)\label{classv8_1_1internal_1_1_h_graph_builder_adef4b9accd8c6c944c875d06d3ce8ed3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a2643fcfbc06f7c3f9427bdb6d57069ab}{}{\footnotesize template$<$$>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Add\+Uncasted} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$value)\label{classv8_1_1internal_1_1_h_graph_builder_a2643fcfbc06f7c3f9427bdb6d57069ab}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a50b6c3ff1e04842c5e61a49518d63861}{}{\footnotesize template$<$$>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Add\+Uncasted} (H\+Constant $\ast$value)\label{classv8_1_1internal_1_1_h_graph_builder_a50b6c3ff1e04842c5e61a49518d63861}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a4a1a32933ac61222348eb2c91c29142a}{}{\footnotesize template$<$$>$ }\\H\+Call\+Runtime $\ast$ {\bfseries Add} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ name, const \hyperlink{structv8_1_1internal_1_1_runtime_1_1_function}{Runtime\+::\+Function} $\ast$c\+\_\+function, int argument\+\_\+count)\label{classv8_1_1internal_1_1_h_graph_builder_a4a1a32933ac61222348eb2c91c29142a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a497b5cf5f6df26e1d7f351d7a5884a7c}{}{\footnotesize template$<$$>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Add\+Uncasted} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ name, const \hyperlink{structv8_1_1internal_1_1_runtime_1_1_function}{Runtime\+::\+Function} $\ast$c\+\_\+function, int argument\+\_\+count)\label{classv8_1_1internal_1_1_h_graph_builder_a497b5cf5f6df26e1d7f351d7a5884a7c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ac8364a11e55f6e0ad3bbfbf306ff25b9}{}{\footnotesize template$<$$>$ }\\H\+Context $\ast$ {\bfseries New} ()\label{classv8_1_1internal_1_1_h_graph_builder_ac8364a11e55f6e0ad3bbfbf306ff25b9}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a8f467345daad17a88529f6a1747798f2}{}{\footnotesize template$<$$>$ }\\\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries New\+Uncasted} ()\label{classv8_1_1internal_1_1_h_graph_builder_a8f467345daad17a88529f6a1747798f2}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a2b5563939eadafc67bca2eb265e8bbac}{}static const int {\bfseries k\+Element\+Loop\+Unroll\+Threshold} = 8\label{classv8_1_1internal_1_1_h_graph_builder_a2b5563939eadafc67bca2eb265e8bbac}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_aa19a143d4cb7c32470dbbdcba779e4fa}{}virtual bool {\bfseries Build\+Graph} ()=0\label{classv8_1_1internal_1_1_h_graph_builder_aa19a143d4cb7c32470dbbdcba779e4fa}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a8f6a5e6dd76ebb1fdd185a397d1fbc9c}{}H\+Basic\+Block $\ast$ {\bfseries Create\+Basic\+Block} (H\+Environment $\ast$env)\label{classv8_1_1internal_1_1_h_graph_builder_a8f6a5e6dd76ebb1fdd185a397d1fbc9c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ab71ffdb40e1b709eb46fc952b68031b9}{}H\+Basic\+Block $\ast$ {\bfseries Create\+Loop\+Header\+Block} ()\label{classv8_1_1internal_1_1_h_graph_builder_ab71ffdb40e1b709eb46fc952b68031b9}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a764d9af5f3d100ed14c397660b6b0735}{}{\footnotesize template$<$class Bit\+Field\+Class $>$ }\\\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Decode\+Field} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$encoded\+\_\+field)\label{classv8_1_1internal_1_1_h_graph_builder_a764d9af5f3d100ed14c397660b6b0735}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a03c19286a098c5ce55a1877a09b3d5dc}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Get\+Elements\+Kind} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$object)\label{classv8_1_1internal_1_1_h_graph_builder_a03c19286a098c5ce55a1877a09b3d5dc}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a15cf43bf23ceecd5691159b05e6cbfab}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Check\+Heap\+Object} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$object)\label{classv8_1_1internal_1_1_h_graph_builder_a15cf43bf23ceecd5691159b05e6cbfab}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_adf7d79b7d2ff42123208a4397690c27b}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Check\+String} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$string)\label{classv8_1_1internal_1_1_h_graph_builder_adf7d79b7d2ff42123208a4397690c27b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_aff9e094d9b835c137651097bbe66de8f}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Wrap\+Receiver} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$object, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$function)\label{classv8_1_1internal_1_1_h_graph_builder_aff9e094d9b835c137651097bbe66de8f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a7f03525a4e9463b96d8228ea366b336f}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Check\+For\+Capacity\+Grow} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$object, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$elements, Elements\+Kind kind, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$length, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$key, bool is\+\_\+js\+\_\+array, Property\+Access\+Type access\+\_\+type)\label{classv8_1_1internal_1_1_h_graph_builder_a7f03525a4e9463b96d8228ea366b336f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ac95722f346a3f07fc919a8daa37b2a26}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Copy\+Elements\+On\+Write} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$object, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$elements, Elements\+Kind kind, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$length)\label{classv8_1_1internal_1_1_h_graph_builder_ac95722f346a3f07fc919a8daa37b2a26}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a27138e81807f2ee30691c360a033774f}{}void {\bfseries Build\+Transition\+Elements\+Kind} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$object, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$map, Elements\+Kind from\+\_\+kind, Elements\+Kind to\+\_\+kind, bool is\+\_\+jsarray)\label{classv8_1_1internal_1_1_h_graph_builder_a27138e81807f2ee30691c360a033774f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a81c75712f4359bb1c9bf57536116639d}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Number\+To\+String} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$object, \hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$type)\label{classv8_1_1internal_1_1_h_graph_builder_a81c75712f4359bb1c9bf57536116639d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a0567331adeff2f3f74acbe6ad06a1280}{}void {\bfseries Build\+J\+S\+Object\+Check} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$receiver, int bit\+\_\+field\+\_\+mask)\label{classv8_1_1internal_1_1_h_graph_builder_a0567331adeff2f3f74acbe6ad06a1280}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a9dc6a61b97712f5bae1d2e2b6c6b75ff}{}void {\bfseries Build\+Keyed\+Index\+Check} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$key, H\+If\+Continuation $\ast$join\+\_\+continuation)\label{classv8_1_1internal_1_1_h_graph_builder_a9dc6a61b97712f5bae1d2e2b6c6b75ff}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ae130cb7f3b8c74d84a46d2161bf643a6}{}void {\bfseries Build\+Test\+For\+Dictionary\+Properties} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$object, H\+If\+Continuation $\ast$continuation)\label{classv8_1_1internal_1_1_h_graph_builder_ae130cb7f3b8c74d84a46d2161bf643a6}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a1c0cd4f82e51b7d9557ceb940501e7fc}{}void {\bfseries Build\+Non\+Global\+Object\+Check} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$receiver)\label{classv8_1_1internal_1_1_h_graph_builder_a1c0cd4f82e51b7d9557ceb940501e7fc}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a61eb8e2b19749149f6f93a9832fa57e7}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Keyed\+Lookup\+Cache\+Hash} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$object, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$key)\label{classv8_1_1internal_1_1_h_graph_builder_a61eb8e2b19749149f6f93a9832fa57e7}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a01201a4975c1ae58c5c0bab0b460cd6c}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Unchecked\+Dictionary\+Element\+Load} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$receiver, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$elements, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$key, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$hash)\label{classv8_1_1internal_1_1_h_graph_builder_a01201a4975c1ae58c5c0bab0b460cd6c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a75be3c6b0d898152e46a0301ab37342d}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Reg\+Exp\+Construct\+Result} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$length, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$index, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$input)\label{classv8_1_1internal_1_1_h_graph_builder_a75be3c6b0d898152e46a0301ab37342d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a64ee0a1ef120b9a1f863ae7f6f6ede4d}{}H\+Allocate $\ast$ {\bfseries Build\+Allocate} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$object\+\_\+size, H\+Type type, Instance\+Type instance\+\_\+type, H\+Allocation\+Mode allocation\+\_\+mode)\label{classv8_1_1internal_1_1_h_graph_builder_a64ee0a1ef120b9a1f863ae7f6f6ede4d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a3447849b5059e96a3bd9a260dbda1bb2}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Add\+String\+Lengths} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$left\+\_\+length, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$right\+\_\+length)\label{classv8_1_1internal_1_1_h_graph_builder_a3447849b5059e96a3bd9a260dbda1bb2}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a3c3834187bd8b281f39a9722ac424d12}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Create\+Cons\+String} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$length, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$left, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$right, H\+Allocation\+Mode allocation\+\_\+mode)\label{classv8_1_1internal_1_1_h_graph_builder_a3c3834187bd8b281f39a9722ac424d12}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a91159ab1a4e2532eec8ac03e445fe25b}{}void {\bfseries Build\+Copy\+Seq\+String\+Chars} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$src, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$src\+\_\+offset, String\+::\+Encoding src\+\_\+encoding, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$dst, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$dst\+\_\+offset, String\+::\+Encoding dst\+\_\+encoding, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$length)\label{classv8_1_1internal_1_1_h_graph_builder_a91159ab1a4e2532eec8ac03e445fe25b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_af1a7dd376d381910a4a2dd7b678c6aa7}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Object\+Size\+Alignment} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$unaligned\+\_\+size, int header\+\_\+size)\label{classv8_1_1internal_1_1_h_graph_builder_af1a7dd376d381910a4a2dd7b678c6aa7}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a9c72ba390fb67dd90f7692ae53a2450e}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Unchecked\+String\+Add} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$left, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$right, H\+Allocation\+Mode allocation\+\_\+mode)\label{classv8_1_1internal_1_1_h_graph_builder_a9c72ba390fb67dd90f7692ae53a2450e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a26637e3f31db967d94388cf6a5f3299e}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+String\+Add} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$left, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$right, H\+Allocation\+Mode allocation\+\_\+mode)\label{classv8_1_1internal_1_1_h_graph_builder_a26637e3f31db967d94388cf6a5f3299e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a31349bacb6b418d80b13464205bc1c77}{}\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Build\+Unchecked\+Monomorphic\+Element\+Access} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$checked\+\_\+object, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$key, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$val, bool is\+\_\+js\+\_\+array, Elements\+Kind elements\+\_\+kind, Property\+Access\+Type access\+\_\+type, Load\+Keyed\+Hole\+Mode load\+\_\+mode, Keyed\+Access\+Store\+Mode store\+\_\+mode)\label{classv8_1_1internal_1_1_h_graph_builder_a31349bacb6b418d80b13464205bc1c77}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a8cdd69d96f435dc5ee72d4fecfe89a48}{}\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Add\+Element\+Access} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$elements, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$checked\+\_\+key, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$val, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$dependency, Elements\+Kind elements\+\_\+kind, Property\+Access\+Type access\+\_\+type, Load\+Keyed\+Hole\+Mode load\+\_\+mode=N\+E\+V\+E\+R\+\_\+\+R\+E\+T\+U\+R\+N\+\_\+\+H\+O\+L\+E)\label{classv8_1_1internal_1_1_h_graph_builder_a8cdd69d96f435dc5ee72d4fecfe89a48}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a81cbe5546c74a422efc24b88265ceb95}{}\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Add\+Load\+String\+Instance\+Type} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$string)\label{classv8_1_1internal_1_1_h_graph_builder_a81cbe5546c74a422efc24b88265ceb95}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_aeb778c809c8ca81cd1fe98fc886145a2}{}\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Add\+Load\+String\+Length} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$string)\label{classv8_1_1internal_1_1_h_graph_builder_aeb778c809c8ca81cd1fe98fc886145a2}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a2be176baccb6ad1afd834f28d8e6d3b1}{}H\+Store\+Named\+Field $\ast$ {\bfseries Add\+Store\+Map\+Constant} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$object, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_map}{Map} $>$ map)\label{classv8_1_1internal_1_1_h_graph_builder_a2be176baccb6ad1afd834f28d8e6d3b1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a8e09bec89c5877176bc979dc48f21dd5}{}H\+Load\+Named\+Field $\ast$ {\bfseries Add\+Load\+Map} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$object, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$dependency=N\+U\+L\+L)\label{classv8_1_1internal_1_1_h_graph_builder_a8e09bec89c5877176bc979dc48f21dd5}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a5263be8a91458439fd1c27c3b83b74f1}{}H\+Load\+Named\+Field $\ast$ {\bfseries Add\+Load\+Elements} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$object, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$dependency=N\+U\+L\+L)\label{classv8_1_1internal_1_1_h_graph_builder_a5263be8a91458439fd1c27c3b83b74f1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ae40e0a8433d23bb5d47bd2136357d590}{}bool {\bfseries Match\+Rotate\+Right} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$left, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$right, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$$\ast$operand, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$$\ast$shift\+\_\+amount)\label{classv8_1_1internal_1_1_h_graph_builder_ae40e0a8433d23bb5d47bd2136357d590}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a947f4bb0477092c2b3be3c7de2229d3a}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Binary\+Operation} (Token\+::\+Value op, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$left, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$right, \hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$left\+\_\+type, \hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$right\+\_\+type, \hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$result\+\_\+type, Maybe$<$ int $>$ fixed\+\_\+right\+\_\+arg, H\+Allocation\+Mode allocation\+\_\+mode)\label{classv8_1_1internal_1_1_h_graph_builder_a947f4bb0477092c2b3be3c7de2229d3a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a799a2cd15800045e3af54892e60959e3}{}H\+Load\+Named\+Field $\ast$ {\bfseries Add\+Load\+Fixed\+Array\+Length} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$object, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$dependency=N\+U\+L\+L)\label{classv8_1_1internal_1_1_h_graph_builder_a799a2cd15800045e3af54892e60959e3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a97519307cdc5cfe24ec2446beff6183a}{}H\+Load\+Named\+Field $\ast$ {\bfseries Add\+Load\+Array\+Length} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$object, Elements\+Kind kind, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$dependency=N\+U\+L\+L)\label{classv8_1_1internal_1_1_h_graph_builder_a97519307cdc5cfe24ec2446beff6183a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a3b52e583c74199a203865d54142ef993}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Add\+Load\+J\+S\+Builtin} (Builtins\+::\+Java\+Script builtin)\label{classv8_1_1internal_1_1_h_graph_builder_a3b52e583c74199a203865d54142ef993}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_aa0318ed052ad3dde76828cc864ece24f}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Enforce\+Number\+Type} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$number, \hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$expected)\label{classv8_1_1internal_1_1_h_graph_builder_aa0318ed052ad3dde76828cc864ece24f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ad85f954e0270d90f5d078d607b5069ba}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Truncate\+To\+Number} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$value, \hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$$\ast$expected)\label{classv8_1_1internal_1_1_h_graph_builder_ad85f954e0270d90f5d078d607b5069ba}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a0b1e9d2b9e640ecff306e5ca95e743fa}{}void {\bfseries Finish\+Exit\+With\+Hard\+Deoptimization} (const char $\ast$reason)\label{classv8_1_1internal_1_1_h_graph_builder_a0b1e9d2b9e640ecff306e5ca95e743fa}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_acffb06904a8374625c042229fa46d4a4}{}void {\bfseries Add\+Increment\+Counter} (\hyperlink{classv8_1_1internal_1_1_stats_counter}{Stats\+Counter} $\ast$counter)\label{classv8_1_1internal_1_1_h_graph_builder_acffb06904a8374625c042229fa46d4a4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ae1fe18291f0213f0d4e8bb25a9dd718b}{}{\footnotesize template$<$class A , class P1 $>$ }\\void {\bfseries Deoptimize\+If} (P1 p1, char $\ast$const reason)\label{classv8_1_1internal_1_1_h_graph_builder_ae1fe18291f0213f0d4e8bb25a9dd718b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ab95c8f0abe165519e0bf0b69758e0730}{}{\footnotesize template$<$class A , class P1 , class P2 $>$ }\\void {\bfseries Deoptimize\+If} (P1 p1, P2 p2, const char $\ast$reason)\label{classv8_1_1internal_1_1_h_graph_builder_ab95c8f0abe165519e0bf0b69758e0730}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a66f8a692fe2de68eeace6a5cfad72efe}{}{\footnotesize template$<$class A , class P1 , class P2 , class P3 $>$ }\\void {\bfseries Deoptimize\+If} (P1 p1, P2 p2, P3 p3, const char $\ast$reason)\label{classv8_1_1internal_1_1_h_graph_builder_a66f8a692fe2de68eeace6a5cfad72efe}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_aae8a99189e14174540b8e6720b39fb76}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+New\+Elements\+Capacity} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$old\+\_\+capacity)\label{classv8_1_1internal_1_1_h_graph_builder_aae8a99189e14174540b8e6720b39fb76}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a13b29de0ba2ac4d2683acec621ae783d}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Allocate\+Array\+From\+Length} (J\+S\+Array\+Builder $\ast$array\+\_\+builder, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$length\+\_\+argument)\label{classv8_1_1internal_1_1_h_graph_builder_a13b29de0ba2ac4d2683acec621ae783d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a993d18a4444924ee5dcee91fedfab723}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Calculate\+Elements\+Size} (Elements\+Kind kind, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$capacity)\label{classv8_1_1internal_1_1_h_graph_builder_a993d18a4444924ee5dcee91fedfab723}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ab78c23015a1be8b65ed8e9ad8f370cac}{}H\+Allocate $\ast$ {\bfseries Allocate\+J\+S\+Array\+Object} (Allocation\+Site\+Mode mode)\label{classv8_1_1internal_1_1_h_graph_builder_ab78c23015a1be8b65ed8e9ad8f370cac}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a5c1d8c722b0a399dbd0514dbabeb3c8a}{}H\+Constant $\ast$ {\bfseries Establish\+Elements\+Allocation\+Size} (Elements\+Kind kind, int capacity)\label{classv8_1_1internal_1_1_h_graph_builder_a5c1d8c722b0a399dbd0514dbabeb3c8a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a0aae5017ce562a06089659a4e6e60965}{}H\+Allocate $\ast$ {\bfseries Build\+Allocate\+Elements} (Elements\+Kind kind, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$size\+\_\+in\+\_\+bytes)\label{classv8_1_1internal_1_1_h_graph_builder_a0aae5017ce562a06089659a4e6e60965}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_af62597c303c06ccfccfd7dbbae0a7af1}{}void {\bfseries Build\+Initialize\+Elements\+Header} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$elements, Elements\+Kind kind, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$capacity)\label{classv8_1_1internal_1_1_h_graph_builder_af62597c303c06ccfccfd7dbbae0a7af1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ad5b91bc11267f5b0537491add49d3bd6}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Allocate\+Elements\+And\+Initialize\+Elements\+Header} (Elements\+Kind kind, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$capacity)\label{classv8_1_1internal_1_1_h_graph_builder_ad5b91bc11267f5b0537491add49d3bd6}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a05ba217495e922f341d1b0e10becb4c5}{}void {\bfseries Build\+J\+S\+Array\+Header} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$array, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$array\+\_\+map, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$elements, Allocation\+Site\+Mode mode, Elements\+Kind elements\+\_\+kind, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$allocation\+\_\+site\+\_\+payload, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$length\+\_\+field)\label{classv8_1_1internal_1_1_h_graph_builder_a05ba217495e922f341d1b0e10becb4c5}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ad715d3248b4df93594dfe926d9b4db94}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Grow\+Elements\+Capacity} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$object, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$elements, Elements\+Kind kind, Elements\+Kind new\+\_\+kind, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$length, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$new\+\_\+capacity)\label{classv8_1_1internal_1_1_h_graph_builder_ad715d3248b4df93594dfe926d9b4db94}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a7136d9aa534d7b8cb7747528bf80a50b}{}void {\bfseries Build\+Fill\+Elements\+With\+Value} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$elements, Elements\+Kind elements\+\_\+kind, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$from, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$to, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$value)\label{classv8_1_1internal_1_1_h_graph_builder_a7136d9aa534d7b8cb7747528bf80a50b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_aa4021cd426c1d0f45e9e25140b238856}{}void {\bfseries Build\+Fill\+Elements\+With\+Hole} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$elements, Elements\+Kind elements\+\_\+kind, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$from, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$to)\label{classv8_1_1internal_1_1_h_graph_builder_aa4021cd426c1d0f45e9e25140b238856}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a37b5be1f7c7022e2a76725ca868e5d90}{}void {\bfseries Build\+Copy\+Elements} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$from\+\_\+elements, Elements\+Kind from\+\_\+elements\+\_\+kind, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$to\+\_\+elements, Elements\+Kind to\+\_\+elements\+\_\+kind, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$length, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$capacity)\label{classv8_1_1internal_1_1_h_graph_builder_a37b5be1f7c7022e2a76725ca868e5d90}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ab5295ae9645f6b3c993226674181bcee}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Clone\+Shallow\+Array\+Cow} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$boilerplate, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$allocation\+\_\+site, Allocation\+Site\+Mode mode, Elements\+Kind kind)\label{classv8_1_1internal_1_1_h_graph_builder_ab5295ae9645f6b3c993226674181bcee}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_aa983c3ae8946fd9960bfa810d829790a}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Clone\+Shallow\+Array\+Empty} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$boilerplate, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$allocation\+\_\+site, Allocation\+Site\+Mode mode)\label{classv8_1_1internal_1_1_h_graph_builder_aa983c3ae8946fd9960bfa810d829790a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_affe37995e06f744d1786487ef8c0d119}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Clone\+Shallow\+Array\+Non\+Empty} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$boilerplate, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$allocation\+\_\+site, Allocation\+Site\+Mode mode, Elements\+Kind kind)\label{classv8_1_1internal_1_1_h_graph_builder_affe37995e06f744d1786487ef8c0d119}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a2aef5fb1df007ee7a930ca88ea9ebfd3}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Build\+Element\+Index\+Hash} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$index)\label{classv8_1_1internal_1_1_h_graph_builder_a2aef5fb1df007ee7a930ca88ea9ebfd3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_abb7b7398ff9e2352d44a8f07b7d81169}{}void {\bfseries Build\+Compare\+Nil} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$value, \hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$type, H\+If\+Continuation $\ast$continuation)\label{classv8_1_1internal_1_1_h_graph_builder_abb7b7398ff9e2352d44a8f07b7d81169}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a581229d30d640590339529d79a90dc47}{}void {\bfseries Build\+Create\+Allocation\+Memento} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$previous\+\_\+object, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$previous\+\_\+object\+\_\+size, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$payload)\label{classv8_1_1internal_1_1_h_graph_builder_a581229d30d640590339529d79a90dc47}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ab081bd0afb68c40db6b629b24e6988e0}{}\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Build\+Constant\+Map\+Check} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_object}{J\+S\+Object} $>$ constant)\label{classv8_1_1internal_1_1_h_graph_builder_ab081bd0afb68c40db6b629b24e6988e0}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a6f475f92c21330451d9cdc37b4e3952a}{}\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Build\+Check\+Prototype\+Maps} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_object}{J\+S\+Object} $>$ prototype, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_object}{J\+S\+Object} $>$ holder)\label{classv8_1_1internal_1_1_h_graph_builder_a6f475f92c21330451d9cdc37b4e3952a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a6e875339aaaa41090cddbf127dc14a4d}{}\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Build\+Get\+Native\+Context} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$closure)\label{classv8_1_1internal_1_1_h_graph_builder_a6e875339aaaa41090cddbf127dc14a4d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_ae8fa222e5b82e7871d33e6b7480a273b}{}\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Build\+Get\+Native\+Context} ()\label{classv8_1_1internal_1_1_h_graph_builder_ae8fa222e5b82e7871d33e6b7480a273b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a0cffe26cdad67bac4fd40192d419ac1c}{}\hyperlink{classv8_1_1internal_1_1_h_instruction}{H\+Instruction} $\ast$ {\bfseries Build\+Get\+Array\+Function} ()\label{classv8_1_1internal_1_1_h_graph_builder_a0cffe26cdad67bac4fd40192d419ac1c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a341d6ca5e026323c79d5acbcc050f655}{}void {\bfseries Set\+Source\+Position} (int position)\label{classv8_1_1internal_1_1_h_graph_builder_a341d6ca5e026323c79d5acbcc050f655}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a2a1bc7e9060908ced61ba3fbe2dc54a7}{}void {\bfseries Enter\+Inlined\+Source} (int start\+\_\+position, int id)\label{classv8_1_1internal_1_1_h_graph_builder_a2a1bc7e9060908ced61ba3fbe2dc54a7}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a867e50da291c5c7b556979d137426130}{}\hyperlink{classv8_1_1internal_1_1_h_source_position}{H\+Source\+Position} {\bfseries Script\+Position\+To\+Source\+Position} (int position)\label{classv8_1_1internal_1_1_h_graph_builder_a867e50da291c5c7b556979d137426130}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a4f2c24663ab1ad451f32809798743f5b}{}\hyperlink{classv8_1_1internal_1_1_h_source_position}{H\+Source\+Position} {\bfseries source\+\_\+position} ()\label{classv8_1_1internal_1_1_h_graph_builder_a4f2c24663ab1ad451f32809798743f5b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a1f545b7d08b6ab6b02d4af832f6cbb16}{}void {\bfseries set\+\_\+source\+\_\+position} (\hyperlink{classv8_1_1internal_1_1_h_source_position}{H\+Source\+Position} position)\label{classv8_1_1internal_1_1_h_graph_builder_a1f545b7d08b6ab6b02d4af832f6cbb16}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_graph_builder_a58038620b793b5af994a5bd5b601626e}{}{\footnotesize template$<$typename View\+Class $>$ }\\void {\bfseries Build\+Array\+Buffer\+View\+Initialization} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$obj, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$buffer, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$byte\+\_\+offset, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$byte\+\_\+length)\label{classv8_1_1internal_1_1_h_graph_builder_a58038620b793b5af994a5bd5b601626e}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/hydrogen.\+h\item 
+src/hydrogen.\+cc\end{DoxyCompactItemize}

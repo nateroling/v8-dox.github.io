@@ -1,0 +1,44 @@
+\hypertarget{classv8_1_1internal_1_1_snapshot_byte_sink}{}\section{v8\+:\+:internal\+:\+:Snapshot\+Byte\+Sink Class Reference}
+\label{classv8_1_1internal_1_1_snapshot_byte_sink}\index{v8\+::internal\+::\+Snapshot\+Byte\+Sink@{v8\+::internal\+::\+Snapshot\+Byte\+Sink}}
+
+
+{\ttfamily \#include $<$snapshot-\/source-\/sink.\+h$>$}
+
+Inheritance diagram for v8\+:\+:internal\+:\+:Snapshot\+Byte\+Sink\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.821138cm]{classv8_1_1internal_1_1_snapshot_byte_sink}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_snapshot_byte_sink_a20a2c34a975dba767b8c8ec0575c7c7c}{}virtual void {\bfseries Put} (byte b, const char $\ast$description)=0\label{classv8_1_1internal_1_1_snapshot_byte_sink_a20a2c34a975dba767b8c8ec0575c7c7c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_snapshot_byte_sink_a3255a77900260d729273244fa033c075}{}virtual void {\bfseries Put\+Section} (int b, const char $\ast$description)\label{classv8_1_1internal_1_1_snapshot_byte_sink_a3255a77900260d729273244fa033c075}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_snapshot_byte_sink_a99f6f87ab81c173335c6525eeec718b8}{}void {\bfseries Put\+Int} (uintptr\+\_\+t integer, const char $\ast$description)\label{classv8_1_1internal_1_1_snapshot_byte_sink_a99f6f87ab81c173335c6525eeec718b8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_snapshot_byte_sink_a7b2c066182dc736d11ab4d5a82d70fe3}{}void {\bfseries Put\+Raw} (byte $\ast$data, int number\+\_\+of\+\_\+bytes, const char $\ast$description)\label{classv8_1_1internal_1_1_snapshot_byte_sink_a7b2c066182dc736d11ab4d5a82d70fe3}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_snapshot_byte_sink_ad1d3443c68c172c52c63c32ed2b16c00}{}void {\bfseries Put\+Blob} (byte $\ast$data, int number\+\_\+of\+\_\+bytes, const char $\ast$description)\label{classv8_1_1internal_1_1_snapshot_byte_sink_ad1d3443c68c172c52c63c32ed2b16c00}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_snapshot_byte_sink_a4fdb1db728ca138736bdbf69cd6a35e3}{}virtual int {\bfseries Position} ()=0\label{classv8_1_1internal_1_1_snapshot_byte_sink_a4fdb1db728ca138736bdbf69cd6a35e3}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Sink to write snapshot files to.
+
+Subclasses must implement actual storage or i/o. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/snapshot-\/source-\/sink.\+h\item 
+src/snapshot-\/source-\/sink.\+cc\end{DoxyCompactItemize}

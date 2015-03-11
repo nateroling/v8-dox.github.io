@@ -1,0 +1,182 @@
+\hypertarget{classv8_1_1internal_1_1_hash_table}{}\section{v8\+:\+:internal\+:\+:Hash\+Table$<$ Derived, Shape, Key $>$ Class Template Reference}
+\label{classv8_1_1internal_1_1_hash_table}\index{v8\+::internal\+::\+Hash\+Table$<$ Derived, Shape, Key $>$@{v8\+::internal\+::\+Hash\+Table$<$ Derived, Shape, Key $>$}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Hash\+Table$<$ Derived, Shape, Key $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=6.000000cm]{classv8_1_1internal_1_1_hash_table}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a79040f71245c3d19f0936bdd69028834}{}uint32\+\_\+t {\bfseries Hash} (Key key)\label{classv8_1_1internal_1_1_hash_table_a79040f71245c3d19f0936bdd69028834}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a7b871d5478daf0f214436ce99401b5fb}{}uint32\+\_\+t {\bfseries Hash\+For\+Object} (Key key, \hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$object)\label{classv8_1_1internal_1_1_hash_table_a7b871d5478daf0f214436ce99401b5fb}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_aecb6c7546ed92f5a96dad038a897bafb}{}int {\bfseries Number\+Of\+Elements} ()\label{classv8_1_1internal_1_1_hash_table_aecb6c7546ed92f5a96dad038a897bafb}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a64ddc3cae67896d46de1b9e95f0351fb}{}int {\bfseries Number\+Of\+Deleted\+Elements} ()\label{classv8_1_1internal_1_1_hash_table_a64ddc3cae67896d46de1b9e95f0351fb}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a24d7c64fce515919fae69006c90bfef7}{}int {\bfseries Capacity} ()\label{classv8_1_1internal_1_1_hash_table_a24d7c64fce515919fae69006c90bfef7}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a44ea9f1a7eb8470d56bf1015d82d7c72}{}void {\bfseries Element\+Added} ()\label{classv8_1_1internal_1_1_hash_table_a44ea9f1a7eb8470d56bf1015d82d7c72}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_adfa4875a7434c269d23bc1c3f7289304}{}void {\bfseries Element\+Removed} ()\label{classv8_1_1internal_1_1_hash_table_adfa4875a7434c269d23bc1c3f7289304}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_ada08920d363bd3c05529d63414943d84}{}void {\bfseries Elements\+Removed} (int n)\label{classv8_1_1internal_1_1_hash_table_ada08920d363bd3c05529d63414943d84}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a2ed7d2eea2cfcf271002606e9ccf003c}{}\hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$ {\bfseries Key\+At} (int entry)\label{classv8_1_1internal_1_1_hash_table_a2ed7d2eea2cfcf271002606e9ccf003c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a2a52f99734a8c7fa8bf2098906c79948}{}bool {\bfseries Is\+Key} (\hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$k)\label{classv8_1_1internal_1_1_hash_table_a2a52f99734a8c7fa8bf2098906c79948}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a835cf648c19ee8608823136bff338527}{}void {\bfseries Iterate\+Prefix} (Object\+Visitor $\ast$visitor)\label{classv8_1_1internal_1_1_hash_table_a835cf648c19ee8608823136bff338527}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_ac4d068c9ee95b536a49aa6388d21a97a}{}void {\bfseries Iterate\+Elements} (Object\+Visitor $\ast$visitor)\label{classv8_1_1internal_1_1_hash_table_ac4d068c9ee95b536a49aa6388d21a97a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a5751428d9c3a2db8f27d0f7ca430b8bc}{}{\bfseries I\+N\+L\+I\+N\+E} (static uint32\+\_\+t Get\+Probe\+Offset(uint32\+\_\+t n))\label{classv8_1_1internal_1_1_hash_table_a5751428d9c3a2db8f27d0f7ca430b8bc}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_aebd11697b3709b8e33c273ccdea46133}{}int {\bfseries Find\+Entry} (Key key)\label{classv8_1_1internal_1_1_hash_table_aebd11697b3709b8e33c273ccdea46133}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_aaea324054c41c8f16af82c8281b9096e}{}int {\bfseries Find\+Entry} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, Key key)\label{classv8_1_1internal_1_1_hash_table_aaea324054c41c8f16af82c8281b9096e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a8e2c6cf3cc16c95c4a6a2dd693db186c}{}void {\bfseries Rehash} (Key key)\label{classv8_1_1internal_1_1_hash_table_a8e2c6cf3cc16c95c4a6a2dd693db186c}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a5c1574b25a07f84761ee8f420102dbd5}{}static M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ Derived $>$ {\bfseries New} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, int at\+\_\+least\+\_\+space\+\_\+for, Minimum\+Capacity capacity\+\_\+option=U\+S\+E\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+M\+I\+N\+I\+M\+U\+M\+\_\+\+C\+A\+P\+A\+C\+I\+T\+Y, Pretenure\+Flag pretenure=N\+O\+T\+\_\+\+T\+E\+N\+U\+R\+E\+D)\label{classv8_1_1internal_1_1_hash_table_a5c1574b25a07f84761ee8f420102dbd5}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a0f4ec26bc035bd64d192af7127efb318}{}static int {\bfseries Compute\+Capacity} (int at\+\_\+least\+\_\+space\+\_\+for)\label{classv8_1_1internal_1_1_hash_table_a0f4ec26bc035bd64d192af7127efb318}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_afe952185c2fb01fd661eb0e92a1bcfd1}{}static const int {\bfseries k\+Number\+Of\+Elements\+Index} = 0\label{classv8_1_1internal_1_1_hash_table_afe952185c2fb01fd661eb0e92a1bcfd1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_ae515800ba4da4f135f342a43634fc9a5}{}static const int {\bfseries k\+Number\+Of\+Deleted\+Elements\+Index} = 1\label{classv8_1_1internal_1_1_hash_table_ae515800ba4da4f135f342a43634fc9a5}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a9489a4acf3b1c665300643412d43aeba}{}static const int {\bfseries k\+Capacity\+Index} = 2\label{classv8_1_1internal_1_1_hash_table_a9489a4acf3b1c665300643412d43aeba}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a36b32c729f1fbf093ac8c55e9479eb50}{}static const int {\bfseries k\+Prefix\+Start\+Index} = 3\label{classv8_1_1internal_1_1_hash_table_a36b32c729f1fbf093ac8c55e9479eb50}
+
+\item 
+static const int {\bfseries k\+Elements\+Start\+Index}
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_abdf5da3cbf7a54499e1c64e75de43857}{}static const int {\bfseries k\+Entry\+Size} = Shape\+::k\+Entry\+Size\label{classv8_1_1internal_1_1_hash_table_abdf5da3cbf7a54499e1c64e75de43857}
+
+\item 
+static const int {\bfseries k\+Elements\+Start\+Offset}
+\item 
+static const int {\bfseries k\+Capacity\+Offset}
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a5554a4e4be4fa02d2b6b72ff4b5b8a90}{}static const int {\bfseries k\+Not\+Found} = -\/1\label{classv8_1_1internal_1_1_hash_table_a5554a4e4be4fa02d2b6b72ff4b5b8a90}
+
+\item 
+static const int {\bfseries k\+Max\+Capacity}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_ab5c5f8f269e12f80b7a9f4b3aed66d9d}{}uint32\+\_\+t {\bfseries Find\+Insertion\+Entry} (uint32\+\_\+t hash)\label{classv8_1_1internal_1_1_hash_table_ab5c5f8f269e12f80b7a9f4b3aed66d9d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a00af303ae5587d2420ad73e07d9c29a0}{}void {\bfseries Set\+Number\+Of\+Elements} (int nof)\label{classv8_1_1internal_1_1_hash_table_a00af303ae5587d2420ad73e07d9c29a0}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a6e3f383bc186686fe8b02dab1eb24800}{}void {\bfseries Set\+Number\+Of\+Deleted\+Elements} (int nod)\label{classv8_1_1internal_1_1_hash_table_a6e3f383bc186686fe8b02dab1eb24800}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_ae6e89723132098336b460a8f55bc6052}{}void {\bfseries Set\+Capacity} (int capacity)\label{classv8_1_1internal_1_1_hash_table_ae6e89723132098336b460a8f55bc6052}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a82a15f40b786548448a96cde7486459e}{}static int {\bfseries Entry\+To\+Index} (int entry)\label{classv8_1_1internal_1_1_hash_table_a82a15f40b786548448a96cde7486459e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a51696986cc87aa6cbe61d1a6188c905e}{}static uint32\+\_\+t {\bfseries Get\+Probe} (uint32\+\_\+t hash, uint32\+\_\+t number, uint32\+\_\+t size)\label{classv8_1_1internal_1_1_hash_table_a51696986cc87aa6cbe61d1a6188c905e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a91210607366d3bc3c5ef8401bcf8c883}{}static uint32\+\_\+t {\bfseries First\+Probe} (uint32\+\_\+t hash, uint32\+\_\+t size)\label{classv8_1_1internal_1_1_hash_table_a91210607366d3bc3c5ef8401bcf8c883}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a2a5f185948292174b636fad2b3c5b021}{}static uint32\+\_\+t {\bfseries Next\+Probe} (uint32\+\_\+t last, uint32\+\_\+t number, uint32\+\_\+t size)\label{classv8_1_1internal_1_1_hash_table_a2a5f185948292174b636fad2b3c5b021}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_af7f058d0398c45f7c6b7725911129548}{}static M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ Derived $>$ {\bfseries Shrink} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ Derived $>$ table, Key key)\label{classv8_1_1internal_1_1_hash_table_af7f058d0398c45f7c6b7725911129548}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_a2943c4720b6604cce17994f1b25ec7df}{}static M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ Derived $>$ {\bfseries Ensure\+Capacity} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ Derived $>$ table, int n, Key key, Pretenure\+Flag pretenure=N\+O\+T\+\_\+\+T\+E\+N\+U\+R\+E\+D)\label{classv8_1_1internal_1_1_hash_table_a2943c4720b6604cce17994f1b25ec7df}
+
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_hash_table_ac26f85b18a3d4e9b953069cc69ab9a9f}{}class {\bfseries Object\+Hash\+Table}\label{classv8_1_1internal_1_1_hash_table_ac26f85b18a3d4e9b953069cc69ab9a9f}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classv8_1_1internal_1_1_hash_table_a7ed978a6c4e826d387ef137a9734f88a}{}\index{v8\+::internal\+::\+Hash\+Table@{v8\+::internal\+::\+Hash\+Table}!k\+Capacity\+Offset@{k\+Capacity\+Offset}}
+\index{k\+Capacity\+Offset@{k\+Capacity\+Offset}!v8\+::internal\+::\+Hash\+Table@{v8\+::internal\+::\+Hash\+Table}}
+\subsubsection[{k\+Capacity\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived, typename Shape, typename Key$>$ const int {\bf v8\+::internal\+::\+Hash\+Table}$<$ Derived, Shape, Key $>$\+::k\+Capacity\+Offset\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_hash_table_a7ed978a6c4e826d387ef137a9734f88a}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      kHeaderSize + kCapacityIndex * kPointerSize
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_hash_table_a2e2b830482a0692ffc3ffd22dcfa07df}{}\index{v8\+::internal\+::\+Hash\+Table@{v8\+::internal\+::\+Hash\+Table}!k\+Elements\+Start\+Index@{k\+Elements\+Start\+Index}}
+\index{k\+Elements\+Start\+Index@{k\+Elements\+Start\+Index}!v8\+::internal\+::\+Hash\+Table@{v8\+::internal\+::\+Hash\+Table}}
+\subsubsection[{k\+Elements\+Start\+Index}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived, typename Shape, typename Key$>$ const int {\bf v8\+::internal\+::\+Hash\+Table}$<$ Derived, Shape, Key $>$\+::k\+Elements\+Start\+Index\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_hash_table_a2e2b830482a0692ffc3ffd22dcfa07df}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      kPrefixStartIndex + Shape::kPrefixSize
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_hash_table_ae8624ace4a507ce7d6e0686a0aaf5718}{}\index{v8\+::internal\+::\+Hash\+Table@{v8\+::internal\+::\+Hash\+Table}!k\+Elements\+Start\+Offset@{k\+Elements\+Start\+Offset}}
+\index{k\+Elements\+Start\+Offset@{k\+Elements\+Start\+Offset}!v8\+::internal\+::\+Hash\+Table@{v8\+::internal\+::\+Hash\+Table}}
+\subsubsection[{k\+Elements\+Start\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived, typename Shape, typename Key$>$ const int {\bf v8\+::internal\+::\+Hash\+Table}$<$ Derived, Shape, Key $>$\+::k\+Elements\+Start\+Offset\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_hash_table_ae8624ace4a507ce7d6e0686a0aaf5718}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      kHeaderSize + kElementsStartIndex * kPointerSize
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_hash_table_ac08bac76e122c2738f8c15c21f8365dd}{}\index{v8\+::internal\+::\+Hash\+Table@{v8\+::internal\+::\+Hash\+Table}!k\+Max\+Capacity@{k\+Max\+Capacity}}
+\index{k\+Max\+Capacity@{k\+Max\+Capacity}!v8\+::internal\+::\+Hash\+Table@{v8\+::internal\+::\+Hash\+Table}}
+\subsubsection[{k\+Max\+Capacity}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived, typename Shape, typename Key$>$ const int {\bf v8\+::internal\+::\+Hash\+Table}$<$ Derived, Shape, Key $>$\+::k\+Max\+Capacity\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_hash_table_ac08bac76e122c2738f8c15c21f8365dd}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      (FixedArray::kMaxLength - kElementsStartOffset) / kEntrySize
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/objects.\+h\item 
+src/objects-\/inl.\+h\item 
+src/objects.\+cc\end{DoxyCompactItemize}

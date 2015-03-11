@@ -1,0 +1,86 @@
+\hypertarget{classv8_1_1internal_1_1_heap_number}{}\section{v8\+:\+:internal\+:\+:Heap\+Number Class Reference}
+\label{classv8_1_1internal_1_1_heap_number}\index{v8\+::internal\+::\+Heap\+Number@{v8\+::internal\+::\+Heap\+Number}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Heap\+Number\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classv8_1_1internal_1_1_heap_number}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_heap_number_a9d64b2e3b1c243fad7d9217ec63e4f6e}{}double {\bfseries value} () const \label{classv8_1_1internal_1_1_heap_number_a9d64b2e3b1c243fad7d9217ec63e4f6e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_heap_number_ac6726d8db750c4b11885a6b6e724f640}{}void {\bfseries set\+\_\+value} (double value)\label{classv8_1_1internal_1_1_heap_number_ac6726d8db750c4b11885a6b6e724f640}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_heap_number_a2d2c0f1c6b28629c46aea753d3bb0bb6}{}bool {\bfseries Heap\+Number\+Boolean\+Value} ()\label{classv8_1_1internal_1_1_heap_number_a2d2c0f1c6b28629c46aea753d3bb0bb6}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_heap_number_aa86a13a217f97f05056950473043b9fb}{}void {\bfseries Heap\+Number\+Print} (\hyperlink{classv8_1_1internal_1_1_o_stream}{O\+Stream} \&os)\label{classv8_1_1internal_1_1_heap_number_aa86a13a217f97f05056950473043b9fb}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_heap_number_a90729bf6ec40a432cace27186f005584}{}int {\bfseries get\+\_\+exponent} ()\label{classv8_1_1internal_1_1_heap_number_a90729bf6ec40a432cace27186f005584}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_heap_number_abef98f476e59d21c329250c98330d986}{}int {\bfseries get\+\_\+sign} ()\label{classv8_1_1internal_1_1_heap_number_abef98f476e59d21c329250c98330d986}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_heap_number_a52b57ba48e6335c63496c78cd666c88b}{}static const int {\bfseries k\+Value\+Offset} = Heap\+Object\+::k\+Header\+Size\label{classv8_1_1internal_1_1_heap_number_a52b57ba48e6335c63496c78cd666c88b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_heap_number_ab06326529091d16f4421faa17e04fb2a}{}static const int {\bfseries k\+Size} = k\+Value\+Offset + k\+Double\+Size\label{classv8_1_1internal_1_1_heap_number_ab06326529091d16f4421faa17e04fb2a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_heap_number_a50eaa87f7bf62832731d20f644d4a33e}{}static const uint32\+\_\+t {\bfseries k\+Sign\+Mask} = 0x80000000u\label{classv8_1_1internal_1_1_heap_number_a50eaa87f7bf62832731d20f644d4a33e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_heap_number_a5fc3ecac0d194d03ccc4eabc9b3f5023}{}static const uint32\+\_\+t {\bfseries k\+Exponent\+Mask} = 0x7ff00000u\label{classv8_1_1internal_1_1_heap_number_a5fc3ecac0d194d03ccc4eabc9b3f5023}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_heap_number_a53057546a7ea98c7bfab2a274f06079f}{}static const uint32\+\_\+t {\bfseries k\+Mantissa\+Mask} = 0xfffffu\label{classv8_1_1internal_1_1_heap_number_a53057546a7ea98c7bfab2a274f06079f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_heap_number_a3a9f18d204db4321136c3263b54eadbd}{}static const int {\bfseries k\+Mantissa\+Bits} = 52\label{classv8_1_1internal_1_1_heap_number_a3a9f18d204db4321136c3263b54eadbd}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_heap_number_a7badd159303921f42ed5c74ad7c9fa00}{}static const int {\bfseries k\+Exponent\+Bits} = 11\label{classv8_1_1internal_1_1_heap_number_a7badd159303921f42ed5c74ad7c9fa00}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_heap_number_a87eae572809064057a6641c6b5805b42}{}static const int {\bfseries k\+Exponent\+Bias} = 1023\label{classv8_1_1internal_1_1_heap_number_a87eae572809064057a6641c6b5805b42}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_heap_number_aa70a7fa7eb34d309e4cfac3c2954650b}{}static const int {\bfseries k\+Exponent\+Shift} = 20\label{classv8_1_1internal_1_1_heap_number_aa70a7fa7eb34d309e4cfac3c2954650b}
+
+\item 
+static const int {\bfseries k\+Infinity\+Or\+Nan\+Exponent}
+\item 
+\hypertarget{classv8_1_1internal_1_1_heap_number_a6198e16a781f4aa92fcc8babace8f5ea}{}static const int {\bfseries k\+Mantissa\+Bits\+In\+Top\+Word} = 20\label{classv8_1_1internal_1_1_heap_number_a6198e16a781f4aa92fcc8babace8f5ea}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_heap_number_af83833ed477b0b07a40419938d43e406}{}static const int {\bfseries k\+Non\+Mantissa\+Bits\+In\+Top\+Word} = 12\label{classv8_1_1internal_1_1_heap_number_af83833ed477b0b07a40419938d43e406}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classv8_1_1internal_1_1_heap_number_a35bb7c72d798b1e4c47339a61dfa1f33}{}\index{v8\+::internal\+::\+Heap\+Number@{v8\+::internal\+::\+Heap\+Number}!k\+Infinity\+Or\+Nan\+Exponent@{k\+Infinity\+Or\+Nan\+Exponent}}
+\index{k\+Infinity\+Or\+Nan\+Exponent@{k\+Infinity\+Or\+Nan\+Exponent}!v8\+::internal\+::\+Heap\+Number@{v8\+::internal\+::\+Heap\+Number}}
+\subsubsection[{k\+Infinity\+Or\+Nan\+Exponent}]{\setlength{\rightskip}{0pt plus 5cm}const int v8\+::internal\+::\+Heap\+Number\+::k\+Infinity\+Or\+Nan\+Exponent\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_heap_number_a35bb7c72d798b1e4c47339a61dfa1f33}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+      (kExponentMask >> kExponentShift) - kExponentBias
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/objects.\+h\item 
+src/objects-\/inl.\+h\item 
+src/objects.\+cc\end{DoxyCompactItemize}

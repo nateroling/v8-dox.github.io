@@ -1,0 +1,106 @@
+\hypertarget{classv8_1_1internal_1_1_expression}{}\section{v8\+:\+:internal\+:\+:Expression Class Reference}
+\label{classv8_1_1internal_1_1_expression}\index{v8\+::internal\+::\+Expression@{v8\+::internal\+::\+Expression}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Expression\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=12.000000cm]{classv8_1_1internal_1_1_expression}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_a04f7abd80505ef4b9e813324d2fb37a9}{}enum {\bfseries Context} \{ {\bfseries k\+Uninitialized}, 
+{\bfseries k\+Effect}, 
+{\bfseries k\+Value}, 
+{\bfseries k\+Test}
+ \}\label{classv8_1_1internal_1_1_expression_a04f7abd80505ef4b9e813324d2fb37a9}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_aa55f2c783cd95bc83a5993f514b99b0f}{}virtual bool {\bfseries Is\+Valid\+Reference\+Expression} () const \label{classv8_1_1internal_1_1_expression_aa55f2c783cd95bc83a5993f514b99b0f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_aaac1281d6505dd5b04859de4c68f99e5}{}virtual bool {\bfseries To\+Boolean\+Is\+True} () const \label{classv8_1_1internal_1_1_expression_aaac1281d6505dd5b04859de4c68f99e5}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_a5fcd433a0f4cf5f91c50721e86efc62b}{}virtual bool {\bfseries To\+Boolean\+Is\+False} () const \label{classv8_1_1internal_1_1_expression_a5fcd433a0f4cf5f91c50721e86efc62b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_a2e652520da345dbe002e406fd235839b}{}virtual bool {\bfseries Is\+Property\+Name} () const \label{classv8_1_1internal_1_1_expression_a2e652520da345dbe002e406fd235839b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_a0e4e1b87aa095ccf0095db282cb9775f}{}virtual bool {\bfseries Result\+Overwrite\+Allowed} () const \label{classv8_1_1internal_1_1_expression_a0e4e1b87aa095ccf0095db282cb9775f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_aa57ffa44f31f9b27600f4e52ba9648db}{}bool {\bfseries Is\+Smi\+Literal} () const \label{classv8_1_1internal_1_1_expression_aa57ffa44f31f9b27600f4e52ba9648db}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_a6b82dadf4112207b9f9ead42db8fb6f9}{}bool {\bfseries Is\+String\+Literal} () const \label{classv8_1_1internal_1_1_expression_a6b82dadf4112207b9f9ead42db8fb6f9}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_a3d4dd9709eeec8ef75d03ec021c9bc80}{}bool {\bfseries Is\+Null\+Literal} () const \label{classv8_1_1internal_1_1_expression_a3d4dd9709eeec8ef75d03ec021c9bc80}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_aebbe97119d05503d9a3a06645e69dadb}{}bool {\bfseries Is\+Undefined\+Literal} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate) const \label{classv8_1_1internal_1_1_expression_aebbe97119d05503d9a3a06645e69dadb}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_af9e426a9697a0bcb508668f39eb965a9}{}\hyperlink{structv8_1_1internal_1_1_bounds_impl}{Bounds} {\bfseries bounds} () const \label{classv8_1_1internal_1_1_expression_af9e426a9697a0bcb508668f39eb965a9}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_a78b5d2a50d9e5587c0c39ed2bcda1d3a}{}void {\bfseries set\+\_\+bounds} (\hyperlink{structv8_1_1internal_1_1_bounds_impl}{Bounds} bounds)\label{classv8_1_1internal_1_1_expression_a78b5d2a50d9e5587c0c39ed2bcda1d3a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_abbb438a24e32c85f6e04152d5a79ffb0}{}unsigned {\bfseries parenthesization\+\_\+level} () const \label{classv8_1_1internal_1_1_expression_abbb438a24e32c85f6e04152d5a79ffb0}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_a956e9b5475b57f920f72e93c641014a1}{}bool {\bfseries is\+\_\+parenthesized} () const \label{classv8_1_1internal_1_1_expression_a956e9b5475b57f920f72e93c641014a1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_a2de4c80d77d26de7e4b0d12c820d9fc8}{}void {\bfseries increase\+\_\+parenthesization\+\_\+level} ()\label{classv8_1_1internal_1_1_expression_a2de4c80d77d26de7e4b0d12c820d9fc8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_a7d327b01132275e31863c98414928798}{}virtual bool {\bfseries Is\+Monomorphic} ()\label{classv8_1_1internal_1_1_expression_a7d327b01132275e31863c98414928798}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_ab58f0336d4bd123fc1ad0a1e9d789865}{}virtual Small\+Map\+List $\ast$ {\bfseries Get\+Receiver\+Types} ()\label{classv8_1_1internal_1_1_expression_ab58f0336d4bd123fc1ad0a1e9d789865}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_a661379219fbafbbe208e4c2a4299abfd}{}virtual Keyed\+Access\+Store\+Mode {\bfseries Get\+Store\+Mode} ()\label{classv8_1_1internal_1_1_expression_a661379219fbafbbe208e4c2a4299abfd}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_a2d0193f5251cfe78478331420c758bff}{}virtual void {\bfseries Record\+To\+Boolean\+Type\+Feedback} (\hyperlink{classv8_1_1internal_1_1_type_feedback_oracle}{Type\+Feedback\+Oracle} $\ast$oracle)\label{classv8_1_1internal_1_1_expression_a2d0193f5251cfe78478331420c758bff}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_a86a9152bd4143010575a238106527f20}{}byte {\bfseries to\+\_\+boolean\+\_\+types} () const \label{classv8_1_1internal_1_1_expression_a86a9152bd4143010575a238106527f20}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_afc64c0e0bef05c44204e1c302fa44117}{}\hyperlink{classv8_1_1internal_1_1_bailout_id}{Bailout\+Id} {\bfseries id} () const \label{classv8_1_1internal_1_1_expression_afc64c0e0bef05c44204e1c302fa44117}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_a8d03a18cbeee4debbe709e242c05dfc8}{}\hyperlink{classv8_1_1internal_1_1_type_feedback_id}{Type\+Feedback\+Id} {\bfseries test\+\_\+id} () const \label{classv8_1_1internal_1_1_expression_a8d03a18cbeee4debbe709e242c05dfc8}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_a46d9647e4fed591b56c34685f53c6a1d}{}{\bfseries Expression} (\hyperlink{classv8_1_1internal_1_1_zone}{Zone} $\ast$zone, int pos)\label{classv8_1_1internal_1_1_expression_a46d9647e4fed591b56c34685f53c6a1d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_a37b214a937b147afb5180e518379cb2e}{}void {\bfseries set\+\_\+to\+\_\+boolean\+\_\+types} (byte types)\label{classv8_1_1internal_1_1_expression_a37b214a937b147afb5180e518379cb2e}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_expression_a6ff35dfd23465ea89b58a6bfb10a4ac0}{}\hyperlink{classv8_1_1internal_1_1_zone}{Zone} $\ast$ {\bfseries zone\+\_\+}\label{classv8_1_1internal_1_1_expression_a6ff35dfd23465ea89b58a6bfb10a4ac0}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/ast.\+h\item 
+src/ast.\+cc\end{DoxyCompactItemize}

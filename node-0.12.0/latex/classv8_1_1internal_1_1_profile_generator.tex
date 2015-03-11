@@ -1,0 +1,66 @@
+\hypertarget{classv8_1_1internal_1_1_profile_generator}{}\section{v8\+:\+:internal\+:\+:Profile\+Generator Class Reference}
+\label{classv8_1_1internal_1_1_profile_generator}\index{v8\+::internal\+::\+Profile\+Generator@{v8\+::internal\+::\+Profile\+Generator}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_profile_generator_a538d180f766813125ded7ce7d5e69693}{}{\bfseries Profile\+Generator} (\hyperlink{classv8_1_1internal_1_1_cpu_profiles_collection}{Cpu\+Profiles\+Collection} $\ast$profiles)\label{classv8_1_1internal_1_1_profile_generator_a538d180f766813125ded7ce7d5e69693}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_profile_generator_a321d0ff6232f550c83d0ffc43da9f599}{}void {\bfseries Record\+Tick\+Sample} (const \hyperlink{structv8_1_1internal_1_1_tick_sample}{Tick\+Sample} \&sample)\label{classv8_1_1internal_1_1_profile_generator_a321d0ff6232f550c83d0ffc43da9f599}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_profile_generator_a8e7b039f4a0e933edd362264a5c0dd6a}{}\hyperlink{classv8_1_1internal_1_1_code_map}{Code\+Map} $\ast$ {\bfseries code\+\_\+map} ()\label{classv8_1_1internal_1_1_profile_generator_a8e7b039f4a0e933edd362264a5c0dd6a}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const char $\ast$const {\bfseries k\+Program\+Entry\+Name}
+\item 
+static const char $\ast$const {\bfseries k\+Idle\+Entry\+Name}
+\item 
+static const char $\ast$const {\bfseries k\+Garbage\+Collector\+Entry\+Name}
+\item 
+static const char $\ast$const {\bfseries k\+Unresolved\+Function\+Name}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classv8_1_1internal_1_1_profile_generator_ad28e87812af663a735d2dc3352729ea4}{}\index{v8\+::internal\+::\+Profile\+Generator@{v8\+::internal\+::\+Profile\+Generator}!k\+Garbage\+Collector\+Entry\+Name@{k\+Garbage\+Collector\+Entry\+Name}}
+\index{k\+Garbage\+Collector\+Entry\+Name@{k\+Garbage\+Collector\+Entry\+Name}!v8\+::internal\+::\+Profile\+Generator@{v8\+::internal\+::\+Profile\+Generator}}
+\subsubsection[{k\+Garbage\+Collector\+Entry\+Name}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$const v8\+::internal\+::\+Profile\+Generator\+::k\+Garbage\+Collector\+Entry\+Name\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_profile_generator_ad28e87812af663a735d2dc3352729ea4}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+    \textcolor{stringliteral}{"(garbage collector)"}
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_profile_generator_acbcf8250b34c83cba20f8d7d29e33ee9}{}\index{v8\+::internal\+::\+Profile\+Generator@{v8\+::internal\+::\+Profile\+Generator}!k\+Idle\+Entry\+Name@{k\+Idle\+Entry\+Name}}
+\index{k\+Idle\+Entry\+Name@{k\+Idle\+Entry\+Name}!v8\+::internal\+::\+Profile\+Generator@{v8\+::internal\+::\+Profile\+Generator}}
+\subsubsection[{k\+Idle\+Entry\+Name}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$const v8\+::internal\+::\+Profile\+Generator\+::k\+Idle\+Entry\+Name\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_profile_generator_acbcf8250b34c83cba20f8d7d29e33ee9}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+    \textcolor{stringliteral}{"(idle)"}
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_profile_generator_a5c858e88eaf2ce61922e772d7917b94a}{}\index{v8\+::internal\+::\+Profile\+Generator@{v8\+::internal\+::\+Profile\+Generator}!k\+Program\+Entry\+Name@{k\+Program\+Entry\+Name}}
+\index{k\+Program\+Entry\+Name@{k\+Program\+Entry\+Name}!v8\+::internal\+::\+Profile\+Generator@{v8\+::internal\+::\+Profile\+Generator}}
+\subsubsection[{k\+Program\+Entry\+Name}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$const v8\+::internal\+::\+Profile\+Generator\+::k\+Program\+Entry\+Name\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_profile_generator_a5c858e88eaf2ce61922e772d7917b94a}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+    \textcolor{stringliteral}{"(program)"}
+\end{DoxyCode}
+\hypertarget{classv8_1_1internal_1_1_profile_generator_a89aba0ecc28829cf41e8058109fe2037}{}\index{v8\+::internal\+::\+Profile\+Generator@{v8\+::internal\+::\+Profile\+Generator}!k\+Unresolved\+Function\+Name@{k\+Unresolved\+Function\+Name}}
+\index{k\+Unresolved\+Function\+Name@{k\+Unresolved\+Function\+Name}!v8\+::internal\+::\+Profile\+Generator@{v8\+::internal\+::\+Profile\+Generator}}
+\subsubsection[{k\+Unresolved\+Function\+Name}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$const v8\+::internal\+::\+Profile\+Generator\+::k\+Unresolved\+Function\+Name\hspace{0.3cm}{\ttfamily [static]}}\label{classv8_1_1internal_1_1_profile_generator_a89aba0ecc28829cf41e8058109fe2037}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+=
+    \textcolor{stringliteral}{"(unresolved function)"}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/profile-\/generator.\+h\item 
+src/profile-\/generator.\+cc\end{DoxyCompactItemize}

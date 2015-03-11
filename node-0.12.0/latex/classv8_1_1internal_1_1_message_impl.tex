@@ -1,0 +1,56 @@
+\hypertarget{classv8_1_1internal_1_1_message_impl}{}\section{v8\+:\+:internal\+:\+:Message\+Impl Class Reference}
+\label{classv8_1_1internal_1_1_message_impl}\index{v8\+::internal\+::\+Message\+Impl@{v8\+::internal\+::\+Message\+Impl}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Message\+Impl\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classv8_1_1internal_1_1_message_impl}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_message_impl_abea1e06c7076154a2d84570950d3ee5d}{}virtual bool {\bfseries Is\+Event} () const \label{classv8_1_1internal_1_1_message_impl_abea1e06c7076154a2d84570950d3ee5d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_message_impl_ad238ccdcd5b57f7ae8a9d606bece6019}{}virtual bool {\bfseries Is\+Response} () const \label{classv8_1_1internal_1_1_message_impl_ad238ccdcd5b57f7ae8a9d606bece6019}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_message_impl_a1a49aa8866053f667b1d2e98c124f0d8}{}virtual Debug\+Event {\bfseries Get\+Event} () const \label{classv8_1_1internal_1_1_message_impl_a1a49aa8866053f667b1d2e98c124f0d8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_message_impl_a0ab9e3879d700c394048095cfb39caff}{}virtual bool {\bfseries Will\+Start\+Running} () const \label{classv8_1_1internal_1_1_message_impl_a0ab9e3879d700c394048095cfb39caff}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_message_impl_af4143eec72df78d4343252ab2787d66d}{}virtual \hyperlink{classv8_1_1_handle}{v8\+::\+Handle}$<$ v8\+::\+Object $>$ {\bfseries Get\+Execution\+State} () const \label{classv8_1_1internal_1_1_message_impl_af4143eec72df78d4343252ab2787d66d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_message_impl_a711a397f5e4116aca26cdbcca946652a}{}virtual \hyperlink{classv8_1_1_handle}{v8\+::\+Handle}$<$ v8\+::\+Object $>$ {\bfseries Get\+Event\+Data} () const \label{classv8_1_1internal_1_1_message_impl_a711a397f5e4116aca26cdbcca946652a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_message_impl_a276d0c496aa70acbd28e049f81214232}{}virtual \hyperlink{classv8_1_1_handle}{v8\+::\+Handle}$<$ v8\+::\+String $>$ {\bfseries Get\+J\+S\+O\+N} () const \label{classv8_1_1internal_1_1_message_impl_a276d0c496aa70acbd28e049f81214232}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_message_impl_a0d31dd63dea9072249fdf6208fad4b71}{}virtual \hyperlink{classv8_1_1_handle}{v8\+::\+Handle}$<$ v8\+::\+Context $>$ {\bfseries Get\+Event\+Context} () const \label{classv8_1_1internal_1_1_message_impl_a0d31dd63dea9072249fdf6208fad4b71}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_message_impl_a6ec7b5784c2c2fbc6159103a8904230a}{}virtual v8\+::\+Debug\+::\+Client\+Data $\ast$ {\bfseries Get\+Client\+Data} () const \label{classv8_1_1internal_1_1_message_impl_a6ec7b5784c2c2fbc6159103a8904230a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_message_impl_afd44d25359cc8fcbb12a34c3f85cd8f1}{}virtual v8\+::\+Isolate $\ast$ {\bfseries Get\+Isolate} () const \label{classv8_1_1internal_1_1_message_impl_afd44d25359cc8fcbb12a34c3f85cd8f1}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_message_impl_aef580b1b84a58d691d48c9cc366df3df}{}static \hyperlink{classv8_1_1internal_1_1_message_impl}{Message\+Impl} {\bfseries New\+Event} (Debug\+Event event, bool running, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_object}{J\+S\+Object} $>$ exec\+\_\+state, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_object}{J\+S\+Object} $>$ event\+\_\+data)\label{classv8_1_1internal_1_1_message_impl_aef580b1b84a58d691d48c9cc366df3df}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_message_impl_a3be5a0658500e47124d319b5a2989e53}{}static \hyperlink{classv8_1_1internal_1_1_message_impl}{Message\+Impl} {\bfseries New\+Response} (Debug\+Event event, bool running, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_object}{J\+S\+Object} $>$ exec\+\_\+state, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_object}{J\+S\+Object} $>$ event\+\_\+data, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ response\+\_\+json, v8\+::\+Debug\+::\+Client\+Data $\ast$client\+\_\+data)\label{classv8_1_1internal_1_1_message_impl_a3be5a0658500e47124d319b5a2989e53}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/debug.\+h\item 
+src/debug.\+cc\end{DoxyCompactItemize}

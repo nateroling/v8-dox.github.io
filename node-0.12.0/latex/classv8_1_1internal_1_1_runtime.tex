@@ -1,0 +1,113 @@
+\hypertarget{classv8_1_1internal_1_1_runtime}{}\section{v8\+:\+:internal\+:\+:Runtime Class Reference}
+\label{classv8_1_1internal_1_1_runtime}\index{v8\+::internal\+::\+Runtime@{v8\+::internal\+::\+Runtime}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Runtime\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classv8_1_1internal_1_1_runtime}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structv8_1_1internal_1_1_runtime_1_1_function}{Function}
+\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_a013b8c319f323c8e688a6f598845835a}{}enum {\bfseries Function\+Id} \{ {\bfseries k\+Num\+Functions}, 
+{\bfseries k\+First\+Inline\+Function} = k\+Inline\+Is\+Smi
+ \}\label{classv8_1_1internal_1_1_runtime_a013b8c319f323c8e688a6f598845835a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_a9794fd24ae9e4731fe6679eca11fef02}{}enum {\bfseries Intrinsic\+Type} \{ {\bfseries R\+U\+N\+T\+I\+M\+E}, 
+{\bfseries I\+N\+L\+I\+N\+E}, 
+{\bfseries I\+N\+L\+I\+N\+E\+\_\+\+O\+P\+T\+I\+M\+I\+Z\+E\+D}
+ \}\label{classv8_1_1internal_1_1_runtime_a9794fd24ae9e4731fe6679eca11fef02}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_a80bc0fbf6603396cf71c90d7f40b4ece}{}enum {\bfseries Typed\+Array\+Id} \{ \\*
+{\bfseries A\+R\+R\+A\+Y\+\_\+\+I\+D\+\_\+\+U\+I\+N\+T8} = 1, 
+{\bfseries A\+R\+R\+A\+Y\+\_\+\+I\+D\+\_\+\+I\+N\+T8} = 2, 
+{\bfseries A\+R\+R\+A\+Y\+\_\+\+I\+D\+\_\+\+U\+I\+N\+T16} = 3, 
+{\bfseries A\+R\+R\+A\+Y\+\_\+\+I\+D\+\_\+\+I\+N\+T16} = 4, 
+\\*
+{\bfseries A\+R\+R\+A\+Y\+\_\+\+I\+D\+\_\+\+U\+I\+N\+T32} = 5, 
+{\bfseries A\+R\+R\+A\+Y\+\_\+\+I\+D\+\_\+\+I\+N\+T32} = 6, 
+{\bfseries A\+R\+R\+A\+Y\+\_\+\+I\+D\+\_\+\+F\+L\+O\+A\+T32} = 7, 
+{\bfseries A\+R\+R\+A\+Y\+\_\+\+I\+D\+\_\+\+F\+L\+O\+A\+T64} = 8, 
+\\*
+{\bfseries A\+R\+R\+A\+Y\+\_\+\+I\+D\+\_\+\+U\+I\+N\+T8\+\_\+\+C\+L\+A\+M\+P\+E\+D} = 9, 
+{\bfseries A\+R\+R\+A\+Y\+\_\+\+I\+D\+\_\+\+F\+I\+R\+S\+T} = A\+R\+R\+A\+Y\+\_\+\+I\+D\+\_\+\+U\+I\+N\+T8, 
+{\bfseries A\+R\+R\+A\+Y\+\_\+\+I\+D\+\_\+\+L\+A\+S\+T} = A\+R\+R\+A\+Y\+\_\+\+I\+D\+\_\+\+U\+I\+N\+T8\+\_\+\+C\+L\+A\+M\+P\+E\+D
+ \}\label{classv8_1_1internal_1_1_runtime_a80bc0fbf6603396cf71c90d7f40b4ece}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_a2af56c161b8cb654eaa8ef8f86e4ba5c}{}static void {\bfseries Initialize\+Intrinsic\+Function\+Names} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_name_dictionary}{Name\+Dictionary} $>$ dict)\label{classv8_1_1internal_1_1_runtime_a2af56c161b8cb654eaa8ef8f86e4ba5c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_aea6fd7c87dbfcbb2aa24d9b59214d557}{}static const \hyperlink{structv8_1_1internal_1_1_runtime_1_1_function}{Function} $\ast$ {\bfseries Function\+For\+Name} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ name)\label{classv8_1_1internal_1_1_runtime_aea6fd7c87dbfcbb2aa24d9b59214d557}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_a1fb4256645450f73e9ee39d4f38f3d58}{}static const \hyperlink{structv8_1_1internal_1_1_runtime_1_1_function}{Function} $\ast$ {\bfseries Function\+For\+Id} (Function\+Id id)\label{classv8_1_1internal_1_1_runtime_a1fb4256645450f73e9ee39d4f38f3d58}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_a82e21040bb88fd62e811b273d9592b62}{}static const \hyperlink{structv8_1_1internal_1_1_runtime_1_1_function}{Function} $\ast$ {\bfseries Function\+For\+Entry} (Address ref)\label{classv8_1_1internal_1_1_runtime_a82e21040bb88fd62e811b273d9592b62}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_a109f46396ee7cf24fa460908bff347a4}{}static int {\bfseries String\+Match} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ sub, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ pat, int index)\label{classv8_1_1internal_1_1_runtime_a109f46396ee7cf24fa460908bff347a4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_a9ef593232b15430dd7257e2ed862dbb9}{}static bool {\bfseries Is\+Upper\+Case\+Char} (\hyperlink{classv8_1_1internal_1_1_runtime_state}{Runtime\+State} $\ast$runtime\+\_\+state, uint16\+\_\+t ch)\label{classv8_1_1internal_1_1_runtime_a9ef593232b15430dd7257e2ed862dbb9}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_aaade21a4f5ed7ad67de2ff45f5debebd}{}static M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T \hyperlink{classv8_1_1internal_1_1_maybe_handle}{Maybe\+Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ {\bfseries Get\+Element\+Or\+Char\+At} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ object, uint32\+\_\+t index)\label{classv8_1_1internal_1_1_runtime_aaade21a4f5ed7ad67de2ff45f5debebd}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_a3c308dd53a76554a7f2506556715268c}{}static M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T \hyperlink{classv8_1_1internal_1_1_maybe_handle}{Maybe\+Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ {\bfseries Set\+Object\+Property} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ object, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ key, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ value, Strict\+Mode strict\+\_\+mode)\label{classv8_1_1internal_1_1_runtime_a3c308dd53a76554a7f2506556715268c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_aa4e817e2bc79754016c1de5710b41575}{}static M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T \hyperlink{classv8_1_1internal_1_1_maybe_handle}{Maybe\+Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ {\bfseries Define\+Object\+Property} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_object}{J\+S\+Object} $>$ object, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ key, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ value, Property\+Attributes attr, J\+S\+Receiver\+::\+Store\+From\+Keyed store\+\_\+from\+\_\+keyed=J\+S\+Receiver\+::\+M\+A\+Y\+\_\+\+B\+E\+\_\+\+S\+T\+O\+R\+E\+\_\+\+F\+R\+O\+M\+\_\+\+K\+E\+Y\+E\+D)\label{classv8_1_1internal_1_1_runtime_aa4e817e2bc79754016c1de5710b41575}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_af4c414c287008ef5f8cc3ccdc6d566b1}{}static M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T \hyperlink{classv8_1_1internal_1_1_maybe_handle}{Maybe\+Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ {\bfseries Delete\+Object\+Property} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_receiver}{J\+S\+Receiver} $>$ object, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ key, J\+S\+Receiver\+::\+Delete\+Mode mode)\label{classv8_1_1internal_1_1_runtime_af4c414c287008ef5f8cc3ccdc6d566b1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_a308e49308e6caaccbb22909e79c2b509}{}static M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T \hyperlink{classv8_1_1internal_1_1_maybe_handle}{Maybe\+Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ {\bfseries Has\+Object\+Property} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_receiver}{J\+S\+Receiver} $>$ object, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ key)\label{classv8_1_1internal_1_1_runtime_a308e49308e6caaccbb22909e79c2b509}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_a9c3c3b5c3ff78fd7b4818bf604ae7328}{}static M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T \hyperlink{classv8_1_1internal_1_1_maybe_handle}{Maybe\+Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ {\bfseries Get\+Object\+Property} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ object, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ key)\label{classv8_1_1internal_1_1_runtime_a9c3c3b5c3ff78fd7b4818bf604ae7328}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_a8787b1aa67e0d183ccb5c20e4207ea52}{}static void {\bfseries Setup\+Array\+Buffer} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_array_buffer}{J\+S\+Array\+Buffer} $>$ array\+\_\+buffer, bool is\+\_\+external, void $\ast$data, size\+\_\+t allocated\+\_\+length)\label{classv8_1_1internal_1_1_runtime_a8787b1aa67e0d183ccb5c20e4207ea52}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_afb484935f1723efafb7d9f810c4761bd}{}static bool {\bfseries Setup\+Array\+Buffer\+Allocating\+Data} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_array_buffer}{J\+S\+Array\+Buffer} $>$ array\+\_\+buffer, size\+\_\+t allocated\+\_\+length, bool initialize=true)\label{classv8_1_1internal_1_1_runtime_afb484935f1723efafb7d9f810c4761bd}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_a5e15fbac36ba1d59a1938008c3c0cc44}{}static void {\bfseries Neuter\+Array\+Buffer} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_array_buffer}{J\+S\+Array\+Buffer} $>$ array\+\_\+buffer)\label{classv8_1_1internal_1_1_runtime_a5e15fbac36ba1d59a1938008c3c0cc44}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_af6760883c7a1669e2d5789a280100149}{}static void {\bfseries Free\+Array\+Buffer} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, \hyperlink{classv8_1_1internal_1_1_j_s_array_buffer}{J\+S\+Array\+Buffer} $\ast$phantom\+\_\+array\+\_\+buffer)\label{classv8_1_1internal_1_1_runtime_af6760883c7a1669e2d5789a280100149}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_abee83744b60b0be92601be0cbd012039}{}static void {\bfseries Array\+Id\+To\+Type\+And\+Size} (int array\+\_\+id, External\+Array\+Type $\ast$type, Elements\+Kind $\ast$external\+\_\+elements\+\_\+kind, Elements\+Kind $\ast$fixed\+\_\+elements\+\_\+kind, size\+\_\+t $\ast$element\+\_\+size)\label{classv8_1_1internal_1_1_runtime_abee83744b60b0be92601be0cbd012039}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_ae721d583f1ba673e504144347c94c146}{}static M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T \hyperlink{classv8_1_1internal_1_1_maybe_handle}{Maybe\+Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ {\bfseries Create\+Array\+Literal\+Boilerplate} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_fixed_array}{Fixed\+Array} $>$ literals, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_fixed_array}{Fixed\+Array} $>$ elements)\label{classv8_1_1internal_1_1_runtime_ae721d583f1ba673e504144347c94c146}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_runtime_a15cd342f4d259e6ca8751f01bf7915be}{}static const int {\bfseries k\+Not\+Found} = -\/1\label{classv8_1_1internal_1_1_runtime_a15cd342f4d259e6ca8751f01bf7915be}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/runtime.\+h\item 
+src/runtime.\+cc\end{DoxyCompactItemize}

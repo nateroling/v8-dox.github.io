@@ -1,0 +1,67 @@
+\hypertarget{classv8_1_1internal_1_1_assertion_node}{}\section{v8\+:\+:internal\+:\+:Assertion\+Node Class Reference}
+\label{classv8_1_1internal_1_1_assertion_node}\index{v8\+::internal\+::\+Assertion\+Node@{v8\+::internal\+::\+Assertion\+Node}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Assertion\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classv8_1_1internal_1_1_assertion_node}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_assertion_node_aa677ff26097f7ecb13c9283478981035}{}enum {\bfseries Assertion\+Type} \{ \\*
+{\bfseries A\+T\+\_\+\+E\+N\+D}, 
+{\bfseries A\+T\+\_\+\+S\+T\+A\+R\+T}, 
+{\bfseries A\+T\+\_\+\+B\+O\+U\+N\+D\+A\+R\+Y}, 
+{\bfseries A\+T\+\_\+\+N\+O\+N\+\_\+\+B\+O\+U\+N\+D\+A\+R\+Y}, 
+\\*
+{\bfseries A\+F\+T\+E\+R\+\_\+\+N\+E\+W\+L\+I\+N\+E}
+ \}\label{classv8_1_1internal_1_1_assertion_node_aa677ff26097f7ecb13c9283478981035}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_assertion_node_a76eda020ebd409df34ec748dfbbc02bc}{}virtual void {\bfseries Accept} (\hyperlink{classv8_1_1internal_1_1_node_visitor}{Node\+Visitor} $\ast$visitor)\label{classv8_1_1internal_1_1_assertion_node_a76eda020ebd409df34ec748dfbbc02bc}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_assertion_node_a17e2a023a3d233b767f5222087e85672}{}virtual void {\bfseries Emit} (\hyperlink{classv8_1_1internal_1_1_reg_exp_compiler}{Reg\+Exp\+Compiler} $\ast$compiler, \hyperlink{classv8_1_1internal_1_1_trace}{Trace} $\ast$trace)\label{classv8_1_1internal_1_1_assertion_node_a17e2a023a3d233b767f5222087e85672}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_assertion_node_a1524215fa69f2427d08dc13c0bce27d1}{}virtual int {\bfseries Eats\+At\+Least} (int still\+\_\+to\+\_\+find, int budget, bool not\+\_\+at\+\_\+start)\label{classv8_1_1internal_1_1_assertion_node_a1524215fa69f2427d08dc13c0bce27d1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_assertion_node_ad7ff94c39e2c1ce7660583e2d958c81f}{}virtual void {\bfseries Get\+Quick\+Check\+Details} (\hyperlink{classv8_1_1internal_1_1_quick_check_details}{Quick\+Check\+Details} $\ast$details, \hyperlink{classv8_1_1internal_1_1_reg_exp_compiler}{Reg\+Exp\+Compiler} $\ast$compiler, int filled\+\_\+in, bool not\+\_\+at\+\_\+start)\label{classv8_1_1internal_1_1_assertion_node_ad7ff94c39e2c1ce7660583e2d958c81f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_assertion_node_a05b210612adc489b4749e6dcb99e8514}{}virtual void {\bfseries Fill\+In\+B\+M\+Info} (int offset, int budget, \hyperlink{classv8_1_1internal_1_1_boyer_moore_lookahead}{Boyer\+Moore\+Lookahead} $\ast$bm, bool not\+\_\+at\+\_\+start)\label{classv8_1_1internal_1_1_assertion_node_a05b210612adc489b4749e6dcb99e8514}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_assertion_node_a1c1279600bc32129daf91cb75c982e09}{}Assertion\+Type {\bfseries assertion\+\_\+type} ()\label{classv8_1_1internal_1_1_assertion_node_a1c1279600bc32129daf91cb75c982e09}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_assertion_node_a7663a6a9a51975492c0bfe7b5a61a832}{}static \hyperlink{classv8_1_1internal_1_1_assertion_node}{Assertion\+Node} $\ast$ {\bfseries At\+End} (\hyperlink{classv8_1_1internal_1_1_reg_exp_node}{Reg\+Exp\+Node} $\ast$on\+\_\+success)\label{classv8_1_1internal_1_1_assertion_node_a7663a6a9a51975492c0bfe7b5a61a832}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_assertion_node_ac3c21366bba17cf86759c0cdea7ae035}{}static \hyperlink{classv8_1_1internal_1_1_assertion_node}{Assertion\+Node} $\ast$ {\bfseries At\+Start} (\hyperlink{classv8_1_1internal_1_1_reg_exp_node}{Reg\+Exp\+Node} $\ast$on\+\_\+success)\label{classv8_1_1internal_1_1_assertion_node_ac3c21366bba17cf86759c0cdea7ae035}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_assertion_node_ac281096ab369662a023267aac4117bfd}{}static \hyperlink{classv8_1_1internal_1_1_assertion_node}{Assertion\+Node} $\ast$ {\bfseries At\+Boundary} (\hyperlink{classv8_1_1internal_1_1_reg_exp_node}{Reg\+Exp\+Node} $\ast$on\+\_\+success)\label{classv8_1_1internal_1_1_assertion_node_ac281096ab369662a023267aac4117bfd}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_assertion_node_ad6d20cd648da9b791ca9f35367f2470e}{}static \hyperlink{classv8_1_1internal_1_1_assertion_node}{Assertion\+Node} $\ast$ {\bfseries At\+Non\+Boundary} (\hyperlink{classv8_1_1internal_1_1_reg_exp_node}{Reg\+Exp\+Node} $\ast$on\+\_\+success)\label{classv8_1_1internal_1_1_assertion_node_ad6d20cd648da9b791ca9f35367f2470e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_assertion_node_aa84ccd02ac323be278e3cb07633793b0}{}static \hyperlink{classv8_1_1internal_1_1_assertion_node}{Assertion\+Node} $\ast$ {\bfseries After\+Newline} (\hyperlink{classv8_1_1internal_1_1_reg_exp_node}{Reg\+Exp\+Node} $\ast$on\+\_\+success)\label{classv8_1_1internal_1_1_assertion_node_aa84ccd02ac323be278e3cb07633793b0}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/jsregexp.\+h\item 
+src/jsregexp.\+cc\end{DoxyCompactItemize}

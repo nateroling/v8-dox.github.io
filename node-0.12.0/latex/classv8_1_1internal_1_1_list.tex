@@ -1,0 +1,135 @@
+\hypertarget{classv8_1_1internal_1_1_list}{}\section{v8\+:\+:internal\+:\+:List$<$ T, Allocation\+Policy $>$ Class Template Reference}
+\label{classv8_1_1internal_1_1_list}\index{v8\+::internal\+::\+List$<$ T, Allocation\+Policy $>$@{v8\+::internal\+::\+List$<$ T, Allocation\+Policy $>$}}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a63875655519e6be0b2945aeddd1dc2be}{}typedef T $\ast$ {\bfseries iterator}\label{classv8_1_1internal_1_1_list_a63875655519e6be0b2945aeddd1dc2be}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_ac9af844caa57e127290785bc3d5a1f0b}{}{\bfseries List} (Allocation\+Policy allocator=Allocation\+Policy())\label{classv8_1_1internal_1_1_list_ac9af844caa57e127290785bc3d5a1f0b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a452ecb4ff1752cef0bba26ed28f1a311}{}{\bfseries I\+N\+L\+I\+N\+E} (explicit \hyperlink{classv8_1_1internal_1_1_list}{List}(int capacity, Allocation\+Policy allocator=Allocation\+Policy()))\label{classv8_1_1internal_1_1_list_a452ecb4ff1752cef0bba26ed28f1a311}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_aac7d78f1e7e855f6d4367cc4997c514d}{}{\bfseries I\+N\+L\+I\+N\+E} ($\sim$\hyperlink{classv8_1_1internal_1_1_list}{List}())\label{classv8_1_1internal_1_1_list_aac7d78f1e7e855f6d4367cc4997c514d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_ae04179c064e23cf7737a46bcf4fc7124}{}void {\bfseries Free} ()\label{classv8_1_1internal_1_1_list_ae04179c064e23cf7737a46bcf4fc7124}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_ac215eb2a27feffbc790b0061efdae32f}{}{\bfseries I\+N\+L\+I\+N\+E} (void $\ast$operator new(size\+\_\+t size, Allocation\+Policy allocator=Allocation\+Policy()))\label{classv8_1_1internal_1_1_list_ac215eb2a27feffbc790b0061efdae32f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_ae662a2973e9943028685becf85d16b8d}{}{\bfseries I\+N\+L\+I\+N\+E} (void operator delete(void $\ast$p))\label{classv8_1_1internal_1_1_list_ae662a2973e9943028685becf85d16b8d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a1c3dba6edd57d1b14fc86cd093c369c6}{}{\bfseries I\+N\+L\+I\+N\+E} (void operator delete(void $\ast$p, Allocation\+Policy allocator))\label{classv8_1_1internal_1_1_list_a1c3dba6edd57d1b14fc86cd093c369c6}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a021502e851bbf8d23b5a821e1c2150eb}{}T \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (int i) const \label{classv8_1_1internal_1_1_list_a021502e851bbf8d23b5a821e1c2150eb}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a1d5022060d6f4e77376429197f803b77}{}T \& {\bfseries at} (int i) const \label{classv8_1_1internal_1_1_list_a1d5022060d6f4e77376429197f803b77}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a9705573cb7447a5a86a7226a8ef0ac63}{}T \& {\bfseries last} () const \label{classv8_1_1internal_1_1_list_a9705573cb7447a5a86a7226a8ef0ac63}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a352db22aca19c0cd6dbd7e67f1a93482}{}T \& {\bfseries first} () const \label{classv8_1_1internal_1_1_list_a352db22aca19c0cd6dbd7e67f1a93482}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_ac49bd3de46d12027494cb220203bc279}{}iterator {\bfseries begin} () const \label{classv8_1_1internal_1_1_list_ac49bd3de46d12027494cb220203bc279}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_ab6f45ca14508377ee1f5d1c328516807}{}iterator {\bfseries end} () const \label{classv8_1_1internal_1_1_list_ab6f45ca14508377ee1f5d1c328516807}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a3eec3d1d4f53ddee72a2c4c9403561ef}{}{\bfseries I\+N\+L\+I\+N\+E} (bool is\+\_\+empty() const)\label{classv8_1_1internal_1_1_list_a3eec3d1d4f53ddee72a2c4c9403561ef}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a1ab763a9c4c8985c1c323e8760cdd33b}{}{\bfseries I\+N\+L\+I\+N\+E} (int length() const)\label{classv8_1_1internal_1_1_list_a1ab763a9c4c8985c1c323e8760cdd33b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a45dccd9fd61abcb3b65bc712987419fa}{}{\bfseries I\+N\+L\+I\+N\+E} (int capacity() const)\label{classv8_1_1internal_1_1_list_a45dccd9fd61abcb3b65bc712987419fa}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_ae9794c0e4e88d793da0593659b15e76b}{}\hyperlink{classv8_1_1internal_1_1_vector}{Vector}$<$ T $>$ {\bfseries To\+Vector} () const \label{classv8_1_1internal_1_1_list_ae9794c0e4e88d793da0593659b15e76b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a49f6829cc7efd2126f119d67f1e25b2f}{}\hyperlink{classv8_1_1internal_1_1_vector}{Vector}$<$ const T $>$ {\bfseries To\+Const\+Vector} ()\label{classv8_1_1internal_1_1_list_a49f6829cc7efd2126f119d67f1e25b2f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a18b8264c716e34018e8813be890c1cab}{}void {\bfseries Add} (const T \&element, Allocation\+Policy allocator=Allocation\+Policy())\label{classv8_1_1internal_1_1_list_a18b8264c716e34018e8813be890c1cab}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_ab352e95794a628d45af7db424303ec6b}{}void {\bfseries Add\+All} (const \hyperlink{classv8_1_1internal_1_1_list}{List}$<$ T, Allocation\+Policy $>$ \&other, Allocation\+Policy allocator=Allocation\+Policy())\label{classv8_1_1internal_1_1_list_ab352e95794a628d45af7db424303ec6b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a549c0a1f12fb89f1ff9e7e00058912ce}{}void {\bfseries Add\+All} (const \hyperlink{classv8_1_1internal_1_1_vector}{Vector}$<$ T $>$ \&other, Allocation\+Policy allocator=Allocation\+Policy())\label{classv8_1_1internal_1_1_list_a549c0a1f12fb89f1ff9e7e00058912ce}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a840c1617f33eedc78b6e9d088b9aa08a}{}void {\bfseries Insert\+At} (int index, const T \&element, Allocation\+Policy allocator=Allocation\+Policy())\label{classv8_1_1internal_1_1_list_a840c1617f33eedc78b6e9d088b9aa08a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a1eee3d0d76fda21a6a6b9007ffd7209c}{}void {\bfseries Set} (int index, const T \&element)\label{classv8_1_1internal_1_1_list_a1eee3d0d76fda21a6a6b9007ffd7209c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_aa5339d7dd2ebe2e4917db71f65a422fc}{}\hyperlink{classv8_1_1internal_1_1_vector}{Vector}$<$ T $>$ {\bfseries Add\+Block} (T value, int count, Allocation\+Policy allocator=Allocation\+Policy())\label{classv8_1_1internal_1_1_list_aa5339d7dd2ebe2e4917db71f65a422fc}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a67f1d50f50f87183c7a3864bcbc2e0db}{}T {\bfseries Remove} (int i)\label{classv8_1_1internal_1_1_list_a67f1d50f50f87183c7a3864bcbc2e0db}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a301b954cd7954452fca522c542f2d69a}{}bool {\bfseries Remove\+Element} (const T \&elm)\label{classv8_1_1internal_1_1_list_a301b954cd7954452fca522c542f2d69a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a7dd35dbbdfc6f0b4a0dae4a8dd38e1be}{}{\bfseries I\+N\+L\+I\+N\+E} (T Remove\+Last())\label{classv8_1_1internal_1_1_list_a7dd35dbbdfc6f0b4a0dae4a8dd38e1be}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a90d0eceae7ba2ca5d8788f3de42c4568}{}{\bfseries I\+N\+L\+I\+N\+E} (void Allocate(int length, Allocation\+Policy allocator=Allocation\+Policy()))\label{classv8_1_1internal_1_1_list_a90d0eceae7ba2ca5d8788f3de42c4568}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a775bd901890c7b639652620ddd9dcafc}{}{\bfseries I\+N\+L\+I\+N\+E} (void Clear())\label{classv8_1_1internal_1_1_list_a775bd901890c7b639652620ddd9dcafc}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a79c274928631e75ec2568f51141721bd}{}{\bfseries I\+N\+L\+I\+N\+E} (void Rewind(int pos))\label{classv8_1_1internal_1_1_list_a79c274928631e75ec2568f51141721bd}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a3f3d1e9d330bef9aeff65bc4a0fa5f89}{}{\bfseries I\+N\+L\+I\+N\+E} (void Rewind\+By(int count))\label{classv8_1_1internal_1_1_list_a3f3d1e9d330bef9aeff65bc4a0fa5f89}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_ac424eb47de7ac71f1707ab9c4e41fd48}{}{\bfseries I\+N\+L\+I\+N\+E} (void Trim(Allocation\+Policy allocator=Allocation\+Policy()))\label{classv8_1_1internal_1_1_list_ac424eb47de7ac71f1707ab9c4e41fd48}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a268fad971190fd4ff7669b06bfe5118e}{}bool {\bfseries Contains} (const T \&elm) const \label{classv8_1_1internal_1_1_list_a268fad971190fd4ff7669b06bfe5118e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a6ea372eb008b89abd2b9f71ca7f7a17d}{}int {\bfseries Count\+Occurrences} (const T \&elm, int start, int end) const \label{classv8_1_1internal_1_1_list_a6ea372eb008b89abd2b9f71ca7f7a17d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a6f1953357c2a1d4a562b522bbfa25e08}{}void {\bfseries Iterate} (void($\ast$callback)(T $\ast$x))\label{classv8_1_1internal_1_1_list_a6f1953357c2a1d4a562b522bbfa25e08}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_aabc219bc26a394d0a821b95474c33694}{}{\footnotesize template$<$class Visitor $>$ }\\void {\bfseries Iterate} (Visitor $\ast$visitor)\label{classv8_1_1internal_1_1_list_aabc219bc26a394d0a821b95474c33694}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_a8437f56923997da6232f89c32fb36822}{}void {\bfseries Sort} (int($\ast$cmp)(const T $\ast$x, const T $\ast$y))\label{classv8_1_1internal_1_1_list_a8437f56923997da6232f89c32fb36822}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_ac4f0b816ee55aeccd8f9cba78540a79e}{}void {\bfseries Sort} ()\label{classv8_1_1internal_1_1_list_ac4f0b816ee55aeccd8f9cba78540a79e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_list_af3f5d74dbc25c70c48a89b20e085b6e4}{}{\bfseries I\+N\+L\+I\+N\+E} (void Initialize(int capacity, Allocation\+Policy allocator=Allocation\+Policy()))\label{classv8_1_1internal_1_1_list_af3f5d74dbc25c70c48a89b20e085b6e4}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/globals.\+h\item 
+src/list.\+h\item 
+src/list-\/inl.\+h\end{DoxyCompactItemize}

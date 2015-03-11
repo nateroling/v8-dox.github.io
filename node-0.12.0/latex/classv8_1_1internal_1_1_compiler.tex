@@ -1,0 +1,58 @@
+\hypertarget{classv8_1_1internal_1_1_compiler}{}\section{v8\+:\+:internal\+:\+:Compiler Class Reference}
+\label{classv8_1_1internal_1_1_compiler}\index{v8\+::internal\+::\+Compiler@{v8\+::internal\+::\+Compiler}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Compiler\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classv8_1_1internal_1_1_compiler}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_compiler_a72baa3ba6b839cadb501c8bdf76ad7b8}{}enum {\bfseries Concurrency\+Mode} \{ {\bfseries N\+O\+T\+\_\+\+C\+O\+N\+C\+U\+R\+R\+E\+N\+T}, 
+{\bfseries C\+O\+N\+C\+U\+R\+R\+E\+N\+T}
+ \}\label{classv8_1_1internal_1_1_compiler_a72baa3ba6b839cadb501c8bdf76ad7b8}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_compiler_aa1f7d71e408b642e1e30578c1fd6aed4}{}static M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T \hyperlink{classv8_1_1internal_1_1_maybe_handle}{Maybe\+Handle}$<$ \hyperlink{classv8_1_1internal_1_1_code}{Code} $>$ {\bfseries Get\+Unoptimized\+Code} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_function}{J\+S\+Function} $>$ function)\label{classv8_1_1internal_1_1_compiler_aa1f7d71e408b642e1e30578c1fd6aed4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_compiler_a98ad83545963f5bc71feb16f303b19a5}{}static M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T \hyperlink{classv8_1_1internal_1_1_maybe_handle}{Maybe\+Handle}$<$ \hyperlink{classv8_1_1internal_1_1_code}{Code} $>$ {\bfseries Get\+Unoptimized\+Code} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_shared_function_info}{Shared\+Function\+Info} $>$ shared)\label{classv8_1_1internal_1_1_compiler_a98ad83545963f5bc71feb16f303b19a5}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_compiler_a9e7cf35d77fa2a0819c9b18082bf3760}{}static bool {\bfseries Ensure\+Compiled} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_function}{J\+S\+Function} $>$ function, Clear\+Exception\+Flag flag)\label{classv8_1_1internal_1_1_compiler_a9e7cf35d77fa2a0819c9b18082bf3760}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_compiler_ad56509e22298e9e9c3e1cccf5f2847bb}{}static M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T \hyperlink{classv8_1_1internal_1_1_maybe_handle}{Maybe\+Handle}$<$ \hyperlink{classv8_1_1internal_1_1_code}{Code} $>$ {\bfseries Get\+Code\+For\+Debugging} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_function}{J\+S\+Function} $>$ function)\label{classv8_1_1internal_1_1_compiler_ad56509e22298e9e9c3e1cccf5f2847bb}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_compiler_abceb28bb354bb38a248392d9df0d262d}{}static void {\bfseries Compile\+For\+Live\+Edit} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_script}{Script} $>$ script)\label{classv8_1_1internal_1_1_compiler_abceb28bb354bb38a248392d9df0d262d}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_compiler_a0034d1268cc42e79d3e862dd31579515}{}static M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T \hyperlink{classv8_1_1internal_1_1_maybe_handle}{Maybe\+Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_function}{J\+S\+Function} $>$ {\bfseries Get\+Function\+From\+Eval} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ source, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_context}{Context} $>$ context, Strict\+Mode strict\+\_\+mode, Parse\+Restriction restriction, int scope\+\_\+position)\label{classv8_1_1internal_1_1_compiler_a0034d1268cc42e79d3e862dd31579515}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_compiler_ad8eaacb99d5e7d2f8fe414794a89f82a}{}static \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_shared_function_info}{Shared\+Function\+Info} $>$ {\bfseries Compile\+Script} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_string}{String} $>$ source, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ script\+\_\+name, int line\+\_\+offset, int column\+\_\+offset, bool is\+\_\+shared\+\_\+cross\+\_\+origin, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_context}{Context} $>$ context, v8\+::\+Extension $\ast$extension, \hyperlink{classv8_1_1internal_1_1_script_data}{Script\+Data} $\ast$$\ast$cached\+\_\+data, Script\+Compiler\+::\+Compile\+Options compile\+\_\+options, Natives\+Flag is\+\_\+natives\+\_\+code)\label{classv8_1_1internal_1_1_compiler_ad8eaacb99d5e7d2f8fe414794a89f82a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_compiler_af94d45cd7074f7b4628ce91248b3a514}{}static \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_shared_function_info}{Shared\+Function\+Info} $>$ {\bfseries Build\+Function\+Info} (Function\+Literal $\ast$node, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_script}{Script} $>$ script, \hyperlink{classv8_1_1internal_1_1_compilation_info}{Compilation\+Info} $\ast$outer)\label{classv8_1_1internal_1_1_compiler_af94d45cd7074f7b4628ce91248b3a514}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_compiler_a78f5cd23cabe184d97cd4091171b77b4}{}static M\+U\+S\+T\+\_\+\+U\+S\+E\+\_\+\+R\+E\+S\+U\+L\+T \hyperlink{classv8_1_1internal_1_1_maybe_handle}{Maybe\+Handle}$<$ \hyperlink{classv8_1_1internal_1_1_code}{Code} $>$ {\bfseries Get\+Optimized\+Code} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_j_s_function}{J\+S\+Function} $>$ function, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_code}{Code} $>$ current\+\_\+code, Concurrency\+Mode mode, \hyperlink{classv8_1_1internal_1_1_bailout_id}{Bailout\+Id} osr\+\_\+ast\+\_\+id=Bailout\+Id\+::\+None())\label{classv8_1_1internal_1_1_compiler_a78f5cd23cabe184d97cd4091171b77b4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_compiler_a972a81378f6f8ff345c13421e7b21b4f}{}static \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_code}{Code} $>$ {\bfseries Get\+Concurrently\+Optimized\+Code} (\hyperlink{classv8_1_1internal_1_1_optimized_compile_job}{Optimized\+Compile\+Job} $\ast$job)\label{classv8_1_1internal_1_1_compiler_a972a81378f6f8ff345c13421e7b21b4f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_compiler_ae52e0acb7a1d67ff493f627f3f1aaea7}{}static void {\bfseries Record\+Function\+Compilation} (Logger\+::\+Log\+Events\+And\+Tags tag, \hyperlink{classv8_1_1internal_1_1_compilation_info}{Compilation\+Info} $\ast$info, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_shared_function_info}{Shared\+Function\+Info} $>$ shared)\label{classv8_1_1internal_1_1_compiler_ae52e0acb7a1d67ff493f627f3f1aaea7}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/compiler.\+h\item 
+src/compiler.\+cc\end{DoxyCompactItemize}

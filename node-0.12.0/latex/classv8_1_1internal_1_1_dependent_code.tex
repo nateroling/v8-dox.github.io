@@ -1,0 +1,101 @@
+\hypertarget{classv8_1_1internal_1_1_dependent_code}{}\section{v8\+:\+:internal\+:\+:Dependent\+Code Class Reference}
+\label{classv8_1_1internal_1_1_dependent_code}\index{v8\+::internal\+::\+Dependent\+Code@{v8\+::internal\+::\+Dependent\+Code}}
+Inheritance diagram for v8\+:\+:internal\+:\+:Dependent\+Code\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{classv8_1_1internal_1_1_dependent_code}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classv8_1_1internal_1_1_dependent_code_1_1_group_start_indexes}{Group\+Start\+Indexes}
+\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_dependent_code_a6ddeb27b4e6f458ce2257036e3f364ae}{}enum {\bfseries Dependency\+Group} \{ \\*
+{\bfseries k\+Weak\+I\+C\+Group}, 
+{\bfseries k\+Weak\+Code\+Group}, 
+{\bfseries k\+Transition\+Group}, 
+{\bfseries k\+Prototype\+Check\+Group}, 
+\\*
+{\bfseries k\+Elements\+Cant\+Be\+Added\+Group}, 
+{\bfseries k\+Property\+Cell\+Changed\+Group}, 
+{\bfseries k\+Field\+Type\+Group}, 
+{\bfseries k\+Initial\+Map\+Changed\+Group}, 
+\\*
+{\bfseries k\+Allocation\+Site\+Tenuring\+Changed\+Group}, 
+{\bfseries k\+Allocation\+Site\+Transition\+Changed\+Group}, 
+{\bfseries k\+Group\+Count} = k\+Allocation\+Site\+Transition\+Changed\+Group + 1
+ \}\label{classv8_1_1internal_1_1_dependent_code_a6ddeb27b4e6f458ce2257036e3f364ae}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_dependent_code_aef81cb78eaacbaad5015b73496506ce1}{}bool {\bfseries Contains} (Dependency\+Group group, \hyperlink{classv8_1_1internal_1_1_code}{Code} $\ast$code)\label{classv8_1_1internal_1_1_dependent_code_aef81cb78eaacbaad5015b73496506ce1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_dependent_code_a6ca65e7e3557ddf9051ee09c0d70f3d8}{}void {\bfseries Update\+To\+Finished\+Code} (Dependency\+Group group, \hyperlink{classv8_1_1internal_1_1_compilation_info}{Compilation\+Info} $\ast$info, \hyperlink{classv8_1_1internal_1_1_code}{Code} $\ast$code)\label{classv8_1_1internal_1_1_dependent_code_a6ca65e7e3557ddf9051ee09c0d70f3d8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_dependent_code_ad9df74a9e265aa0df7a405589af79a62}{}void {\bfseries Remove\+Compilation\+Info} (Dependent\+Code\+::\+Dependency\+Group group, \hyperlink{classv8_1_1internal_1_1_compilation_info}{Compilation\+Info} $\ast$info)\label{classv8_1_1internal_1_1_dependent_code_ad9df74a9e265aa0df7a405589af79a62}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_dependent_code_a7b464250df1b523af5da5685b0f403ec}{}void {\bfseries Deoptimize\+Dependent\+Code\+Group} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, Dependent\+Code\+::\+Dependency\+Group group)\label{classv8_1_1internal_1_1_dependent_code_a7b464250df1b523af5da5685b0f403ec}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_dependent_code_a4b3a68aba1af3c6ea427ec412fa606ab}{}bool {\bfseries Mark\+Code\+For\+Deoptimization} (\hyperlink{classv8_1_1internal_1_1_isolate}{Isolate} $\ast$isolate, Dependent\+Code\+::\+Dependency\+Group group)\label{classv8_1_1internal_1_1_dependent_code_a4b3a68aba1af3c6ea427ec412fa606ab}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_dependent_code_ae00f794d5badfedd368042837df3d00c}{}void {\bfseries Add\+To\+Dependent\+I\+C\+List} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_code}{Code} $>$ stub)\label{classv8_1_1internal_1_1_dependent_code_ae00f794d5badfedd368042837df3d00c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_dependent_code_a5a4ef9a3583a46c03e72a270ffc4fce6}{}int {\bfseries number\+\_\+of\+\_\+entries} (Dependency\+Group group)\label{classv8_1_1internal_1_1_dependent_code_a5a4ef9a3583a46c03e72a270ffc4fce6}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_dependent_code_aa8a5be522fdba3a6c9ecb72f6018c8d4}{}void {\bfseries set\+\_\+number\+\_\+of\+\_\+entries} (Dependency\+Group group, int value)\label{classv8_1_1internal_1_1_dependent_code_aa8a5be522fdba3a6c9ecb72f6018c8d4}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_dependent_code_a65873fd9ab65e2df9a5b4d30865dd266}{}bool {\bfseries is\+\_\+code\+\_\+at} (int i)\label{classv8_1_1internal_1_1_dependent_code_a65873fd9ab65e2df9a5b4d30865dd266}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_dependent_code_a8bd8ec2159c0acf25ed0e50131693b42}{}\hyperlink{classv8_1_1internal_1_1_code}{Code} $\ast$ {\bfseries code\+\_\+at} (int i)\label{classv8_1_1internal_1_1_dependent_code_a8bd8ec2159c0acf25ed0e50131693b42}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_dependent_code_ae1a8735d60fb77860d2c0f6362f6817c}{}\hyperlink{classv8_1_1internal_1_1_compilation_info}{Compilation\+Info} $\ast$ {\bfseries compilation\+\_\+info\+\_\+at} (int i)\label{classv8_1_1internal_1_1_dependent_code_ae1a8735d60fb77860d2c0f6362f6817c}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_dependent_code_ac608d263f628033461154520d25c2eec}{}void {\bfseries set\+\_\+object\+\_\+at} (int i, \hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$object)\label{classv8_1_1internal_1_1_dependent_code_ac608d263f628033461154520d25c2eec}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_dependent_code_a5e773c6d8c52cdba6642093a8080fa2f}{}\hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$$\ast$ {\bfseries slot\+\_\+at} (int i)\label{classv8_1_1internal_1_1_dependent_code_a5e773c6d8c52cdba6642093a8080fa2f}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_dependent_code_a2f04992abf39e020ea6e945e5310230b}{}\hyperlink{classv8_1_1internal_1_1_object}{Object} $\ast$ {\bfseries object\+\_\+at} (int i)\label{classv8_1_1internal_1_1_dependent_code_a2f04992abf39e020ea6e945e5310230b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_dependent_code_a0b3afc1373869425880b23a13a434372}{}void {\bfseries clear\+\_\+at} (int i)\label{classv8_1_1internal_1_1_dependent_code_a0b3afc1373869425880b23a13a434372}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_dependent_code_aea3012f66cd29269db756ce10f1900d5}{}void {\bfseries copy} (int from, int to)\label{classv8_1_1internal_1_1_dependent_code_aea3012f66cd29269db756ce10f1900d5}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_dependent_code_a23717ee6c4ba14388e055eb1e6f874b6}{}static \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_dependent_code}{Dependent\+Code} $>$ {\bfseries Insert} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_dependent_code}{Dependent\+Code} $>$ entries, Dependency\+Group group, \hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_object}{Object} $>$ object)\label{classv8_1_1internal_1_1_dependent_code_a23717ee6c4ba14388e055eb1e6f874b6}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_dependent_code_ab16952c5ac8db22e9c69d5a2fe8c0a72}{}static \hyperlink{classv8_1_1internal_1_1_dependent_code}{Dependent\+Code} $\ast$ {\bfseries For\+Object} (\hyperlink{classv8_1_1internal_1_1_handle}{Handle}$<$ \hyperlink{classv8_1_1internal_1_1_heap_object}{Heap\+Object} $>$ object, Dependency\+Group group)\label{classv8_1_1internal_1_1_dependent_code_ab16952c5ac8db22e9c69d5a2fe8c0a72}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/objects.\+h\item 
+src/objects-\/inl.\+h\item 
+src/objects.\+cc\end{DoxyCompactItemize}

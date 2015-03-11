@@ -1,0 +1,93 @@
+\hypertarget{structv8_1_1internal_1_1_zone_type_config}{}\section{v8\+:\+:internal\+:\+:Zone\+Type\+Config Struct Reference}
+\label{structv8_1_1internal_1_1_zone_type_config}\index{v8\+::internal\+::\+Zone\+Type\+Config@{v8\+::internal\+::\+Zone\+Type\+Config}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classv8_1_1internal_1_1_zone_type_config_1_1_base}{Base}
+\item 
+struct \hyperlink{structv8_1_1internal_1_1_zone_type_config_1_1_handle}{Handle}
+\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_a21b1b537c212b65977636100ac8fbfe6}{}typedef \hyperlink{classv8_1_1internal_1_1_type_impl}{Type\+Impl}$<$ \hyperlink{structv8_1_1internal_1_1_zone_type_config}{Zone\+Type\+Config} $>$ {\bfseries Type}\label{structv8_1_1internal_1_1_zone_type_config_a21b1b537c212b65977636100ac8fbfe6}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_a11f1fccae19adf1e36dbe6a07785fade}{}typedef void $\ast$ {\bfseries Struct}\label{structv8_1_1internal_1_1_zone_type_config_a11f1fccae19adf1e36dbe6a07785fade}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_a0714e9f8820a10002d2229fa7318e80c}{}typedef \hyperlink{classv8_1_1internal_1_1_zone}{i\+::\+Zone} {\bfseries Region}\label{structv8_1_1internal_1_1_zone_type_config_a0714e9f8820a10002d2229fa7318e80c}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_a90489fcead81cdbce6fa56fef1f0a0b4}{}static \hyperlink{classv8_1_1internal_1_1_isolate}{i\+::\+Isolate} $\ast$ {\bfseries isolate} (\hyperlink{classv8_1_1internal_1_1_zone}{Region} $\ast$region)\label{structv8_1_1internal_1_1_zone_type_config_a90489fcead81cdbce6fa56fef1f0a0b4}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_aafd7f4c6786a1b84401118c3693c2058}{}{\footnotesize template$<$class T $>$ }\\static T $\ast$ {\bfseries handle} (T $\ast$type)\label{structv8_1_1internal_1_1_zone_type_config_aafd7f4c6786a1b84401118c3693c2058}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_a6e1205576f42fdb939dc40ec02e29810}{}{\footnotesize template$<$class T $>$ }\\static T $\ast$ {\bfseries cast} (\hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$type)\label{structv8_1_1internal_1_1_zone_type_config_a6e1205576f42fdb939dc40ec02e29810}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_adf59139ec762015ffabddb62c5ccd644}{}static bool {\bfseries is\+\_\+bitset} (\hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$type)\label{structv8_1_1internal_1_1_zone_type_config_adf59139ec762015ffabddb62c5ccd644}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_ac06cb87b16e9d7a9069f54365c60cf9a}{}static bool {\bfseries is\+\_\+class} (\hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$type)\label{structv8_1_1internal_1_1_zone_type_config_ac06cb87b16e9d7a9069f54365c60cf9a}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_a5b18e4069d6107efd654567dd4ccc8c5}{}static bool {\bfseries is\+\_\+struct} (\hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$type, int tag)\label{structv8_1_1internal_1_1_zone_type_config_a5b18e4069d6107efd654567dd4ccc8c5}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_a25261c9844be2e921bd2fb639fdf2b70}{}static int {\bfseries as\+\_\+bitset} (\hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$type)\label{structv8_1_1internal_1_1_zone_type_config_a25261c9844be2e921bd2fb639fdf2b70}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_a5e215e35f57ca69a848a1b881c256682}{}static \hyperlink{classv8_1_1internal_1_1_handle}{i\+::\+Handle}$<$ \hyperlink{classv8_1_1internal_1_1_map}{i\+::\+Map} $>$ {\bfseries as\+\_\+class} (\hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$type)\label{structv8_1_1internal_1_1_zone_type_config_a5e215e35f57ca69a848a1b881c256682}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_aa1290695ad092b6c5b743ed714d6cf6c}{}static Struct $\ast$ {\bfseries as\+\_\+struct} (\hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$type)\label{structv8_1_1internal_1_1_zone_type_config_aa1290695ad092b6c5b743ed714d6cf6c}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_a5480b5537dfd7fe33548998517789047}{}static \hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$ {\bfseries from\+\_\+bitset} (int bitset)\label{structv8_1_1internal_1_1_zone_type_config_a5480b5537dfd7fe33548998517789047}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_a97babbd3999f3caebe17ab5063d50c41}{}static \hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$ {\bfseries from\+\_\+bitset} (int bitset, \hyperlink{classv8_1_1internal_1_1_zone}{Zone} $\ast$zone)\label{structv8_1_1internal_1_1_zone_type_config_a97babbd3999f3caebe17ab5063d50c41}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_a3271605e7cb5f87532f455bac0ee362d}{}static \hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$ {\bfseries from\+\_\+class} (\hyperlink{classv8_1_1internal_1_1_handle}{i\+::\+Handle}$<$ \hyperlink{classv8_1_1internal_1_1_map}{i\+::\+Map} $>$ map, \hyperlink{classv8_1_1internal_1_1_zone}{Zone} $\ast$zone)\label{structv8_1_1internal_1_1_zone_type_config_a3271605e7cb5f87532f455bac0ee362d}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_a6be0c15185f024a47eb232ecde22c1e9}{}static \hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$ {\bfseries from\+\_\+struct} (Struct $\ast$structured)\label{structv8_1_1internal_1_1_zone_type_config_a6be0c15185f024a47eb232ecde22c1e9}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_a61046e75a5da77aedb0d9eff7bcc3d38}{}static Struct $\ast$ {\bfseries struct\+\_\+create} (int tag, int length, \hyperlink{classv8_1_1internal_1_1_zone}{Zone} $\ast$zone)\label{structv8_1_1internal_1_1_zone_type_config_a61046e75a5da77aedb0d9eff7bcc3d38}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_a1123493a79bb89b940a0dde2a306aa84}{}static void {\bfseries struct\+\_\+shrink} (Struct $\ast$structure, int length)\label{structv8_1_1internal_1_1_zone_type_config_a1123493a79bb89b940a0dde2a306aa84}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_a97e24dcbc607e1a4874c14cdd52af57a}{}static int {\bfseries struct\+\_\+tag} (Struct $\ast$structure)\label{structv8_1_1internal_1_1_zone_type_config_a97e24dcbc607e1a4874c14cdd52af57a}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_a825b378b4bdda814401cec0e8efecb5c}{}static int {\bfseries struct\+\_\+length} (Struct $\ast$structure)\label{structv8_1_1internal_1_1_zone_type_config_a825b378b4bdda814401cec0e8efecb5c}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_a1541f158737ad5286192cbd377c1ee14}{}static \hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$ {\bfseries struct\+\_\+get} (Struct $\ast$structure, int i)\label{structv8_1_1internal_1_1_zone_type_config_a1541f158737ad5286192cbd377c1ee14}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_a2ef0564032926941a2c4f1757f2124c9}{}static void {\bfseries struct\+\_\+set} (Struct $\ast$structure, int i, \hyperlink{classv8_1_1internal_1_1_type_impl}{Type} $\ast$type)\label{structv8_1_1internal_1_1_zone_type_config_a2ef0564032926941a2c4f1757f2124c9}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_af08121fadcad05256a864303ead85a99}{}{\footnotesize template$<$class V $>$ }\\static \hyperlink{classv8_1_1internal_1_1_handle}{i\+::\+Handle}$<$ V $>$ {\bfseries struct\+\_\+get\+\_\+value} (Struct $\ast$structure, int i)\label{structv8_1_1internal_1_1_zone_type_config_af08121fadcad05256a864303ead85a99}
+
+\item 
+\hypertarget{structv8_1_1internal_1_1_zone_type_config_afe6a723b07dc0a678565e71a888c45c5}{}{\footnotesize template$<$class V $>$ }\\static void {\bfseries struct\+\_\+set\+\_\+value} (Struct $\ast$structure, int i, \hyperlink{classv8_1_1internal_1_1_handle}{i\+::\+Handle}$<$ V $>$ x)\label{structv8_1_1internal_1_1_zone_type_config_afe6a723b07dc0a678565e71a888c45c5}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/types.\+h\item 
+src/types-\/inl.\+h\end{DoxyCompactItemize}

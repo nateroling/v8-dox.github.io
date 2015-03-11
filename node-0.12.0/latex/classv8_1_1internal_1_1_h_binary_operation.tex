@@ -1,0 +1,78 @@
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation}{}\section{v8\+:\+:internal\+:\+:H\+Binary\+Operation Class Reference}
+\label{classv8_1_1internal_1_1_h_binary_operation}\index{v8\+::internal\+::\+H\+Binary\+Operation@{v8\+::internal\+::\+H\+Binary\+Operation}}
+Inheritance diagram for v8\+:\+:internal\+:\+:H\+Binary\+Operation\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.448980cm]{classv8_1_1internal_1_1_h_binary_operation}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_a56faea075155f95059c1cb581bc20d59}{}{\bfseries H\+Binary\+Operation} (\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$context, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$left, \hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$right, H\+Type type=H\+Type\+::\+Tagged())\label{classv8_1_1internal_1_1_h_binary_operation_a56faea075155f95059c1cb581bc20d59}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_ab8f811855099ff11f8dd1c11ede5da26}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries context} () const \label{classv8_1_1internal_1_1_h_binary_operation_ab8f811855099ff11f8dd1c11ede5da26}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_a884245887fc3c60c5a98cd43219e2db8}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries left} () const \label{classv8_1_1internal_1_1_h_binary_operation_a884245887fc3c60c5a98cd43219e2db8}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_a64ea41aa271eff3dcebdf633b07c21ab}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries right} () const \label{classv8_1_1internal_1_1_h_binary_operation_a64ea41aa271eff3dcebdf633b07c21ab}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_abd65d8c23e876efc909fec628f5b4698}{}bool {\bfseries Are\+Operands\+Better\+Switched} ()\label{classv8_1_1internal_1_1_h_binary_operation_abd65d8c23e876efc909fec628f5b4698}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_a0472b9cc043d93ab89310680ad21803a}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Better\+Left\+Operand} ()\label{classv8_1_1internal_1_1_h_binary_operation_a0472b9cc043d93ab89310680ad21803a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_a3a779898407adae54e88df623d47169b}{}\hyperlink{classv8_1_1internal_1_1_h_value}{H\+Value} $\ast$ {\bfseries Better\+Right\+Operand} ()\label{classv8_1_1internal_1_1_h_binary_operation_a3a779898407adae54e88df623d47169b}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_a62f72952aaa2a8def3eab5bac00912c1}{}void {\bfseries set\+\_\+observed\+\_\+input\+\_\+representation} (int index, \hyperlink{classv8_1_1internal_1_1_representation}{Representation} rep)\label{classv8_1_1internal_1_1_h_binary_operation_a62f72952aaa2a8def3eab5bac00912c1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_a6584822dd034320b1abb7a295d5d76b1}{}virtual void {\bfseries initialize\+\_\+output\+\_\+representation} (\hyperlink{classv8_1_1internal_1_1_representation}{Representation} observed)\label{classv8_1_1internal_1_1_h_binary_operation_a6584822dd034320b1abb7a295d5d76b1}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_ae85a511947f002dd6ab8ba0e1b2c5079}{}virtual \hyperlink{classv8_1_1internal_1_1_representation}{Representation} {\bfseries observed\+\_\+input\+\_\+representation} (int index) V8\+\_\+\+O\+V\+E\+R\+R\+I\+D\+E\label{classv8_1_1internal_1_1_h_binary_operation_ae85a511947f002dd6ab8ba0e1b2c5079}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_a18240dce85e772c280bc363cce27a96e}{}virtual void {\bfseries Update\+Representation} (\hyperlink{classv8_1_1internal_1_1_representation}{Representation} new\+\_\+rep, \hyperlink{classv8_1_1internal_1_1_h_infer_representation_phase}{H\+Infer\+Representation\+Phase} $\ast$h\+\_\+infer, const char $\ast$reason) V8\+\_\+\+O\+V\+E\+R\+R\+I\+D\+E\label{classv8_1_1internal_1_1_h_binary_operation_a18240dce85e772c280bc363cce27a96e}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_a19b55dcb9265e4d196bac3eb1ec1af78}{}virtual void {\bfseries Infer\+Representation} (\hyperlink{classv8_1_1internal_1_1_h_infer_representation_phase}{H\+Infer\+Representation\+Phase} $\ast$h\+\_\+infer) V8\+\_\+\+O\+V\+E\+R\+R\+I\+D\+E\label{classv8_1_1internal_1_1_h_binary_operation_a19b55dcb9265e4d196bac3eb1ec1af78}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_a38c5dcca33c6dd166b8d0366b45d55a0}{}virtual \hyperlink{classv8_1_1internal_1_1_representation}{Representation} {\bfseries Representation\+From\+Inputs} () V8\+\_\+\+O\+V\+E\+R\+R\+I\+D\+E\label{classv8_1_1internal_1_1_h_binary_operation_a38c5dcca33c6dd166b8d0366b45d55a0}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_aa9a29577fcf2d692c1c4be97e40a7436}{}\hyperlink{classv8_1_1internal_1_1_representation}{Representation} {\bfseries Representation\+From\+Output} ()\label{classv8_1_1internal_1_1_h_binary_operation_aa9a29577fcf2d692c1c4be97e40a7436}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_a91413e84f51c5c4af40821bbc3bbebbd}{}virtual void {\bfseries Assume\+Representation} (\hyperlink{classv8_1_1internal_1_1_representation}{Representation} r) V8\+\_\+\+O\+V\+E\+R\+R\+I\+D\+E\label{classv8_1_1internal_1_1_h_binary_operation_a91413e84f51c5c4af40821bbc3bbebbd}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_a7f40569aadfc98cb47ee646b4b736c4a}{}virtual bool {\bfseries Is\+Commutative} () const \label{classv8_1_1internal_1_1_h_binary_operation_a7f40569aadfc98cb47ee646b4b736c4a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_a0e652927c9f1d864aedf952443c298ca}{}virtual \hyperlink{classv8_1_1internal_1_1_o_stream}{O\+Stream} \& {\bfseries Print\+Data\+To} (\hyperlink{classv8_1_1internal_1_1_o_stream}{O\+Stream} \&os) const V8\+\_\+\+O\+V\+E\+R\+R\+I\+D\+E\label{classv8_1_1internal_1_1_h_binary_operation_a0e652927c9f1d864aedf952443c298ca}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_aabdc2d41a17dbbf7f27f69b41c87893a}{}virtual \hyperlink{classv8_1_1internal_1_1_representation}{Representation} {\bfseries Required\+Input\+Representation} (int index) V8\+\_\+\+O\+V\+E\+R\+R\+I\+D\+E\label{classv8_1_1internal_1_1_h_binary_operation_aabdc2d41a17dbbf7f27f69b41c87893a}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_ad0c76c2e1b3b2b153be4dff41dd696ed}{}void {\bfseries Set\+Operand\+Positions} (\hyperlink{classv8_1_1internal_1_1_zone}{Zone} $\ast$zone, \hyperlink{classv8_1_1internal_1_1_h_source_position}{H\+Source\+Position} left\+\_\+pos, \hyperlink{classv8_1_1internal_1_1_h_source_position}{H\+Source\+Position} right\+\_\+pos)\label{classv8_1_1internal_1_1_h_binary_operation_ad0c76c2e1b3b2b153be4dff41dd696ed}
+
+\item 
+\hypertarget{classv8_1_1internal_1_1_h_binary_operation_ac367945e526aaac0e06b4dcef728a5c2}{}bool {\bfseries Right\+Is\+Power\+Of2} ()\label{classv8_1_1internal_1_1_h_binary_operation_ac367945e526aaac0e06b4dcef728a5c2}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/hydrogen-\/instructions.\+h\item 
+src/hydrogen-\/instructions.\+cc\end{DoxyCompactItemize}
