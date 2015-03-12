@@ -1,14 +1,17 @@
 var searchData=
 [
-  ['gcsubrootsenumerator',['GcSubrootsEnumerator',['../classv8_1_1internal_1_1_gc_subroots_enumerator.html',1,'v8::internal']]],
-  ['genericstringutf16characterstream',['GenericStringUtf16CharacterStream',['../classv8_1_1internal_1_1_generic_string_utf16_character_stream.html',1,'v8::internal']]],
-  ['globalcache',['GlobalCache',['../classv8_1_1internal_1_1_reg_exp_impl_1_1_global_cache.html',1,'v8::internal::RegExpImpl']]],
-  ['globalhandles',['GlobalHandles',['../classv8_1_1internal_1_1_global_handles.html',1,'v8::internal']]],
-  ['globalhandlesextractor',['GlobalHandlesExtractor',['../classv8_1_1internal_1_1_global_handles_extractor.html',1,'v8::internal']]],
-  ['globalobject',['GlobalObject',['../classv8_1_1internal_1_1_global_object.html',1,'v8::internal']]],
-  ['globalobjectsenumerator',['GlobalObjectsEnumerator',['../classv8_1_1internal_1_1_global_objects_enumerator.html',1,'v8::internal']]],
-  ['groupstartindexes',['GroupStartIndexes',['../classv8_1_1internal_1_1_dependent_code_1_1_group_start_indexes.html',1,'v8::internal::DependentCode']]],
-  ['guard',['Guard',['../classv8_1_1internal_1_1_guard.html',1,'v8::internal']]],
-  ['guardedalternative',['GuardedAlternative',['../classv8_1_1internal_1_1_guarded_alternative.html',1,'v8::internal']]],
-  ['gvnbasicblockstate',['GvnBasicBlockState',['../classv8_1_1internal_1_1_gvn_basic_block_state.html',1,'v8::internal']]]
+  ['handle',['Handle',['../classv8_1_1_handle.html',1,'v8']]],
+  ['handle_3c_20v8_3a_3aboolean_20_3e',['Handle&lt; v8::Boolean &gt;',['../classv8_1_1_handle.html',1,'v8']]],
+  ['handle_3c_20v8_3a_3acontext_20_3e',['Handle&lt; v8::Context &gt;',['../classv8_1_1_handle.html',1,'v8']]],
+  ['handle_3c_20v8_3a_3ainteger_20_3e',['Handle&lt; v8::Integer &gt;',['../classv8_1_1_handle.html',1,'v8']]],
+  ['handle_3c_20v8_3a_3astring_20_3e',['Handle&lt; v8::String &gt;',['../classv8_1_1_handle.html',1,'v8']]],
+  ['handle_3c_20v8_3a_3aunboundscript_20_3e',['Handle&lt; v8::UnboundScript &gt;',['../classv8_1_1_handle.html',1,'v8']]],
+  ['handle_3c_20v8_3a_3avalue_20_3e',['Handle&lt; v8::Value &gt;',['../classv8_1_1_handle.html',1,'v8']]],
+  ['handlescope',['HandleScope',['../classv8_1_1_handle_scope.html',1,'v8']]],
+  ['heapgraphedge',['HeapGraphEdge',['../classv8_1_1_heap_graph_edge.html',1,'v8']]],
+  ['heapgraphnode',['HeapGraphNode',['../classv8_1_1_heap_graph_node.html',1,'v8']]],
+  ['heapprofiler',['HeapProfiler',['../classv8_1_1_heap_profiler.html',1,'v8']]],
+  ['heapsnapshot',['HeapSnapshot',['../classv8_1_1_heap_snapshot.html',1,'v8']]],
+  ['heapstatistics',['HeapStatistics',['../classv8_1_1_heap_statistics.html',1,'v8']]],
+  ['heapstatsupdate',['HeapStatsUpdate',['../structv8_1_1_heap_stats_update.html',1,'v8']]]
 ];

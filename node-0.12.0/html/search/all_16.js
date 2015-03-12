@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['weakhashtable',['WeakHashTable',['../classv8_1_1internal_1_1_weak_hash_table.html',1,'v8::internal']]],
-  ['weakhashtableshape',['WeakHashTableShape',['../classv8_1_1internal_1_1_weak_hash_table_shape.html',1,'v8::internal']]],
-  ['weakobjectstatefield',['WeakObjectStateField',['../classv8_1_1internal_1_1_constant_pool_array_1_1_weak_object_state_field.html',1,'v8::internal::ConstantPoolArray']]],
-  ['weakstubfield',['WeakStubField',['../classv8_1_1internal_1_1_code_1_1_weak_stub_field.html',1,'v8::internal::Code']]],
-  ['whitespace',['WhiteSpace',['../structv8_1_1internal_1_1_white_space.html',1,'v8::internal']]],
-  ['whitespace',['WhiteSpace',['../structunibrow_1_1_white_space.html',1,'unibrow']]],
-  ['whitespaceorlineterminator',['WhiteSpaceOrLineTerminator',['../structv8_1_1internal_1_1_white_space_or_line_terminator.html',1,'v8::internal']]]
+  ['_7eexternalasciistringresource',['~ExternalAsciiStringResource',['../classv8_1_1_string_1_1_external_ascii_string_resource.html#acd8790ae14be1b90794b363d24a147d0',1,'v8::String::ExternalAsciiStringResource']]],
+  ['_7eexternalstringresource',['~ExternalStringResource',['../classv8_1_1_string_1_1_external_string_resource.html#a6b7ef9e33a47059092e1447b10c35416',1,'v8::String::ExternalStringResource']]],
+  ['_7epersistent',['~Persistent',['../classv8_1_1_persistent.html#a7d4d2bebfe3919e447e22adc15464e25',1,'v8::Persistent']]],
+  ['_7etrycatch',['~TryCatch',['../classv8_1_1_try_catch.html#a2c9ad4b40d17dd31c6dd020736b30679',1,'v8::TryCatch']]]
 ];
